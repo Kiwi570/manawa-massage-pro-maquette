@@ -1,0 +1,16 @@
+{
+ "id": "20261120-222933-complet-cible-partiel",
+ "date": "2026-11-20T22:32:45.800Z",
+ "niveau": "complet",
+ "pages": "/,/marie,/soins",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 25,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

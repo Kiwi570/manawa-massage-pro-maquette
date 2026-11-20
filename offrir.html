@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-page="offrir">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Offrir une parenthèse · Cartes cadeaux, forfaits et événements</title>
+<meta name="description" content="Cartes cadeaux valables un an, forfaits de 5 et 10 heures, cures visage et silhouette, massages pour un EVJF ou une journée entre amies.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://manawa-massage-pro-maquette.vercel.app/offrir">
+<style>:root{--fond:#F4EEE5;--texte:#1D1916;--voile-fond:#1D1916;--ouverture-fond:#1D1916;--menu-fond:#F4EEE5}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE5">
+<link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Manawa Massage Pro">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Offrir une parenthèse · Cartes cadeaux, forfaits et événements">
+<meta property="og:description" content="Cartes cadeaux valables un an, forfaits de 5 et 10 heures, cures visage et silhouette, massages pour un EVJF ou une journée entre amies.">
+<meta property="og:url" content="https://manawa-massage-pro-maquette.vercel.app/offrir">
+<meta property="og:image" content="https://manawa-massage-pro-maquette.vercel.app/assets/partage/offrir-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Carte cadeau Manawa Massage">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Manawa Massage Pro","description":"Massages bien-être du monde, Kobido et soins silhouette, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest.","telephone":"+33768328145","email":"manawa_massage@outlook.fr","address":{"@type":"PostalAddress","streetAddress":"31 bis rue de Dixmude","postalCode":"29480","addressLocality":"Le Relecq-Kerhuon","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"09:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"09:00","closes":"18:00"}],"priceRange":"20 € – 130 €","sameAs":["https://www.facebook.com/ManawaMassagePro/","https://www.instagram.com/ManawaMassagePro/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-372.png" alt="" width="186" height="73"><span data-voile-libelle>Offrir</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-scene">
+    <svg class="parenthese parenthese--g ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <img class="ouverture-logo" src="/assets/images/logo-clair-372.png" alt="" width="372" height="145" data-ouverture-objet>
+    <svg class="parenthese parenthese--d ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+  <p class="ouverture-ligne">Massages du monde</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Manawa Massage Pro, Accueil" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-372.png" alt="Manawa Massage Pro" width="372" height="145">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/soins" data-libelle="Les soins">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir" aria-current="page">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton" data-survol="magnetique">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/soins" class="menu-lien" data-libelle="Les soins">Les soins</a></li><li style="--i:2"><a href="/marie" class="menu-lien" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li style="--i:3"><a href="/offrir" class="menu-lien" data-libelle="Offrir" aria-current="page">Offrir</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a> <a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+  <p class="menu-adresse">31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="offrir-tete fond-sable" id="debut">
+  <div class="conteneur offrir-tete-grille">
+    <div class="offrir-tete-texte">
+      <p class="surtitre hero-anime" data-anime="gsap"><span class="badge-noel" data-noel hidden>Pour Noël</span> Cartes cadeaux</p>
+      <h1 class="page-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">Offrir une</span></span><span class="ligne-masque"><span class="hero-ligne"><em>parenthèse</em>.</span></span></h1>
+      <p class="hero-intro hero-anime masque-ecran-bas" data-anime="gsap">Un massage à offrir, pour un anniversaire, un merci ou simplement pour faire du bien. Choisissez le soin : la carte se compose.</p>
+      <p class="hero-actions hero-anime" data-anime="gsap"><a href="https://giftcard.sumup.io/order/G2EHXRP/manawa-massage-pro" target="_blank" rel="noopener" class="bouton" data-action-principale>Commander sur SumUp<span class="visuellement-cache"> (nouvel onglet)</span></a><button type="button" class="bouton bouton--contour" data-cadeau-retourner aria-pressed="false">Retourner la carte</button></p>
+      <p class="hero-info hero-anime" data-anime="gsap" data-info-cle>Valable un an · commande en ligne sur SumUp</p>
+      <div class="hero-anime offrir-choix" data-anime="gsap"><div class="cadeau-choix" role="group" aria-label="Choisir le massage offert" data-cadeau-choix>
+  <button type="button" class="puce" aria-pressed="false" data-prix-cadeau="40" data-libelle-cadeau="Crânien, 30 min">Crânien, 30 min · 40&nbsp;€</button><button type="button" class="puce" aria-pressed="true" data-prix-cadeau="70" data-libelle-cadeau="Suédois-Californien, 1 h">Suédois-Californien, 1 h · 70&nbsp;€</button><button type="button" class="puce" aria-pressed="false" data-prix-cadeau="75" data-libelle-cadeau="Pierres chaudes, 1 h">Pierres chaudes, 1 h · 75&nbsp;€</button><button type="button" class="puce" aria-pressed="false" data-prix-cadeau="60" data-libelle-cadeau="Kobido, 45 min">Kobido, 45 min · 60&nbsp;€</button><button type="button" class="puce" aria-pressed="false" data-prix-cadeau="100" data-libelle-cadeau="Suédois-Californien, 1 h 30">Suédois-Californien, 1 h 30 · 100&nbsp;€</button>
+</div></div>
+    </div>
+    <div class="offrir-tete-visuel">
+      <figure class="media offrir-tete-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/offrir-ouverture-1168.webp" srcset="/assets/images/grok/offrir-ouverture-800.webp 800w, /assets/images/grok/offrir-ouverture-1168.webp 1168w" sizes="(max-width: 760px) 80vw, 36vw" alt="Enveloppe crème nouée d&#39;un ruban de lin, brin d&#39;eucalyptus et galet" width="1168" height="1460" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <div class="cadeau cadeau--pose" data-cadeau data-visuel data-iris-centre data-grille="retour fil">
+  <div class="cadeau-carte" data-cadeau-carte data-effet="carte-cadeau">
+    <div class="cadeau-face cadeau-recto">
+      <img class="cadeau-logo" src="/assets/images/logo-clair-372.png" alt="Manawa Massage Pro" width="372" height="145" loading="lazy">
+      <p class="cadeau-titre">Carte cadeau</p>
+      <p class="cadeau-soin" data-cadeau-soin>Suédois-Californien, 1 h</p>
+      <p class="cadeau-montant"><span data-cadeau-prix>70</span>&nbsp;€</p>
+      <p class="cadeau-pied">Valable un an</p>
+    </div>
+    <div class="cadeau-face cadeau-verso" data-face="dos">
+      <p class="cadeau-titre">Valable un an</p>
+      <p>À réserver au cabinet du Relecq-Kerhuon ou à domicile, sur Planity ou au 07 68 32 81 45.</p>
+      <p class="cadeau-papier">Bons cadeaux papier de 30 € à 900 € disponibles au cabinet.</p>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+<section class="forfaits" id="forfaits">
+  <div class="conteneur forfaits-grille">
+    <div>
+      <p class="surtitre">Forfaits</p>
+      <h2 data-anime="lignes">Des heures de massage d&#39;avance.</h2>
+      <p data-anime>Des heures de massages bien-être à utiliser au fil des mois, pour vous ou pour quelqu&#39;un que vous aimez.</p>
+      <ul class="forfaits-liste" data-anime="cascade">
+        <li class="forfait"><span class="forfait-nom">Forfait 5 heures</span><span class="forfait-prix"><span class="prix" data-prix>325&nbsp;€</span></span><span class="forfait-detail">Massages bien-être, valable 6 mois</span></li><li class="forfait"><span class="forfait-nom">Forfait 10 heures</span><span class="forfait-prix"><span class="prix" data-prix>610&nbsp;€</span></span><span class="forfait-detail">Massages bien-être, valable 12 mois</span></li>
+      </ul>
+      <p data-anime><a href="/contact?sujet=forfait#ecrire" class="bouton" data-libelle="Contact">Commander auprès de Marie</a></p>
+    </div>
+    <figure class="media forfaits-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-pierres-1168.webp" srcset="/assets/images/grok/soin-pierres-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 42vw" alt="Galets de basalte qui chauffent dans un bac de céramique" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="cures fond-sombre" id="cures">
+  <div class="conteneur cures-grille">
+    <div>
+      <p class="surtitre">Cures</p>
+      <h2 data-anime="lignes">Visage et silhouette, en plusieurs séances.</h2>
+      <p data-anime>Les cures se réservent auprès de Marie.</p>
+      <figure class="media cures-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-visage-1168.webp" srcset="/assets/images/grok/soin-visage-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 36vw" alt="Rouleaux de quartz rose et de jade et pierre de gua sha sur du lin" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <div class="cures-listes">
+      <ul class="liste-prix" data-anime="cascade"><li><span>Kobido <small>3 séances</small></span><span class="prix" data-prix>165&nbsp;€</span></li><li><span>Kobido <small>10 séances</small></span><span class="prix" data-prix>525&nbsp;€</span></li><li><span>Kobido « Perfect Age » <small>10 séances</small></span><span class="prix" data-prix>690&nbsp;€</span></li><li><span>Cure mixte visage <small>10 séances</small></span><span class="prix" data-prix>575&nbsp;€</span></li><li><span>Madérothérapie du visage <small>10 séances</small></span><span class="prix" data-prix>590&nbsp;€</span></li><li><span>Massage silhouette 45 min <small>10 séances</small></span><span class="prix" data-prix>590&nbsp;€</span></li><li><span>Massage silhouette 1 h <small>10 séances</small></span><span class="prix" data-prix>720&nbsp;€</span></li></ul>
+      <p><a href="/contact?sujet=forfait#ecrire" class="bouton bouton--or" data-libelle="Contact">Commander auprès de Marie</a></p>
+    </div>
+  </div>
+</section>
+<section class="evenements" id="evenements">
+  <div class="conteneur deux-colonnes deux-colonnes--inverse">
+    <figure class="media evenement-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/evenement-1600.webp" srcset="/assets/images/grok/evenement-800.webp 800w, /assets/images/grok/evenement-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 50vw" alt="Deux tables de massage préparées côte à côte dans un salon" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre">Mon événement</p>
+      <h2 data-anime="lignes">Une journée entre amies, un EVJF, un moment à deux.</h2>
+      <p data-anime>Marie vient chez vous, au gîte ou à la maison, avec tout le matériel nécessaire : chacun choisit son massage parmi toute la carte.</p>
+      <p class="evenements-types" data-anime>Journée entre ami(e)s · EVJF · Couple · Anniversaire</p>
+      <p data-anime>Contactez Marie pour une offre personnalisée.</p>
+      <p data-anime><a href="/contact?sujet=evenement#ecrire" class="bouton" data-libelle="Contact">Demander une offre</a></p>
+    </div>
+  </div>
+</section>
+<section class="fin fond-sombre" id="fin">
+  <div class="fin-scene" data-visuel>
+    <svg class="parenthese parenthese--g fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <div class="fin-texte">
+      <h2 class="fin-titre" data-anime="lignes">Une question<br><em>sur un cadeau ?</em></h2>
+      <p data-anime>Marie vous aide à choisir le soin, la cure ou le forfait qui fera plaisir.</p>
+      <p class="fin-actions" data-anime><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--or" data-survol="magnetique">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+      <p class="fin-statut" data-anime><span class="statut " data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <svg class="parenthese parenthese--d fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-372.png" alt="Manawa Massage Pro" width="372" height="145" loading="lazy">
+      <p>31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+      <p><a href="tel:+33768328145">07 68 32 81 45</a><br><span class="email">manawa_massage@outlook.fr</span></p>
+      <p><span class="statut statut--pied" data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/soins" data-libelle="Les soins">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir" aria-current="page">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Manawa</p>
+      <ul>
+        <li><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://instagram.com/ManawaMassagePro/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://m.facebook.com/ManawaMassagePro/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter<br>Politique de confidentialité · à compléter</p>
+    <p>Micro-entreprise, SIRET 848 217 220 00021<br>Photos de Marie et du cabinet : Céline Cousin</p>
+    <p>Maquette de démonstration : réservation, carte cadeau et formulaire sont simulés ou renvoient vers Planity et SumUp.</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33768328145">Appeler</a>
+  <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+</div>
+<script type="application/json" id="donnees-horaires">[{"jour":1,"nom":"Lundi","plages":[["09:00","18:00"]]},{"jour":2,"nom":"Mardi","plages":[]},{"jour":3,"nom":"Mercredi","plages":[["09:00","19:30"]]},{"jour":4,"nom":"Jeudi","plages":[["09:00","17:00"]]},{"jour":5,"nom":"Vendredi","plages":[["09:00","18:00"]]},{"jour":6,"nom":"Samedi","plages":[]},{"jour":0,"nom":"Dimanche","plages":[]}]</script>
+</body>
+</html>

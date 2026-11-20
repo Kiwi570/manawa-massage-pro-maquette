@@ -1,0 +1,2848 @@
+{
+  "dossier": "/home/claude/manawa-massage-pro-maquette/_suivi/recu/site",
+  "date": "2026-11-20T19:59:52.009Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "carte-massages-manawamassagepro-france-3.jpg",
+      "ecarter": "massage-thai-pieds-massage.jpg",
+      "type": "doublon",
+      "distance": 6,
+      "ressemblance": 0.97
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "drapeau": "logo",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 39185,
+      "transparence": true,
+      "sujet": {
+        "x": 3.1,
+        "y": 15.6,
+        "l": 81.3,
+        "h": 59.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        50
+      ],
+      "cadrage_css": "36% 50%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "bas",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 31.7,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6033371f1f1f3d00",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "logo.jpg",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 800,
+      "hauteur": 210,
+      "ratio": "3.81",
+      "ratio_valeur": 3.81,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 25054,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 11.1,
+        "l": 93.8,
+        "h": 66.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        48
+      ],
+      "cadrage_css": "45% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 62.1,
+        "bruit": 0.67,
+        "compression": 1.05,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c4606b4d69656648",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "massage-visage-kobido-brest.jpg",
+      "nom": "massage-visage-kobido-brest",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 160090,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        49
+      ],
+      "cadrage_css": "48% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 7.9,
+        "bruit": 0.26,
+        "compression": 1.64,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "93929c693129ae1e",
+      "drapeaux": [
+        "lieu",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "massage-cranien-relaxant-brest.jpg",
+      "nom": "massage-cranien-relaxant-brest",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1125,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 124549,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 5.6,
+        "l": 90.6,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        65
+      ],
+      "cadrage_css": "56% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 10.4,
+        "bruit": 0.21,
+        "compression": 1.69,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6d0a9e61898b8313",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "portrait-manawa-massage-pro.jpg",
+      "nom": "portrait-manawa-massage-pro",
+      "drapeau": "portrait",
+      "largeur": 1018,
+      "hauteur": 1219,
+      "ratio": "0.84",
+      "ratio_valeur": 0.835,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 162170,
+      "transparence": false,
+      "sujet": {
+        "x": 22.2,
+        "y": 21.9,
+        "l": 55.6,
+        "h": 78.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        51
+      ],
+      "cadrage_css": "43% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 11,
+        "bruit": 0.47,
+        "compression": 1.28,
+        "faible": true,
+        "raisons": [
+          "1018 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "033c6461e1e15360",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "manawa-massage-brest.png",
+      "nom": "manawa-massage-brest",
+      "drapeau": "autre",
+      "largeur": 875,
+      "hauteur": 875,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 38506,
+      "transparence": true,
+      "sujet": {
+        "x": 15.6,
+        "y": 46.9,
+        "l": 65.6,
+        "h": 12.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        53
+      ],
+      "cadrage_css": "52% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 47.6,
+        "bruit": 0.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "875 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0028141707070200",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/bas/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "deontologie-manawamassagepro-france.jpg",
+      "nom": "deontologie-manawamassagepro-france",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 684810,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        62
+      ],
+      "cadrage_css": "48% 62%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 73.5,
+        "bruit": 1.19,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f2767353cf8f1753",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "contact-manawamassagepro-france-brest.jpg",
+      "nom": "contact-manawamassagepro-france-brest",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 395665,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        58
+      ],
+      "cadrage_css": "55% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 30.8,
+        "bruit": 0.79,
+        "compression": 1.36,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e7d7db6358c92d11",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "carte-cadeau-forfaits-manawamassagepro.jpg",
+      "nom": "carte-cadeau-forfaits-manawamassagepro",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 161680,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        44
+      ],
+      "cadrage_css": "42% 44%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 9.3,
+        "bruit": 0.36,
+        "compression": 1.62,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "b03868676e6e2c3c",
+      "drapeaux": [
+        "plat",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "boites-cadeaux-colorees.jpg",
+      "nom": "boites-cadeaux-colorees",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 857,
+      "ratio": "21:9",
+      "ratio_valeur": 2.334,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 324746,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 92.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 41.8,
+        "bruit": 0.65,
+        "compression": 1.26,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "36b62a19993866a6",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "confetti-tempete-evenement-evdj.jpg",
+      "nom": "confetti-tempete-evenement-evdj",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 403156,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        38
+      ],
+      "cadrage_css": "46% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 18.9,
+        "bruit": 0.68,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "deeafaf98c8caca0",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "table-massage.jpg",
+      "nom": "table-massage",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 119757,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 68.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        17,
+        30
+      ],
+      "cadrage_css": "17% 30%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 4.8,
+        "bruit": 0.14,
+        "compression": 1.77,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f0e0e8e8b8f2c66e",
+      "drapeaux": [
+        "lieu",
+        "floue",
+        "compression visible",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "femme-danse.jpg",
+      "nom": "femme-danse",
+      "drapeau": "autre",
+      "largeur": 1331,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.666,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 179342,
+      "transparence": false,
+      "sujet": {
+        "x": 31.8,
+        "y": 15.6,
+        "l": 50,
+        "h": 68.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        52
+      ],
+      "cadrage_css": "51% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 24.3,
+        "bruit": 0.78,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d0d8dbc38ecc8eb6",
+      "drapeaux": [
+        "autre",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "bol-chantant-bouddhiste.jpg",
+      "nom": "bol-chantant-bouddhiste",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 154526,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 0,
+        "l": 56.3,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        41
+      ],
+      "cadrage_css": "47% 41%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 9.2,
+        "bruit": 0.41,
+        "compression": 1.46,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6666307260c8da33",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "massage-enfant-manawamassagepro-brest.jpg",
+      "nom": "massage-enfant-manawamassagepro-brest",
+      "drapeau": "autre",
+      "largeur": 1574,
+      "hauteur": 1882,
+      "ratio": "0.84",
+      "ratio_valeur": 0.836,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 406341,
+      "transparence": false,
+      "sujet": {
+        "x": 14.8,
+        "y": 0,
+        "l": 55.6,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        40
+      ],
+      "cadrage_css": "41% 40%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 10.1,
+        "bruit": 0.48,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "969694cc263b3ba7",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "massage-prenatal-manawamassagepro-brest.jpg",
+      "nom": "massage-prenatal-manawamassagepro-brest",
+      "drapeau": "autre",
+      "largeur": 1447,
+      "hauteur": 1874,
+      "ratio": "0.77",
+      "ratio_valeur": 0.772,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 243700,
+      "transparence": false,
+      "sujet": {
+        "x": 24,
+        "y": 31.3,
+        "l": 56,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        45
+      ],
+      "cadrage_css": "50% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 8.4,
+        "bruit": 0.5,
+        "compression": 0.91,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "20a370e0cc01f026",
+      "drapeaux": [
+        "autre",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "massage-shiroschampi-manawamassagepro.jpg",
+      "nom": "massage-shiroschampi-manawamassagepro",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1327,
+      "ratio": "3:2",
+      "ratio_valeur": 1.507,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 204405,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        49
+      ],
+      "cadrage_css": "58% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 8.6,
+        "bruit": 0.31,
+        "compression": 1.62,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e16347d2b4786828",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "massage-thai-pieds-massage.jpg",
+      "nom": "massage-thai-pieds-massage",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1067,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 708036,
+      "transparence": false,
+      "sujet": {
+        "x": 18.8,
+        "y": 22.7,
+        "l": 53.1,
+        "h": 54.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        49
+      ],
+      "cadrage_css": "44% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 9.6,
+        "bruit": 0.59,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7016172e26161798",
+      "doublon_de": {
+        "fichier": "carte-massages-manawamassagepro-france-3.jpg",
+        "type": "doublon",
+        "distance": 6,
+        "ressemblance": 0.97
+      },
+      "drapeaux": [
+        "autre",
+        "doublon de carte-massages-manawamassagepro-france-3.jpg",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "massage-khmer-manawamassagepro-brest.jpg",
+      "nom": "massage-khmer-manawamassagepro-brest",
+      "drapeau": "lieu",
+      "largeur": 1754,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.523,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 431502,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.8,
+        "l": 96.9,
+        "h": 95.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        60
+      ],
+      "cadrage_css": "51% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        }
+      ],
+      "qualite": {
+        "nettete": 29.7,
+        "bruit": 1.05,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b1b16c7266343421",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "massage-cranien-manawamassagepro-brest.jpg",
+      "nom": "massage-cranien-manawamassagepro-brest",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 207412,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        46
+      ],
+      "cadrage_css": "66% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 9.1,
+        "bruit": 0.43,
+        "compression": 1.56,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fa2b20620a1651b1",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "massage-pierres-chaudes.jpg",
+      "nom": "massage-pierres-chaudes",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 166601,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 87.5,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        32,
+        41
+      ],
+      "cadrage_css": "32% 41%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 8.1,
+        "bruit": 0.32,
+        "compression": 1.55,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "086070b998963632",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "massage.jpg",
+      "nom": "massage",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 115827,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 37.5,
+        "l": 95.5,
+        "h": 62.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        63
+      ],
+      "cadrage_css": "53% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 3.6,
+        "bruit": 0.22,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "b499c20746c01c19",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "soin-visage-relaxant.jpg",
+      "nom": "soin-visage-relaxant",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1334,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 297455,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        55
+      ],
+      "cadrage_css": "50% 55%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 21.1,
+        "bruit": 0.72,
+        "compression": 1.31,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2852e8e823203018",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "massage-relaxant-dos.jpg",
+      "nom": "massage-relaxant-dos",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 328852,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        49
+      ],
+      "cadrage_css": "51% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 14.5,
+        "bruit": 0.61,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d3d2d26a7c6ee6d7",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "massage-lomi-lomi-manawamassagepro.jpg",
+      "nom": "massage-lomi-lomi-manawamassagepro",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 230057,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        55
+      ],
+      "cadrage_css": "49% 55%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 13.7,
+        "bruit": 0.6,
+        "compression": 1.38,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "cdcd96518333b332",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "massage-suedois-californien.jpg",
+      "nom": "massage-suedois-californien",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1060,
+      "ratio": "1.89",
+      "ratio_valeur": 1.887,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 100272,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 5.9,
+        "l": 50,
+        "h": 76.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        52
+      ],
+      "cadrage_css": "53% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 5.2,
+        "bruit": 0.3,
+        "compression": 1.61,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "8f0f0b0b0b232323",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "compression visible",
+        "calme gauche/bas/droite/haut"
+      ]
+    },
+    {
+      "fichier": "salon-beaute.jpg",
+      "nom": "salon-beaute",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 243244,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        25
+      ],
+      "cadrage_css": "56% 25%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 12,
+        "bruit": 0.54,
+        "compression": 1.43,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9c3064d60616080f",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "zebres-nature.jpg",
+      "nom": "zebres-nature",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1337,
+      "ratio": "3:2",
+      "ratio_valeur": 1.496,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 375952,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        41
+      ],
+      "cadrage_css": "54% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 40.7,
+        "bruit": 0.92,
+        "compression": 1.11,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0f8fcee74703878",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "ventre-femme-enceinte.jpg",
+      "nom": "ventre-femme-enceinte",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 99237,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 22.7,
+        "l": 9.4,
+        "h": 40.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        43
+      ],
+      "cadrage_css": "41% 43%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.8,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 15.3,
+        "bruit": 0.33,
+        "compression": 1.22,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "39a1a7a6a6a62411",
+      "drapeaux": [
+        "plat",
+        "calme gauche/bas/droite/haut"
+      ]
+    },
+    {
+      "fichier": "massage-dos-pierres-chaudes.jpg",
+      "nom": "massage-dos-pierres-chaudes",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1329,
+      "ratio": "3:2",
+      "ratio_valeur": 1.505,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 256295,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 11.7,
+        "bruit": 0.63,
+        "compression": 1.49,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "dc5cf33bbbfbdece",
+      "drapeaux": [
+        "plat",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "carte-massages-manawamassagepro-france.jpg",
+      "nom": "carte-massages-manawamassagepro-france",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 275722,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        50
+      ],
+      "cadrage_css": "65% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 18.1,
+        "bruit": 0.68,
+        "compression": 1.24,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9cbf7331b17b9b99",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "carte-massages-manawamassagepro-france-2.jpg",
+      "nom": "carte-massages-manawamassagepro-france-2",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 272583,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 9.1,
+        "l": 75,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        60
+      ],
+      "cadrage_css": "59% 60%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.65
+        }
+      ],
+      "qualite": {
+        "nettete": 9.4,
+        "bruit": 0.57,
+        "compression": 1.31,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0c0ccc4c4c8d0cc",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "massage-palmiers.jpg",
+      "nom": "massage-palmiers",
+      "drapeau": "plat",
+      "largeur": 1920,
+      "hauteur": 1403,
+      "ratio": "1.37",
+      "ratio_valeur": 1.368,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1702168,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        49
+      ],
+      "cadrage_css": "50% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 24.2,
+        "bruit": 2.39,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a495998992c9c9c9",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "carte-massages-manawamassagepro-france-3.jpg",
+      "nom": "carte-massages-manawamassagepro-france-3",
+      "drapeau": "plat",
+      "largeur": 1600,
+      "hauteur": 1067,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 110333,
+      "transparence": false,
+      "sujet": {
+        "x": 18.8,
+        "y": 22.7,
+        "l": 50,
+        "h": 54.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        48
+      ],
+      "cadrage_css": "44% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 11.8,
+        "bruit": 0.29,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2416162e26169698",
+      "drapeaux": [
+        "plat",
+        "calme haut/droite/bas"
+      ]
+    },
+    {
+      "fichier": "carte-massages-manawamassagepro-france-4.jpg",
+      "nom": "carte-massages-manawamassagepro-france-4",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 619,
+      "ratio": "3.23",
+      "ratio_valeur": 3.231,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 174683,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        39
+      ],
+      "cadrage_css": "47% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.78,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c9c9929230201022",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "carte-massages-manawamassagepro-france-5.jpg",
+      "nom": "carte-massages-manawamassagepro-france-5",
+      "drapeau": "plat",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 37800,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 31.8,
+        "l": 81.3,
+        "h": 63.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        53
+      ],
+      "cadrage_css": "58% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 18,
+        "bruit": 0.52,
+        "compression": 1.27,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c9c8de43471d74f4",
+      "drapeaux": [
+        "plat",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "presentation-manawamassagepro-france.jpg",
+      "nom": "presentation-manawamassagepro-france",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1260,
+      "ratio": "16:10",
+      "ratio_valeur": 1.587,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 398407,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        55
+      ],
+      "cadrage_css": "49% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 39.4,
+        "bruit": 0.7,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b0c0c8d0e1d060d4",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "decoration-interieure-style-zen.jpg",
+      "nom": "decoration-interieure-style-zen",
+      "drapeau": "lieu",
+      "largeur": 1506,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.753,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 181352,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 62.5,
+        "l": 92,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        88
+      ],
+      "cadrage_css": "41% 88%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        }
+      ],
+      "qualite": {
+        "nettete": 26.2,
+        "bruit": 0.36,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "fffffdf7d356e7ff",
+      "drapeaux": [
+        "lieu",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "manawa-massage-bien-etre.jpg",
+      "nom": "manawa-massage-bien-etre",
+      "drapeau": "autre",
+      "largeur": 1440,
+      "hauteur": 1920,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 356938,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 95.8,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        52
+      ],
+      "cadrage_css": "48% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 12,
+        "bruit": 0.68,
+        "compression": 1.28,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "002664a1d2d36c7e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "manawa-massage-bien-etre-2.png",
+      "nom": "manawa-massage-bien-etre-2",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1440,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 4112834,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        51
+      ],
+      "cadrage_css": "42% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 13.3,
+        "bruit": 1.31,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6c687067e4e4fce0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "manawa-massage-bien-etre-3.jpg",
+      "nom": "manawa-massage-bien-etre-3",
+      "drapeau": "autre",
+      "largeur": 1372,
+      "hauteur": 1920,
+      "ratio": "0.71",
+      "ratio_valeur": 0.715,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 404912,
+      "transparence": false,
+      "sujet": {
+        "x": 13,
+        "y": 3.1,
+        "l": 87,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        75
+      ],
+      "cadrage_css": "59% 75%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 14.7,
+        "bruit": 0.46,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "494a66e25a98db7f",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "maderotherapie-manawa-massage.jpg",
+      "nom": "maderotherapie-manawa-massage",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 1080,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 957883,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        53
+      ],
+      "cadrage_css": "59% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 11.3,
+        "bruit": 0.92,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "991f65244733c31e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "page-cours.jpg",
+      "nom": "page-cours",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 300438,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 45.8,
+        "l": 81.3,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        70
+      ],
+      "cadrage_css": "55% 70%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 9.4,
+        "bruit": 0.67,
+        "compression": 1.62,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "feafbdc333333dfc",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme haut"
+      ]
+    }
+  ]
+}

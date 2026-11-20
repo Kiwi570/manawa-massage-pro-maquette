@@ -1,0 +1,1148 @@
+{
+  "dossier": "/home/claude/manawa-massage-pro-maquette/_suivi/recu/grok",
+  "date": "2026-11-20T20:01:10.769Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "contact-ouverture-mobile.jpg",
+      "nom": "contact-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1074,
+      "hauteur": 1600,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 424492,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 95.5,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        74
+      ],
+      "cadrage_css": "48% 74%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 32.7,
+        "bruit": 0.69,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "1074 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0000000006eedc03",
+      "drapeaux": [
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "contact-ouverture.jpg",
+      "nom": "contact-ouverture",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 358853,
+      "transparence": false,
+      "sujet": {
+        "x": 34.4,
+        "y": 27.3,
+        "l": 65.6,
+        "h": 68.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        76,
+        60
+      ],
+      "cadrage_css": "76% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "gauche",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 40.1,
+        "bruit": 0.61,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0000208080641001",
+      "drapeaux": [
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "domicile.jpg",
+      "nom": "domicile",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 635831,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 93.8,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        38
+      ],
+      "cadrage_css": "63% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 41.3,
+        "bruit": 1.12,
+        "compression": 1.06,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1e1e1e1ef2e6d878",
+      "drapeaux": []
+    },
+    {
+      "fichier": "evenement.jpg",
+      "nom": "evenement",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 457177,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        46
+      ],
+      "cadrage_css": "40% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 35.4,
+        "bruit": 0.8,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9c8c8f96d8d80905",
+      "drapeaux": []
+    },
+    {
+      "fichier": "offrir-ouverture.jpg",
+      "nom": "offrir-ouverture",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 775109,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 40.6,
+        "l": 81.8,
+        "h": 34.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        56
+      ],
+      "cadrage_css": "43% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 45.3,
+        "bruit": 0.83,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7c033863656d84d9",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "page-404.jpg",
+      "nom": "page-404",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 267437,
+      "transparence": false,
+      "sujet": {
+        "x": 43.8,
+        "y": 36.4,
+        "l": 53.1,
+        "h": 59.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        69
+      ],
+      "cadrage_css": "66% 69%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 16.6,
+        "bruit": 0.52,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e7c68606040e0fcb",
+      "drapeaux": [
+        "calme gauche/haut"
+      ]
+    },
+    {
+      "fichier": "soin-bol.jpg",
+      "nom": "soin-bol",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 322625,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 31.8,
+        "l": 65.6,
+        "h": 54.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        58
+      ],
+      "cadrage_css": "58% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 16.4,
+        "bruit": 0.52,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "fcf8e6e6c6a583e6",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "soin-coco.jpg",
+      "nom": "soin-coco",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 449577,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        42
+      ],
+      "cadrage_css": "44% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 27.4,
+        "bruit": 0.81,
+        "compression": 1.07,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "72d33937ad43d92c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-huile.jpg",
+      "nom": "soin-huile",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 397861,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        49
+      ],
+      "cadrage_css": "54% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 31.7,
+        "bruit": 0.68,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8cb8f1c89ccc8c8c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-lomi.jpg",
+      "nom": "soin-lomi",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 336793,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        49
+      ],
+      "cadrage_css": "55% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 18.3,
+        "bruit": 0.5,
+        "compression": 1.11,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8989818110e2e13e",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-madero.jpg",
+      "nom": "soin-madero",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 323206,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        40
+      ],
+      "cadrage_css": "50% 40%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 11.4,
+        "bruit": 0.47,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7294ac4c9ca56961",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-maman.jpg",
+      "nom": "soin-maman",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 384189,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        45
+      ],
+      "cadrage_css": "60% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 21.8,
+        "bruit": 0.71,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6e4e696036f2b8da",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-pieds.jpg",
+      "nom": "soin-pieds",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 383991,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        48
+      ],
+      "cadrage_css": "52% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 22.9,
+        "bruit": 0.6,
+        "compression": 1.09,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "fc7c6c42ced8f0c8",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-pierres.jpg",
+      "nom": "soin-pierres",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 363554,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        63
+      ],
+      "cadrage_css": "52% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 26.1,
+        "bruit": 0.54,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1834342b2e06030f",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-table.jpg",
+      "nom": "soin-table",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 381737,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 90.6,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        43
+      ],
+      "cadrage_css": "44% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 16.2,
+        "bruit": 0.54,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c4e4e2c4f8f9d164",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soin-visage.jpg",
+      "nom": "soin-visage",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 445552,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        47
+      ],
+      "cadrage_css": "46% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 23.4,
+        "bruit": 0.78,
+        "compression": 1.09,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "edf3f2b6a36bb5f3",
+      "drapeaux": []
+    },
+    {
+      "fichier": "soins-ouverture-mobile.jpg",
+      "nom": "soins-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1074,
+      "hauteur": 1600,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 536948,
+      "transparence": false,
+      "sujet": {
+        "x": 40.9,
+        "y": 34.4,
+        "l": 54.5,
+        "h": 65.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        58
+      ],
+      "cadrage_css": "66% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 30.7,
+        "bruit": 1.27,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1074 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "10d0c942c6ce4c20",
+      "drapeaux": [
+        "petite",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "soins-ouverture.jpg",
+      "nom": "soins-ouverture",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 637914,
+      "transparence": false,
+      "sujet": {
+        "x": 46.9,
+        "y": 18.2,
+        "l": 53.1,
+        "h": 77.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        52
+      ],
+      "cadrage_css": "63% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 32.2,
+        "bruit": 1.43,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1ae4850e26460054",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    }
+  ]
+}

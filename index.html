@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-page="accueil">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Manawa Massage Pro · Massages bien-être au Relecq-Kerhuon, près de Brest</title>
+<meta name="description" content="Massages du monde, Kobido et soins silhouette avec Marie, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest. Réservation sur Planity, cartes cadeaux.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://manawa-massage-pro-maquette.vercel.app/">
+<style>:root{--fond:#F4EEE5;--texte:#1D1916;--voile-fond:#1D1916;--ouverture-fond:#1D1916;--menu-fond:#F4EEE5}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE5">
+<link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Manawa Massage Pro">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Manawa Massage Pro · Massages bien-être au Relecq-Kerhuon, près de Brest">
+<meta property="og:description" content="Massages du monde, Kobido et soins silhouette avec Marie, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest. Réservation sur Planity, cartes cadeaux.">
+<meta property="og:url" content="https://manawa-massage-pro-maquette.vercel.app/">
+<meta property="og:image" content="https://manawa-massage-pro-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Manawa Massage Pro : la main de Marie posée sur une épaule, et le titre Offrez-vous une parenthèse">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Manawa Massage Pro","description":"Massages bien-être du monde, Kobido et soins silhouette, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest.","telephone":"+33768328145","email":"manawa_massage@outlook.fr","address":{"@type":"PostalAddress","streetAddress":"31 bis rue de Dixmude","postalCode":"29480","addressLocality":"Le Relecq-Kerhuon","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"09:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"09:00","closes":"18:00"}],"priceRange":"20 € – 130 €","sameAs":["https://www.facebook.com/ManawaMassagePro/","https://www.instagram.com/ManawaMassagePro/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-372.png" alt="" width="186" height="73"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-scene">
+    <svg class="parenthese parenthese--g ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <img class="ouverture-logo" src="/assets/images/logo-clair-372.png" alt="" width="372" height="145" data-ouverture-objet>
+    <svg class="parenthese parenthese--d ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+  <p class="ouverture-ligne">Massages du monde</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Manawa Massage Pro, Accueil" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-372.png" alt="Manawa Massage Pro" width="372" height="145">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/soins" data-libelle="Les soins">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton" data-survol="magnetique">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/soins" class="menu-lien" data-libelle="Les soins">Les soins</a></li><li style="--i:2"><a href="/marie" class="menu-lien" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li style="--i:3"><a href="/offrir" class="menu-lien" data-libelle="Offrir">Offrir</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a> <a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+  <p class="menu-adresse">31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre hero-anime masque-ecran-tres-bas" data-anime="gsap">Massages du monde · Le Relecq-Kerhuon, à deux pas de Brest</p>
+    <h1 class="hero-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">Offrez-vous</span></span><span class="ligne-masque"><span class="hero-ligne">une <em>parenthèse</em>.</span></span></h1>
+    <p class="hero-intro hero-anime masque-ecran-bas" data-anime="gsap">Massages sur mesure, Kobido, soins silhouette et rituels du monde, dans un cabinet chaleureux ou chez vous. Chaque séance est personnalisée.</p>
+    <p class="hero-actions hero-anime" data-anime="gsap"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton" data-action-principale data-survol="magnetique">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><a href="/offrir" class="bouton bouton--contour" data-libelle="Offrir">Offrir un massage</a></p>
+    <p class="hero-info hero-anime" data-anime="gsap" data-info-cle><span class="note-courte"><span class="note-etoile" aria-hidden="true">★</span> 5,0 sur 5 · 38 avis sur Planity</span><span class="statut " data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+  </div>
+  <div class="hero-visuel" data-grille="fil">
+    <svg class="parenthese parenthese--g hero-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <figure class="media hero-media" data-fx="onde" data-iris-centre style="--cadrage:52% 34%">
+  <picture>
+    <img src="/assets/images/mains-epaule-1600.webp" srcset="/assets/images/mains-epaule-1024.webp 1024w, /assets/images/mains-epaule-1168.webp 1168w, /assets/images/mains-epaule-1600.webp 1600w" sizes="(max-width: 760px) 86vw, 38vw" alt="La main de Marie posée sur l&#39;épaule d&#39;une cliente, linge blanc et lumière chaude" width="1600" height="2000" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <span class="chaleur" data-chaleur data-effet="chaleur" data-souris aria-hidden="true" data-audit-ignorer></span>
+    <svg class="parenthese parenthese--d hero-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+</section>
+<section class="envies fond-sable" id="envies">
+  <div class="conteneur envies-grille">
+    <div class="envies-tete">
+      <p class="surtitre">Choisir son massage</p>
+      <h2 data-anime="lignes">Que cherchez-vous aujourd&#39;hui ?</h2>
+      <p class="envies-texte" data-anime>Choisissez une envie : les soins qui y répondent se rangent devant vous, avec leurs durées et leurs prix.</p>
+      <div class="envies-choix puces" role="group" aria-label="Vos envies" data-anime="cascade" data-envies-choix data-grille="manipuler">
+        <button type="button" class="puce" aria-pressed="true" data-envie="detente">Me détendre profondément</button><button type="button" class="puce" aria-pressed="false" data-envie="energie">Retrouver de l&#39;énergie</button><button type="button" class="puce" aria-pressed="false" data-envie="visage">Prendre soin de mon visage</button><button type="button" class="puce" aria-pressed="false" data-envie="silhouette">Travailler ma silhouette</button><button type="button" class="puce" aria-pressed="false" data-envie="maman">J&#39;attends un bébé</button><button type="button" class="puce" aria-pressed="false" data-envie="enfant">Pour mon enfant</button>
+      </div>
+      <p class="envies-sansjs">Pour vous détendre</p>
+    </div>
+    <div class="envies-images" data-envies-images aria-hidden="true">
+      <figure class="media envies-image est-active" data-grok data-envie-image="detente" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-huile-1168.webp" srcset="/assets/images/grok/soin-huile-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 24vw" alt="" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media envies-image" data-grok data-envie-image="energie" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-pieds-1168.webp" srcset="/assets/images/grok/soin-pieds-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 24vw" alt="" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media envies-image" data-grok data-envie-image="visage" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-coco-1168.webp" srcset="/assets/images/grok/soin-coco-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 24vw" alt="" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media envies-image" data-grok data-envie-image="silhouette" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-madero-1168.webp" srcset="/assets/images/grok/soin-madero-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 24vw" alt="" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media envies-image" data-grok data-envie-image="maman" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-maman-1168.webp" srcset="/assets/images/grok/soin-maman-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 24vw" alt="" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media envies-image" data-grok data-envie-image="enfant" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/page-404-1280.webp" srcset="/assets/images/grok/page-404-640.webp 640w, /assets/images/grok/page-404-1280.webp 1280w, /assets/images/grok/page-404-1920.webp 1920w" sizes="(max-width: 760px) 40vw, 24vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <ul class="envies-liste" data-envies-liste data-effet="envies" aria-live="polite">
+      <li class="mini-soin" data-pour="detente">
+          <a href="/soins#suedois-californien" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Suède et Californie</span><span class="mini-soin-nom">Suédois-Californien</span><span class="mini-soin-tarifs"><span>30 min · 40&nbsp;€</span><span>45 min · 55&nbsp;€</span><span>1 h · 70&nbsp;€</span><span>1 h 30 · 100&nbsp;€</span><span>2 h · 130&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="detente">
+          <a href="/soins#pierres-chaudes" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Amérique du Nord et Hawaï</span><span class="mini-soin-nom">Pierres chaudes</span><span class="mini-soin-tarifs"><span>1 h · 75&nbsp;€</span><span>1 h 30 · 105&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="detente">
+          <a href="/soins#bols-tibetains" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Tibet</span><span class="mini-soin-nom">Sonore aux bols tibétains</span><span class="mini-soin-tarifs"><span>30 min · 40&nbsp;€</span><span>45 min · 55&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="detente">
+          <a href="/soins#cranien" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Inde</span><span class="mini-soin-nom">Crânien</span><span class="mini-soin-tarifs"><span>20 min · 30&nbsp;€</span><span>30 min · 40&nbsp;€</span><span>45 min · 55&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="energie" hidden>
+          <a href="/soins#khmer" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Cambodge</span><span class="mini-soin-nom">Khmer</span><span class="mini-soin-tarifs"><span>1 h · 70&nbsp;€</span><span>1 h 30 · 100&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="energie" hidden>
+          <a href="/soins#africain" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Afrique</span><span class="mini-soin-nom">Africain</span><span class="mini-soin-tarifs"><span>30 min · 40&nbsp;€</span><span>1 h · 70&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="energie" hidden>
+          <a href="/soins#lomi-lomi" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Hawaï</span><span class="mini-soin-nom">Lomi-Lomi</span><span class="mini-soin-tarifs"><span>30 min · 40&nbsp;€</span><span>1 h · 70&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="energie" hidden>
+          <a href="/soins#thai-pieds" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Thaïlande</span><span class="mini-soin-nom">Thaï des pieds</span><span class="mini-soin-tarifs"><span>45 min · 55&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="visage" hidden>
+          <a href="/soins#kobido" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Japon</span><span class="mini-soin-nom">Kobido</span><span class="mini-soin-tarifs"><span>45 min · 60&nbsp;€</span><span>Cure de 3 séances · 165&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="visage" hidden>
+          <a href="/soins#soin-jeunesse" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Japon</span><span class="mini-soin-nom">Soin jeunesse</span><span class="mini-soin-tarifs"><span>1 h 30 · 110&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="visage" hidden>
+          <a href="/soins#kobido-perfect-age" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Japon</span><span class="mini-soin-nom">Kobido « Perfect Age »</span><span class="mini-soin-tarifs"><span>1 h · 75&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="silhouette" hidden>
+          <a href="/soins#maderotherapie" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Outils de bois</span><span class="mini-soin-nom">Madérothérapie</span><span class="mini-soin-tarifs"><span>Ventre et hanches · 50&nbsp;€</span><span>Jambes et fesses · 75&nbsp;€</span><span>Corps · 95&nbsp;€</span><span>Corps et bras · 110&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="silhouette" hidden>
+          <a href="/soins#massage-silhouette" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Jambes, ventre, hanches</span><span class="mini-soin-nom">Massage silhouette</span><span class="mini-soin-tarifs"><span>45 min · 65&nbsp;€</span><span>1 h · 80&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="maman" hidden>
+          <a href="/soins#prenatal" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Future maman</span><span class="mini-soin-nom">Prénatal</span><span class="mini-soin-tarifs"><span>30 min · 40&nbsp;€</span><span>1 h · 70&nbsp;€</span></span></a>
+        </li><li class="mini-soin" data-pour="enfant" hidden>
+          <a href="/soins#enfant" class="mini-soin-lien" data-libelle="Les soins"><span class="mini-soin-origine">Pour les plus jeunes</span><span class="mini-soin-nom">Massage enfant</span><span class="mini-soin-tarifs"><span>15 min · 20&nbsp;€</span><span>30 min · 30&nbsp;€</span></span></a>
+        </li>
+      <li class="mini-soin mini-soin--tout"><a href="/soins" class="lien-fleche" data-libelle="Les soins">Voir toute la carte</a></li>
+    </ul>
+  </div>
+</section>
+<section class="carte-soins" id="carte">
+  <div class="conteneur carte-tete">
+    <div>
+      <p class="surtitre">La carte</p>
+      <h2 data-anime="lignes">Quatorze massages, un même soin du détail.</h2>
+    </div>
+    <div>
+      <p data-anime>Des soins du visage et de la silhouette complètent la carte. De 20 € pour un massage enfant à 130 € pour deux heures de Suédois-Californien.</p>
+      <p data-anime><a href="/soins" class="lien-fleche" data-libelle="Les soins">Toute la carte et les tarifs</a></p>
+    </div>
+  </div>
+  <div class="rangee" data-rangee>
+    <div class="rangee-piste" data-rangee-piste data-galerie data-effet="rangee" role="region" aria-label="Soins phares, défilement horizontal" tabindex="0">
+      <article class="phare">
+          <a href="/soins#suedois-californien" class="phare-lien" data-libelle="Les soins"><figure class="media phare-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-table-1168.webp" srcset="/assets/images/grok/soin-table-1168.webp 1168w" sizes="(max-width: 760px) 72vw, 26vw" alt="Table de massage habillée de linge blanc dans une pièce calme" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span class="phare-origine">Suède et Californie</span><span class="phare-nom">Suédois-Californien</span><span class="phare-prix">dès <span class="prix" data-prix>40&nbsp;€</span></span></a>
+        </article><article class="phare">
+          <a href="/soins#lomi-lomi" class="phare-lien" data-libelle="Les soins"><figure class="media phare-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-lomi-1168.webp" srcset="/assets/images/grok/soin-lomi-1168.webp 1168w" sizes="(max-width: 760px) 72vw, 26vw" alt="Fleur de frangipanier et bol d&#39;huile sur une serviette" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span class="phare-origine">Hawaï</span><span class="phare-nom">Lomi-Lomi</span><span class="phare-prix">dès <span class="prix" data-prix>40&nbsp;€</span></span></a>
+        </article><article class="phare">
+          <a href="/soins#pierres-chaudes" class="phare-lien" data-libelle="Les soins"><figure class="media phare-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-pierres-1168.webp" srcset="/assets/images/grok/soin-pierres-1168.webp 1168w" sizes="(max-width: 760px) 72vw, 26vw" alt="Galets de basalte qui chauffent dans un bac de céramique" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span class="phare-origine">Amérique du Nord et Hawaï</span><span class="phare-nom">Pierres chaudes</span><span class="phare-prix">dès <span class="prix" data-prix>75&nbsp;€</span></span></a>
+        </article><article class="phare">
+          <a href="/soins#kobido" class="phare-lien" data-libelle="Les soins"><figure class="media phare-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-visage-1168.webp" srcset="/assets/images/grok/soin-visage-1168.webp 1168w" sizes="(max-width: 760px) 72vw, 26vw" alt="Rouleaux de quartz rose et de jade et pierre de gua sha sur du lin" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span class="phare-origine">Japon</span><span class="phare-nom">Kobido</span><span class="phare-prix">dès <span class="prix" data-prix>60&nbsp;€</span></span></a>
+        </article><article class="phare">
+          <a href="/soins#bols-tibetains" class="phare-lien" data-libelle="Les soins"><figure class="media phare-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-bol-1168.webp" srcset="/assets/images/grok/soin-bol-1168.webp 1168w" sizes="(max-width: 760px) 72vw, 26vw" alt="Bol chantant de bronze et son maillet sur un linge" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span class="phare-origine">Tibet</span><span class="phare-nom">Sonore aux bols tibétains</span><span class="phare-prix">dès <span class="prix" data-prix>40&nbsp;€</span></span></a>
+        </article><article class="phare">
+          <a href="/soins#maderotherapie" class="phare-lien" data-libelle="Les soins"><figure class="media phare-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/madero-800.webp" srcset="/assets/images/madero-640.webp 640w, /assets/images/madero-800.webp 800w" sizes="(max-width: 760px) 72vw, 26vw" alt="Ventouse de bois de madérothérapie sur une peau huilée" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure><span class="phare-origine">Outils de bois</span><span class="phare-nom">Madérothérapie</span><span class="phare-prix">dès <span class="prix" data-prix>50&nbsp;€</span></span></a>
+        </article>
+    </div>
+  </div>
+</section>
+<section class="marie-bloc fond-sombre" id="marie">
+  <div class="conteneur marie-grille">
+    <div class="marie-visuel">
+      <figure class="media marie-media" data-fx="parallaxe" style="--cadrage:53% 40%">
+  <picture>
+    <img src="/assets/images/marie-au-travail-1600.webp" srcset="/assets/images/marie-au-travail-1024.webp 1024w, /assets/images/marie-au-travail-1168.webp 1168w, /assets/images/marie-au-travail-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 42vw" alt="Marie masse le bras d&#39;une cliente, dans la pénombre du cabinet" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="chaleur chaleur--sombre" data-chaleur data-effet="chaleur" data-souris aria-hidden="true" data-audit-ignorer></span>
+    </div>
+    <div class="marie-texte">
+      <p class="surtitre">Votre praticienne</p>
+      <h2 data-anime="lignes">Marie, des mains qui écoutent.</h2>
+      <p data-anime>Spécialiste des massages du monde, Marie s&#39;est formée dans une École des Arts du Bien-Être. Elle vous reçoit au cabinet du Relecq-Kerhuon ou vient chez vous, avec la même exigence : douceur et professionnalisme.</p>
+      <figure class="citation" data-anime>
+        <figure class="media citation-portrait" style="--cadrage:40% 40%">
+  <picture>
+    <img src="/assets/images/marie-portrait-480.webp" srcset="/assets/images/marie-portrait-480.webp 480w" sizes="96px" alt="" width="480" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <blockquote><p>« Par le massage, je vous apporte harmonie, évasion et sérénité. »</p></blockquote>
+        <figcaption>Marie</figcaption>
+      </figure>
+      <p data-anime><a href="/marie" class="bouton bouton--contour" data-libelle="Marie &amp; le cabinet">Découvrir Marie et le cabinet</a></p>
+    </div>
+  </div>
+</section>
+<section class="lieux" id="lieux">
+  <div class="conteneur">
+    <p class="surtitre">Deux façons de vous recevoir</p>
+    <h2 data-anime="lignes">Au cabinet, ou chez vous.</h2>
+    <div class="lieux-grille">
+      <article class="lieu">
+        <figure class="media lieu-media" data-anime="rideau" style="--cadrage:44% 42%">
+  <picture>
+    <img src="/assets/images/cabinet-1600.webp" srcset="/assets/images/cabinet-800.webp 800w, /assets/images/cabinet-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 45vw" alt="Le cabinet du Relecq-Kerhuon, mur ocre et étagères en hexagone, pendant un massage khmer" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Au cabinet</h3>
+        <p>Un cabinet chaleureux au Relecq-Kerhuon, à deux pas de Brest.</p>
+        <p class="lieu-adresse">31 bis rue de Dixmude, Le Relecq-Kerhuon</p>
+        <p><a href="/contact#horaires" class="lien-fleche" data-libelle="Contact">Accès et horaires</a></p>
+      </article>
+      <article class="lieu lieu--decale">
+        <figure class="media lieu-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/domicile-1600.webp" srcset="/assets/images/grok/domicile-800.webp 800w, /assets/images/grok/domicile-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 45vw" alt="Salon chaleureux où une table de massage est installée, peignoir sur le fauteuil" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Chez vous</h3>
+        <p>Tous les massages se font aussi à domicile. Après la séance, vous restez en peignoir et prolongez la détente.</p>
+        <p class="lieu-note">Au-delà de quelques kilomètres du cabinet, des frais de déplacement s&#39;ajoutent : Marie vous les indique à la réservation.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="offrir-bloc fond-sable" id="offrir">
+  <div class="conteneur offrir-grille">
+    <div class="cadeau " data-cadeau data-visuel data-grille="retour">
+  <div class="cadeau-carte" data-cadeau-carte data-effet="carte-cadeau">
+    <div class="cadeau-face cadeau-recto">
+      <img class="cadeau-logo" src="/assets/images/logo-clair-372.png" alt="Manawa Massage Pro" width="372" height="145" loading="lazy">
+      <p class="cadeau-titre">Carte cadeau</p>
+      <p class="cadeau-soin" data-cadeau-soin>Suédois-Californien, 1 h</p>
+      <p class="cadeau-montant"><span data-cadeau-prix>70</span>&nbsp;€</p>
+      <p class="cadeau-pied">Valable un an</p>
+    </div>
+    <div class="cadeau-face cadeau-verso" data-face="dos">
+      <p class="cadeau-titre">Valable un an</p>
+      <p>À réserver au cabinet du Relecq-Kerhuon ou à domicile, sur Planity ou au 07 68 32 81 45.</p>
+      <p class="cadeau-papier">Bons cadeaux papier de 30 € à 900 € disponibles au cabinet.</p>
+    </div>
+  </div>
+</div>
+    <div class="offrir-texte">
+      <p class="surtitre"><span class="badge-noel" data-noel hidden>Pour Noël</span> Carte cadeau</p>
+      <h2 data-anime="lignes">Offrez une parenthèse.</h2>
+      <p data-anime>Choisissez un massage : la carte se compose sous vos yeux. Elle se commande en ligne sur SumUp et reste valable un an.</p>
+      <div class="cadeau-choix" role="group" aria-label="Choisir le massage offert" data-cadeau-choix>
+  <button type="button" class="puce" aria-pressed="false" data-prix-cadeau="40" data-libelle-cadeau="Crânien, 30 min">Crânien, 30 min · 40&nbsp;€</button><button type="button" class="puce" aria-pressed="true" data-prix-cadeau="70" data-libelle-cadeau="Suédois-Californien, 1 h">Suédois-Californien, 1 h · 70&nbsp;€</button><button type="button" class="puce" aria-pressed="false" data-prix-cadeau="75" data-libelle-cadeau="Pierres chaudes, 1 h">Pierres chaudes, 1 h · 75&nbsp;€</button><button type="button" class="puce" aria-pressed="false" data-prix-cadeau="60" data-libelle-cadeau="Kobido, 45 min">Kobido, 45 min · 60&nbsp;€</button><button type="button" class="puce" aria-pressed="false" data-prix-cadeau="100" data-libelle-cadeau="Suédois-Californien, 1 h 30">Suédois-Californien, 1 h 30 · 100&nbsp;€</button>
+</div>
+      <p class="offrir-actions"><a href="https://giftcard.sumup.io/order/G2EHXRP/manawa-massage-pro" target="_blank" rel="noopener" class="bouton">Commander sur SumUp<span class="visuellement-cache"> (nouvel onglet)</span></a><a href="/offrir" class="lien-fleche" data-libelle="Offrir">Forfaits, cures et événements</a></p>
+    </div>
+  </div>
+</section>
+<section class="confiance" id="confiance">
+  <div class="conteneur confiance-grille">
+    <div class="confiance-note">
+      <p class="surtitre">En confiance</p>
+      <h2 data-anime="lignes">La note de celles et ceux qui sont venus.</h2>
+      <p class="note-grande"><span class="note-chiffre">5,0</span><span class="note-sur">sur 5</span></p>
+      <svg class="etoiles confiance-etoiles" viewBox="0 0 260 48" aria-hidden="true" data-fx="trace" data-visuel><polygon points="24.0,4.0 29.3,17.7 44.0,18.5 32.6,27.8 36.3,42.0 24.0,34.0 11.7,42.0 15.4,27.8 4.0,18.5 18.7,17.7" data-fx-trait/><polygon points="77.0,4.0 82.3,17.7 97.0,18.5 85.6,27.8 89.3,42.0 77.0,34.0 64.7,42.0 68.4,27.8 57.0,18.5 71.7,17.7" data-fx-trait/><polygon points="130.0,4.0 135.3,17.7 150.0,18.5 138.6,27.8 142.3,42.0 130.0,34.0 117.7,42.0 121.4,27.8 110.0,18.5 124.7,17.7" data-fx-trait/><polygon points="183.0,4.0 188.3,17.7 203.0,18.5 191.6,27.8 195.3,42.0 183.0,34.0 170.7,42.0 174.4,27.8 163.0,18.5 177.7,17.7" data-fx-trait/><polygon points="236.0,4.0 241.3,17.7 256.0,18.5 244.6,27.8 248.3,42.0 236.0,34.0 223.7,42.0 227.4,27.8 216.0,18.5 230.7,17.7" data-fx-trait/></svg>
+      <p class="note-avis"><strong data-compteur="38">38</strong> avis sur Planity</p>
+      <p><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="lien-fleche">Lire les avis sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+    <div class="confiance-engagements">
+      <h3>Ses engagements</h3>
+      <ol class="engagements" data-anime="cascade">
+        <li>Le respect de votre vie privée</li><li>L&#39;hygiène corporelle</li><li>Des produits naturels</li><li>La durée effective du massage</li>
+      </ol>
+      <p class="confiance-cadre" data-anime>Des soins de bien-être, sans aucun caractère thérapeutique, sexuel ou érotique.</p>
+      <p class="ffmbe" data-anime><img src="/assets/images/ffmbe.jpg" alt="Logo de la Fédération Française de Massages Bien-être" width="800" height="210" loading="lazy"></p>
+    </div>
+  </div>
+</section>
+<section class="fin fond-sombre" id="fin">
+  <div class="fin-scene" data-visuel>
+    <svg class="parenthese parenthese--g fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <div class="fin-texte">
+      <h2 class="fin-titre" data-anime="lignes">Votre parenthèse<br><em>vous attend.</em></h2>
+      <p data-anime>Au cabinet du Relecq-Kerhuon ou chez vous, à deux pas de Brest.</p>
+      <p class="fin-actions" data-anime><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--or" data-survol="magnetique">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+      <p class="fin-statut" data-anime><span class="statut " data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <svg class="parenthese parenthese--d fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-372.png" alt="Manawa Massage Pro" width="372" height="145" loading="lazy">
+      <p>31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+      <p><a href="tel:+33768328145">07 68 32 81 45</a><br><span class="email">manawa_massage@outlook.fr</span></p>
+      <p><span class="statut statut--pied" data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/soins" data-libelle="Les soins">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Manawa</p>
+      <ul>
+        <li><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://instagram.com/ManawaMassagePro/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://m.facebook.com/ManawaMassagePro/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter<br>Politique de confidentialité · à compléter</p>
+    <p>Micro-entreprise, SIRET 848 217 220 00021<br>Photos de Marie et du cabinet : Céline Cousin</p>
+    <p>Maquette de démonstration : réservation, carte cadeau et formulaire sont simulés ou renvoient vers Planity et SumUp.</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33768328145">Appeler</a>
+  <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+</div>
+<script type="application/json" id="donnees-horaires">[{"jour":1,"nom":"Lundi","plages":[["09:00","18:00"]]},{"jour":2,"nom":"Mardi","plages":[]},{"jour":3,"nom":"Mercredi","plages":[["09:00","19:30"]]},{"jour":4,"nom":"Jeudi","plages":[["09:00","17:00"]]},{"jour":5,"nom":"Vendredi","plages":[["09:00","18:00"]]},{"jour":6,"nom":"Samedi","plages":[]},{"jour":0,"nom":"Dimanche","plages":[]}]</script>
+</body>
+</html>

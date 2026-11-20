@@ -1,0 +1,294 @@
+[
+  {
+    "source": "assets/images/logo.png",
+    "nom": "logo",
+    "role": "logo",
+    "alt": "Manawa Massage, massages du monde"
+  },
+  {
+    "source": "_suivi/recu/site/manawa-massage-bien-etre-2.png",
+    "nom": "mains-epaule",
+    "role": "galerie",
+    "ratio": "4:5",
+    "cadrage": [
+      52,
+      34
+    ],
+    "beaute": 5,
+    "page": "accueil",
+    "alt": "La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude"
+  },
+  {
+    "source": "_suivi/recu/site/manawa-massage-bien-etre.jpg",
+    "nom": "marie-au-travail",
+    "role": "galerie",
+    "ratio": "4:5",
+    "cadrage": [
+      53,
+      40
+    ],
+    "beaute": 4,
+    "page": "marie",
+    "alt": "Marie masse le bras d'une cliente au cabinet, dans la pénombre"
+  },
+  {
+    "source": "_suivi/recu/site/portrait-manawa-massage-pro.jpg",
+    "nom": "marie-portrait",
+    "role": "portrait",
+    "ratio": "4:5",
+    "cadrage": [
+      40,
+      45
+    ],
+    "beaute": 4,
+    "alt": "Portrait de Marie, praticienne de Manawa Massage, souriante"
+  },
+  {
+    "source": "_suivi/recu/site/manawa-massage-bien-etre-3.jpg",
+    "nom": "marie-jambe",
+    "role": "galerie",
+    "ratio": "4:5",
+    "cadrage": [
+      40,
+      45
+    ],
+    "beaute": 4,
+    "alt": "Marie masse une jambe au jardin, en noir et blanc"
+  },
+  {
+    "source": "_suivi/recu/site/massage-khmer-manawamassagepro-brest.jpg",
+    "nom": "cabinet",
+    "role": "produit",
+    "ratio": "3:2",
+    "cadrage": [
+      44,
+      42
+    ],
+    "beaute": 3,
+    "alt": "Le cabinet du Relecq-Kerhuon, mur ocre et étagères en hexagone, pendant un massage khmer"
+  },
+  {
+    "source": "_suivi/recu/site/maderotherapie-manawa-massage.jpg",
+    "nom": "madero",
+    "role": "vignette",
+    "ratio": "4:5",
+    "cadrage": [
+      45,
+      50
+    ],
+    "beaute": 4,
+    "alt": "Ventouse de bois de madérothérapie sur une peau huilée"
+  },
+  {
+    "source": "_suivi/recu/site/deontologie-manawamassagepro-france.jpg",
+    "nom": "marie-jardin",
+    "role": "portrait",
+    "ratio": "4:5",
+    "cadrage": [
+      50,
+      50
+    ],
+    "beaute": 3,
+    "alt": "Marie assise en méditation dans son jardin"
+  },
+  {
+    "source": "_suivi/recu/grok/soins-ouverture.jpg",
+    "source_mobile": "_suivi/recu/grok/soins-ouverture-mobile.jpg",
+    "nom": "grok/soins-ouverture",
+    "role": "section-fond",
+    "mobile": "9:16",
+    "zone_texte": "gauche",
+    "page": "Les soins",
+    "emplacement": "ouverture de la page",
+    "priorite": "Indispensable",
+    "scene": "a top-down view of a light oak table covered with natural linen, with a few smooth black basalt massage stones, a small glass bottle of amber massage oil, a rose quartz facial roller, a wooden massage tool and a folded white cotton towel arranged loosely on the right half, a sprig of eucalyptus, the left half of the linen left empty",
+    "alt": "Galets, huile, rouleau de quartz et linge sur une table de chêne",
+    "beaute": 5,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ]
+  },
+  {
+    "source": "_suivi/recu/grok/soin-pierres.jpg",
+    "nom": "grok/soin-pierres",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Pierres chaudes",
+    "priorite": "Indispensable",
+    "scene": "a row of smooth flat black basalt massage stones resting in warm water in a shallow ceramic tray, a wisp of steam, a folded white towel beside it, close-up, shallow depth of field",
+    "alt": "Galets de basalte qui chauffent dans un bac de céramique",
+    "beaute": 5
+  },
+  {
+    "source": "_suivi/recu/grok/soin-visage.jpg",
+    "nom": "grok/soin-visage",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Kobido et soins visage",
+    "priorite": "Indispensable",
+    "scene": "a rose quartz facial roller, a jade roller and a smooth heart-shaped gua sha stone lying on folded linen next to a small ceramic dish of facial oil, close-up still life",
+    "alt": "Rouleaux de quartz rose et de jade et pierre de gua sha sur du lin",
+    "beaute": 5
+  },
+  {
+    "source": "_suivi/recu/grok/soin-bol.jpg",
+    "nom": "grok/soin-bol",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Massage sonore aux bols tibétains",
+    "priorite": "Conseillée",
+    "scene": "a hammered bronze singing bowl with its wooden mallet resting on a natural linen cloth on a light wooden floor, simple still life, nothing else",
+    "alt": "Bol chantant de bronze et son maillet sur un linge",
+    "beaute": 4
+  },
+  {
+    "source": "_suivi/recu/grok/soin-lomi.jpg",
+    "nom": "grok/soin-lomi",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Lomi-Lomi",
+    "priorite": "Conseillée",
+    "scene": "a single white frangipani flower and a small bowl of warm oil on a folded white towel at the edge of a massage table, soft blurred room behind",
+    "alt": "Fleur de frangipanier et bol d'huile sur une serviette",
+    "beaute": 4
+  },
+  {
+    "source": "_suivi/recu/grok/soin-table.jpg",
+    "nom": "grok/soin-table",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Suédois-Californien et massages sur mesure",
+    "priorite": "Conseillée",
+    "scene": "an empty massage table dressed with crisp white cotton sheets and a neatly folded towel, a small bottle of oil on a wooden stool, linen curtains, a lamp glowing softly, peaceful and empty",
+    "alt": "Table de massage habillée de linge blanc dans une pièce calme",
+    "beaute": 5
+  },
+  {
+    "source": "_suivi/recu/grok/soin-coco.jpg",
+    "nom": "grok/soin-coco",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Shiroshampi et massage crânien",
+    "priorite": "Conseillée",
+    "scene": "a halved coconut and a small wooden bowl of melted coconut oil on natural linen, close-up still life",
+    "alt": "Noix de coco ouverte et bol d'huile de coco",
+    "beaute": 4
+  },
+  {
+    "source": "_suivi/recu/grok/soin-madero.jpg",
+    "nom": "grok/soin-madero",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Silhouette et madérothérapie",
+    "priorite": "Conseillée",
+    "scene": "a set of smooth light wooden maderotherapy massage tools, a grooved wooden roller, a wooden cup and a curved wooden board, arranged on a white towel, still life",
+    "alt": "Outils de bois de madérothérapie posés sur une serviette",
+    "beaute": 4
+  },
+  {
+    "source": "_suivi/recu/grok/soin-maman.jpg",
+    "nom": "grok/soin-maman",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Massage prénatal",
+    "priorite": "Conseillée",
+    "scene": "soft round pillows and a rolled towel arranged on a massage table for a comfortable side-lying position, white linen, a small vase of dried flowers, nobody in the room",
+    "alt": "Coussins disposés sur la table pour un massage allongé sur le côté",
+    "beaute": 4
+  },
+  {
+    "source": "_suivi/recu/grok/soin-huile.jpg",
+    "nom": "grok/soin-huile",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Ayurvédique, Africain, Khmer",
+    "priorite": "Facultative",
+    "scene": "a small copper bowl of warm golden oil with a few dried flowers floating in it, on natural linen, a ray of warm light",
+    "alt": "Bol de cuivre d'huile chaude et fleurs séchées",
+    "beaute": 4
+  },
+  {
+    "source": "_suivi/recu/grok/soin-pieds.jpg",
+    "nom": "grok/soin-pieds",
+    "role": "carte-service",
+    "page": "Les soins",
+    "emplacement": "carte Thaï des pieds",
+    "priorite": "Facultative",
+    "scene": "a smooth wooden foot massage stick lying on a folded linen towel next to a small tin of balm, close-up still life",
+    "alt": "Bâtonnet de bois et baume sur un linge plié",
+    "beaute": 4
+  },
+  {
+    "source": "_suivi/recu/grok/domicile.jpg",
+    "nom": "grok/domicile",
+    "role": "produit",
+    "ratio": "3:2",
+    "page": "Accueil et Marie & le cabinet",
+    "emplacement": "Chez vous",
+    "priorite": "Indispensable",
+    "scene": "a bright cosy living room in a Breton stone house, a folding massage table set up in the middle with white linen and a folded towel, a soft white bathrobe draped over an armchair, a lamp glowing, rain on the window, nobody in the room",
+    "alt": "Salon chaleureux où une table de massage est installée, peignoir sur le fauteuil",
+    "beaute": 5
+  },
+  {
+    "source": "_suivi/recu/grok/offrir-ouverture.jpg",
+    "nom": "grok/offrir-ouverture",
+    "role": "galerie",
+    "ratio": "4:5",
+    "page": "Offrir & célébrer",
+    "emplacement": "ouverture de la page",
+    "priorite": "Indispensable",
+    "scene": "a small blank cream envelope tied with a natural linen ribbon and a sprig of dried eucalyptus, lying on sand-colored linen beside a smooth black stone, generous empty space above",
+    "alt": "Enveloppe crème nouée d'un ruban de lin, brin d'eucalyptus et galet",
+    "beaute": 4,
+    "largeurs": [
+      800,
+      1168
+    ]
+  },
+  {
+    "source": "_suivi/recu/grok/evenement.jpg",
+    "nom": "grok/evenement",
+    "role": "produit",
+    "ratio": "3:2",
+    "page": "Offrir & célébrer",
+    "emplacement": "Événements entre amies, EVJF, couple",
+    "priorite": "Conseillée",
+    "scene": "a living room prepared for a relaxing day between friends: two massage tables side by side with white linen, folded white bathrobes, a vase of fresh flowers and a carafe of water with glasses on a low table, warm lamps, nobody in the room",
+    "alt": "Deux tables de massage préparées côte à côte dans un salon",
+    "beaute": 5
+  },
+  {
+    "source": "_suivi/recu/grok/contact-ouverture.jpg",
+    "source_mobile": "_suivi/recu/grok/contact-ouverture-mobile.jpg",
+    "nom": "grok/contact-ouverture",
+    "role": "section-fond",
+    "mobile": "9:16",
+    "zone_texte": "gauche",
+    "page": "Contact & accès",
+    "emplacement": "ouverture de la page",
+    "priorite": "Indispensable",
+    "consigne_scene": "A calm wide estuary in Brittany at dawn, low soft mist lying on the still water, a few small wooden boats moored, gentle green hills and a few slate-roofed houses on the far shore, pale apricot and grey-blue light, the left half of the sky and water calm and empty. Breton coast only: no palm trees, no mountains, no tropical vegetation, no modern bridge in the foreground.",
+    "alt": "Estuaire breton à l'aube, brume légère et barques au mouillage",
+    "beaute": 5,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ]
+  },
+  {
+    "source": "_suivi/recu/grok/page-404.jpg",
+    "nom": "grok/page-404",
+    "role": "404",
+    "ratio": "16:9",
+    "page": "404",
+    "emplacement": "en-tête de la page",
+    "priorite": "Conseillée",
+    "consigne_scene": "A single smooth black stone resting on a neatly folded white towel at the end of an empty massage table, warm soft side light, very calm, large empty space on the left.",
+    "alt": "Galet noir posé sur une serviette pliée",
+    "beaute": 4
+  }
+]

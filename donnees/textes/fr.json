@@ -1,0 +1,345 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Réserver",
+    "reserver": "Réserver sur Planity",
+    "appeler": "Appeler",
+    "sommaire": "Le site",
+    "confort": "Suivre Manawa",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : réservation, carte cadeau et formulaire sont simulés ou renvoient vers Planity et SumUp.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Massages du monde",
+    "nouvelOnglet": "(nouvel onglet)",
+    "mentions": "Mentions légales",
+    "confidentialite": "Politique de confidentialité",
+    "aCompleter": "à compléter",
+    "credit": "Photos de Marie et du cabinet : Céline Cousin",
+    "siret": "Micro-entreprise, SIRET 848 217 220 00021",
+    "note": "5,0 sur 5",
+    "avis": "38 avis sur Planity",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "voirSoin": "Voir le soin",
+    "des": "dès",
+    "statutChargement": "Horaires du cabinet sur Planity"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Manawa Massage Pro · Massages bien-être au Relecq-Kerhuon, près de Brest",
+      "description": "Massages du monde, Kobido et soins silhouette avec Marie, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest. Réservation sur Planity, cartes cadeaux.",
+      "nav": "Accueil",
+      "partageAlt": "Manawa Massage Pro : la main de Marie posée sur une épaule, et le titre Offrez-vous une parenthèse",
+      "accroche": "Offrez-vous une parenthèse."
+    },
+    "soins": {
+      "titre": "La carte des soins · Manawa Massage Pro",
+      "description": "Quatorze massages du monde, soins du visage et silhouette, avec les durées et les prix. Au cabinet du Relecq-Kerhuon ou à domicile.",
+      "nav": "Les soins",
+      "partageAlt": "La carte des soins de Manawa Massage Pro",
+      "accroche": "La carte des soins, du Suédois au Kobido."
+    },
+    "marie": {
+      "titre": "Marie et le cabinet · Manawa Massage Pro",
+      "description": "Marie, praticienne des massages du monde, vous reçoit au Relecq-Kerhuon ou vient chez vous. Son parcours, son cabinet, sa déontologie.",
+      "nav": "Marie & le cabinet",
+      "partageAlt": "Marie au travail dans son cabinet",
+      "accroche": "Marie, praticienne des massages du monde."
+    },
+    "offrir": {
+      "titre": "Offrir une parenthèse · Cartes cadeaux, forfaits et événements",
+      "description": "Cartes cadeaux valables un an, forfaits de 5 et 10 heures, cures visage et silhouette, massages pour un EVJF ou une journée entre amies.",
+      "nav": "Offrir",
+      "partageAlt": "Carte cadeau Manawa Massage",
+      "accroche": "Offrir une parenthèse."
+    },
+    "contact": {
+      "titre": "Contact et accès · Manawa Massage Pro",
+      "description": "Le cabinet au 31 bis rue de Dixmude, Le Relecq-Kerhuon. Horaires, accès, réservation sur Planity, téléphone 07 68 32 81 45.",
+      "nav": "Contact",
+      "partageAlt": "Contact et accès du cabinet Manawa Massage",
+      "accroche": "Venir au cabinet, ou recevoir Marie chez vous."
+    },
+    "404": {
+      "titre": "Page introuvable · Manawa Massage Pro",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Massages du monde · Le Relecq-Kerhuon, à deux pas de Brest",
+      "titre1": "Offrez-vous",
+      "titre2": "une",
+      "titreMot": "parenthèse",
+      "texte": "Massages sur mesure, Kobido, soins silhouette et rituels du monde, dans un cabinet chaleureux ou chez vous. Chaque séance est personnalisée.",
+      "offrir": "Offrir un massage",
+      "alt": "La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude"
+    },
+    "envies": {
+      "surtitre": "Choisir son massage",
+      "titre": "Que cherchez-vous aujourd'hui ?",
+      "texte": "Choisissez une envie : les soins qui y répondent se rangent devant vous, avec leurs durées et leurs prix.",
+      "groupe": "Vos envies",
+      "sansJs": "Pour vous détendre",
+      "tout": "Voir toute la carte"
+    },
+    "carte": {
+      "surtitre": "La carte",
+      "titre": "Quatorze massages, un même soin du détail.",
+      "texte": "Des soins du visage et de la silhouette complètent la carte. De 20 € pour un massage enfant à 130 € pour deux heures de Suédois-Californien.",
+      "region": "Soins phares, défilement horizontal",
+      "tout": "Toute la carte et les tarifs"
+    },
+    "marie": {
+      "surtitre": "Votre praticienne",
+      "titre": "Marie, des mains qui écoutent.",
+      "texte": "Spécialiste des massages du monde, Marie s'est formée dans une École des Arts du Bien-Être. Elle vous reçoit au cabinet du Relecq-Kerhuon ou vient chez vous, avec la même exigence : douceur et professionnalisme.",
+      "citation": "Par le massage, je vous apporte harmonie, évasion et sérénité.",
+      "signature": "Marie",
+      "lien": "Découvrir Marie et le cabinet",
+      "alt": "Marie masse le bras d'une cliente, dans la pénombre du cabinet"
+    },
+    "lieux": {
+      "surtitre": "Deux façons de vous recevoir",
+      "titre": "Au cabinet, ou chez vous.",
+      "cabinetTitre": "Au cabinet",
+      "cabinetTexte": "Un cabinet chaleureux au Relecq-Kerhuon, à deux pas de Brest.",
+      "domicileTitre": "Chez vous",
+      "domicileTexte": "Tous les massages se font aussi à domicile. Après la séance, vous restez en peignoir et prolongez la détente.",
+      "domicileFrais": "Au-delà de quelques kilomètres du cabinet, des frais de déplacement s'ajoutent : Marie vous les indique à la réservation.",
+      "acces": "Accès et horaires"
+    },
+    "offrir": {
+      "surtitre": "Carte cadeau",
+      "titre": "Offrez une parenthèse.",
+      "texte": "Choisissez un massage : la carte se compose sous vos yeux. Elle se commande en ligne sur SumUp et reste valable un an.",
+      "noel": "Pour Noël",
+      "commander": "Commander sur SumUp",
+      "tout": "Forfaits, cures et événements"
+    },
+    "confiance": {
+      "surtitre": "En confiance",
+      "titre": "La note de celles et ceux qui sont venus.",
+      "lire": "Lire les avis sur Planity",
+      "engagements": "Ses engagements",
+      "e1": "Le respect de votre vie privée",
+      "e2": "L'hygiène corporelle",
+      "e3": "Des produits naturels",
+      "e4": "La durée effective du massage",
+      "cadre": "Des soins de bien-être, sans aucun caractère thérapeutique, sexuel ou érotique.",
+      "federation": "Fédération Française de Massages Bien-être",
+      "ffmbeAlt": "Logo de la Fédération Française de Massages Bien-être",
+      "avis": "avis sur Planity",
+      "sur": "sur 5"
+    },
+    "fin": {
+      "titre1": "Votre parenthèse",
+      "titre2": "vous attend.",
+      "texte": "Au cabinet du Relecq-Kerhuon ou chez vous, à deux pas de Brest."
+    }
+  },
+  "soins": {
+    "tete": {
+      "surtitre": "La carte des soins",
+      "titre1": "Choisissez",
+      "titre2": "votre",
+      "titreMot": "rituel",
+      "texte": "Quatorze massages du monde, des soins du visage et de la silhouette. Chaque séance est personnalisée.",
+      "info": "De 20 € à 130 € · au cabinet ou à domicile",
+      "filtre": "Filtrer la carte",
+      "tout": "Tout voir",
+      "resultat": "{n} soins correspondent à votre choix.",
+      "alt": "Galets, huile, rouleau de quartz et linge sur une table de chêne"
+    },
+    "aussi": "Aussi au cabinet",
+    "aussiTexte": "Durée et déroulé précisés à la réservation.",
+    "vide": "Aucun soin de cette famille pour ce choix.",
+    "reserver": "Réserver",
+    "bol": "Faire sonner le bol",
+    "bolArret": "Arrêter le son",
+    "bolEnCours": "Le bol sonne",
+    "cures": {
+      "surtitre": "Cures et forfaits",
+      "titre": "Prendre soin de soi dans la durée.",
+      "texte": "Les cures et les forfaits se réservent directement auprès de Marie, par téléphone ou par message.",
+      "cures": "Cures",
+      "forfaits": "Forfaits massages bien-être",
+      "lien": "Offrir une cure ou un forfait",
+      "alt": "Enveloppe crème nouée d'un ruban de lin, brin d'eucalyptus et galet"
+    },
+    "pratique": {
+      "surtitre": "Bon à savoir",
+      "titre": "Avant votre séance",
+      "annulationTitre": "Annulation",
+      "annulation": "Gratuite jusqu'à 48 h avant la séance. À moins de 48 h, la moitié du montant est due ; sans annulation, la totalité.",
+      "paiementTitre": "Paiement",
+      "paiement": "Au cabinet, en fin de séance : espèces, chèque, virement, PayPal ou SumUp.",
+      "domicileTitre": "À domicile",
+      "domicile": "Tous les massages sont possibles chez vous. Au-delà de quelques kilomètres, des frais de déplacement s'ajoutent.",
+      "cadreTitre": "Massage bien-être",
+      "cadre": "Les soins n'ont aucun caractère thérapeutique, sexuel ou érotique.",
+      "alt": "Salon où une table de massage est installée, peignoir sur le fauteuil"
+    },
+    "fin": {
+      "titre1": "Votre rituel",
+      "titre2": "vous attend.",
+      "texte": "Réservez en ligne sur Planity, ou appelez Marie pour composer la séance."
+    }
+  },
+  "marie": {
+    "tete": {
+      "surtitre": "Votre praticienne",
+      "titre1": "Marie,",
+      "titre2": "praticienne des",
+      "titreMot": "massages du monde",
+      "texte": "Au cabinet du Relecq-Kerhuon ou chez vous, Marie compose chaque séance avec vous, avec douceur et professionnalisme.",
+      "info": "Au cabinet ou à domicile · 5,0 sur 5 sur Planity",
+      "alt": "Marie masse le bras d'une cliente au cabinet, dans la pénombre"
+    },
+    "parcours": {
+      "surtitre": "Son parcours",
+      "titre": "Contribuer au bien-être des autres.",
+      "texte1": "L'envie de Marie est née d'un désir simple : contribuer à l'épanouissement des autres. Elle l'a nourrie dans une École des Arts du Bien-Être, où elle s'est perfectionnée aux massages du monde.",
+      "texte2": "Aujourd'hui, elle propose des soins relaxants, énergétiques ou spécifiques, du Suédois-Californien au Kobido, de la madérothérapie au massage prénatal.",
+      "citation": "Nous avons de plus en plus besoin de prendre soin de nous, de souffler et de nous sentir bien.",
+      "altPortrait": "Portrait de Marie, souriante",
+      "altJambe": "Marie masse une jambe au jardin, en noir et blanc"
+    },
+    "cabinet": {
+      "surtitre": "Le cabinet",
+      "titre": "Un cabinet chaleureux, à deux pas de Brest.",
+      "texte": "Mur ocre, lumière douce, linge propre : le cabinet du Relecq-Kerhuon est pensé pour que la détente commence dès la porte passée.",
+      "alt": "Le cabinet, mur ocre et étagères en hexagone, pendant un massage khmer",
+      "lien": "Venir au cabinet"
+    },
+    "domicile": {
+      "surtitre": "À domicile",
+      "titre": "Ou le cocon de votre maison.",
+      "texte": "Pas besoin de vous déplacer : Marie vient chez vous avec tout le matériel. Vous restez en peignoir et profitez du soin pendant et après son départ.",
+      "frais": "Au-delà de quelques kilomètres du cabinet, des frais de déplacement s'ajoutent : ils vous sont indiqués à la réservation.",
+      "alt": "Salon chaleureux où une table de massage est installée"
+    },
+    "deontologie": {
+      "surtitre": "Déontologie",
+      "titre": "Un cadre clair, pour lâcher prise.",
+      "texte": "Marie s'engage à respecter le code de déontologie des praticiens bien-être.",
+      "valeurs": "Respect mutuel, échange, écoute, discrétion et bien-être guident chaque séance.",
+      "altJardin": "Marie assise en méditation dans son jardin"
+    },
+    "fin": {
+      "titre1": "Rendez-vous",
+      "titre2": "avec Marie.",
+      "texte": "Réservez en ligne sur Planity, ou appelez-la pour composer votre séance."
+    }
+  },
+  "offrir": {
+    "tete": {
+      "surtitre": "Cartes cadeaux",
+      "titre1": "Offrir une",
+      "titreMot": "parenthèse",
+      "texte": "Un massage à offrir, pour un anniversaire, un merci ou simplement pour faire du bien. Choisissez le soin : la carte se compose.",
+      "info": "Valable un an · commande en ligne sur SumUp",
+      "choix": "Choisir le massage offert",
+      "retourner": "Retourner la carte"
+    },
+    "carte": {
+      "titre": "Carte cadeau",
+      "pour": "Une parenthèse pour vous",
+      "valable": "Valable un an",
+      "verso": "À réserver au cabinet du Relecq-Kerhuon ou à domicile, sur Planity ou au 07 68 32 81 45.",
+      "papier": "Bons cadeaux papier de 30 € à 900 € disponibles au cabinet."
+    },
+    "forfaits": {
+      "surtitre": "Forfaits",
+      "titre": "Des heures de massage d'avance.",
+      "texte": "Des heures de massages bien-être à utiliser au fil des mois, pour vous ou pour quelqu'un que vous aimez.",
+      "commander": "Commander auprès de Marie",
+      "alt": "Enveloppe crème nouée d'un ruban de lin, brin d'eucalyptus et galet"
+    },
+    "cures": {
+      "surtitre": "Cures",
+      "titre": "Visage et silhouette, en plusieurs séances.",
+      "texte": "Les cures se réservent auprès de Marie."
+    },
+    "evenements": {
+      "surtitre": "Mon événement",
+      "titre": "Une journée entre amies, un EVJF, un moment à deux.",
+      "texte": "Marie vient chez vous, au gîte ou à la maison, avec tout le matériel nécessaire : chacun choisit son massage parmi toute la carte.",
+      "types": "Journée entre ami(e)s · EVJF · Couple · Anniversaire",
+      "offre": "Contactez Marie pour une offre personnalisée.",
+      "demander": "Demander une offre",
+      "alt": "Deux tables de massage préparées côte à côte dans un salon"
+    },
+    "fin": {
+      "titre1": "Une question",
+      "titre2": "sur un cadeau ?",
+      "texte": "Marie vous aide à choisir le soin, la cure ou le forfait qui fera plaisir."
+    }
+  },
+  "contact": {
+    "tete": {
+      "surtitre": "Contact et accès",
+      "titre1": "Venir à",
+      "titreMot": "Manawa",
+      "texte": "Le cabinet est au Relecq-Kerhuon, à deux pas de Brest. Marie peut aussi venir chez vous.",
+      "alt": "Estuaire breton à l'aube, brume légère et barques au mouillage"
+    },
+    "horaires": {
+      "surtitre": "Horaires",
+      "titre": "Les horaires du cabinet",
+      "source": "D'après l'agenda de Planity. Fermé les jours fériés.",
+      "aujourdhui": "aujourd'hui",
+      "ferme": "Fermé",
+      "carteTitre": "Le cabinet, au bord de la rade",
+      "carteAlt": "Carte de la rade de Brest : le cabinet au Relecq-Kerhuon, à l'est de Brest",
+      "itineraire": "31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon"
+    },
+    "formulaire": {
+      "surtitre": "Écrire à Marie",
+      "titre": "Une question, un événement, une carte cadeau ?",
+      "texte": "Pour un rendez-vous, Planity reste le plus rapide. Pour le reste, laissez un message : Marie vous répond.",
+      "nom": "Votre nom",
+      "tel": "Téléphone",
+      "email": "E-mail",
+      "sujet": "Votre demande",
+      "sujetRdv": "Un rendez-vous",
+      "sujetCadeau": "Une carte cadeau",
+      "sujetForfait": "Un forfait ou une cure",
+      "sujetEvenement": "Un événement (EVJF, entre amies…)",
+      "sujetAutre": "Autre chose",
+      "lieu": "Où ?",
+      "lieuCabinet": "Au cabinet",
+      "lieuDomicile": "À domicile",
+      "message": "Votre message",
+      "donnees": "Vos coordonnées servent seulement à vous répondre. Politique de confidentialité : à compléter.",
+      "envoyer": "Envoyer le message",
+      "alt": "Le cabinet du Relecq-Kerhuon pendant une séance"
+    },
+    "coordonnees": {
+      "titre": "Coordonnées",
+      "email": "E-mail",
+      "suivre": "Suivre Manawa"
+    },
+    "fin": {
+      "titre1": "À très vite",
+      "titre2": "au cabinet.",
+      "texte": "Ou chez vous, à deux pas de Brest."
+    }
+  },
+  "introuvable": {
+    "titre": "Cette page s'est accordé une pause.",
+    "texte": "Elle n'existe pas ou plus. Reprenons depuis le début, ou allons droit à la carte des soins.",
+    "retour": "Revenir à l'accueil",
+    "soins": "Voir les soins",
+    "alt": "Galet noir posé sur une serviette pliée"
+  }
+}

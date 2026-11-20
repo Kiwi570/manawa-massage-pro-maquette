@@ -1,0 +1,601 @@
+{
+  "envies": [
+    {
+      "id": "detente",
+      "libelle": "Me détendre profondément",
+      "court": "Détente",
+      "image": "grok/soin-huile",
+      "alt": "Bol d'huile chaude et fleurs séchées",
+      "selection": [
+        "suedois-californien",
+        "pierres-chaudes",
+        "bols-tibetains",
+        "cranien"
+      ]
+    },
+    {
+      "id": "energie",
+      "libelle": "Retrouver de l'énergie",
+      "court": "Énergie",
+      "image": "grok/soin-pieds",
+      "alt": "Bâtonnet de bois et baume sur un linge plié",
+      "selection": [
+        "khmer",
+        "africain",
+        "lomi-lomi",
+        "thai-pieds"
+      ]
+    },
+    {
+      "id": "visage",
+      "libelle": "Prendre soin de mon visage",
+      "court": "Visage",
+      "image": "grok/soin-coco",
+      "alt": "Noix de coco ouverte et bol d'huile",
+      "selection": [
+        "kobido",
+        "soin-jeunesse",
+        "kobido-perfect-age"
+      ]
+    },
+    {
+      "id": "silhouette",
+      "libelle": "Travailler ma silhouette",
+      "court": "Silhouette",
+      "image": "grok/soin-madero",
+      "alt": "Outils de bois de madérothérapie",
+      "selection": [
+        "maderotherapie",
+        "massage-silhouette"
+      ]
+    },
+    {
+      "id": "maman",
+      "libelle": "J'attends un bébé",
+      "court": "Future maman",
+      "image": "grok/soin-maman",
+      "alt": "Coussins disposés pour un massage sur le côté",
+      "selection": [
+        "prenatal"
+      ]
+    },
+    {
+      "id": "enfant",
+      "libelle": "Pour mon enfant",
+      "court": "Enfant",
+      "image": "grok/page-404",
+      "alt": "Galet posé sur une serviette pliée",
+      "selection": [
+        "enfant"
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "monde",
+      "titre": "Massages du monde",
+      "texte": "Des gestes venus de Suède, d'Hawaï, d'Inde, d'Afrique, du Cambodge, de Thaïlande ou du Tibet, réunis dans un même cabinet."
+    },
+    {
+      "id": "visage",
+      "titre": "Soins du visage",
+      "texte": "Le rituel japonais du Kobido et ses variantes, du soin court au soin complet."
+    },
+    {
+      "id": "silhouette",
+      "titre": "Silhouette",
+      "texte": "Des gestes vigoureux et des outils de bois, zone par zone, en séance ou en cure."
+    }
+  ],
+  "liste": [
+    {
+      "id": "suedois-californien",
+      "famille": "monde",
+      "nom": "Suédois-Californien",
+      "origine": "Suède et Californie",
+      "envies": [
+        "detente"
+      ],
+      "image": "grok/soin-table",
+      "phare": true,
+      "accroche": "Des gestes enveloppants, tantôt fermes, tantôt légers, qui s'adressent au corps comme à l'esprit.",
+      "tarifs": [
+        [
+          "30 min",
+          40
+        ],
+        [
+          "45 min",
+          55
+        ],
+        [
+          "1 h",
+          70
+        ],
+        [
+          "1 h 30",
+          100
+        ],
+        [
+          "2 h",
+          130
+        ]
+      ]
+    },
+    {
+      "id": "sur-mesure",
+      "famille": "monde",
+      "nom": "Massage sur mesure",
+      "origine": "Composé avec vous",
+      "envies": [
+        "detente",
+        "energie"
+      ],
+      "accroche": "Marie compose la séance avec vous, selon vos envies du jour et les gestes qui vous font du bien.",
+      "tarifs": [
+        [
+          "30 min",
+          40
+        ],
+        [
+          "45 min",
+          55
+        ],
+        [
+          "1 h",
+          70
+        ],
+        [
+          "1 h 30",
+          100
+        ]
+      ]
+    },
+    {
+      "id": "lomi-lomi",
+      "famille": "monde",
+      "nom": "Lomi-Lomi",
+      "origine": "Hawaï",
+      "envies": [
+        "detente",
+        "energie"
+      ],
+      "image": "grok/soin-lomi",
+      "phare": true,
+      "accroche": "Le massage hawaïen du « Mana », le souffle vital : de longs mouvements des mains et des avant-bras, comme une vague.",
+      "pratique": "Mains et avant-bras",
+      "tarifs": [
+        [
+          "30 min",
+          40
+        ],
+        [
+          "1 h",
+          70
+        ]
+      ]
+    },
+    {
+      "id": "pierres-chaudes",
+      "famille": "monde",
+      "nom": "Pierres chaudes",
+      "origine": "Amérique du Nord et Hawaï",
+      "envies": [
+        "detente"
+      ],
+      "image": "grok/soin-pierres",
+      "phare": true,
+      "accroche": "Le corps est d'abord massé à la main, puis avec des galets chauffés qui glissent, pressent et réchauffent.",
+      "pratique": "À la main, puis aux galets chauds",
+      "tarifs": [
+        [
+          "1 h",
+          75
+        ],
+        [
+          "1 h 30",
+          105
+        ]
+      ]
+    },
+    {
+      "id": "ayurvedique",
+      "famille": "monde",
+      "nom": "Ayurvédique rééquilibrant",
+      "origine": "Inde",
+      "envies": [
+        "detente",
+        "energie"
+      ],
+      "image": "grok/soin-huile",
+      "accroche": "Le massage traditionnel indien : lissages et pétrissages alternés pour détendre le corps et apaiser l'esprit.",
+      "tarifs": [
+        [
+          "30 min",
+          40
+        ],
+        [
+          "1 h",
+          70
+        ]
+      ]
+    },
+    {
+      "id": "africain",
+      "famille": "monde",
+      "nom": "Africain",
+      "origine": "Afrique",
+      "envies": [
+        "energie"
+      ],
+      "accroche": "Tonique, relaxant et dynamisant : des séquences rythmées de percussions, de vibrations et de pressions.",
+      "pratique": "Au son de musiques traditionnelles",
+      "tarifs": [
+        [
+          "30 min",
+          40
+        ],
+        [
+          "1 h",
+          70
+        ]
+      ]
+    },
+    {
+      "id": "khmer",
+      "famille": "monde",
+      "nom": "Khmer",
+      "origine": "Cambodge",
+      "envies": [
+        "energie"
+      ],
+      "image": "cabinet",
+      "accroche": "Pressions, pétrissages et étirements doux pour retrouver souplesse et mobilité.",
+      "pratique": "Habillé, sur futon",
+      "tarifs": [
+        [
+          "1 h",
+          70
+        ],
+        [
+          "1 h 30",
+          100
+        ]
+      ]
+    },
+    {
+      "id": "thai-pieds",
+      "famille": "monde",
+      "nom": "Thaï des pieds",
+      "origine": "Thaïlande",
+      "envies": [
+        "energie",
+        "detente"
+      ],
+      "image": "grok/soin-pieds",
+      "accroche": "Du bout des pieds jusqu'aux genoux, un rituel à la fois tonique et profondément relaxant.",
+      "pratique": "Avec un bâtonnet de bois",
+      "tarifs": [
+        [
+          "45 min",
+          55
+        ]
+      ]
+    },
+    {
+      "id": "cranien",
+      "famille": "monde",
+      "nom": "Crânien",
+      "origine": "Inde",
+      "envies": [
+        "detente"
+      ],
+      "image": "grok/soin-coco",
+      "accroche": "La tête, le visage et la nuque : une détente immédiate, même sur une pause courte.",
+      "tarifs": [
+        [
+          "20 min",
+          30
+        ],
+        [
+          "30 min",
+          40
+        ],
+        [
+          "45 min",
+          55
+        ]
+      ]
+    },
+    {
+      "id": "shiroshampi",
+      "famille": "monde",
+      "nom": "Shiroshampi",
+      "origine": "Inde",
+      "envies": [
+        "detente",
+        "energie"
+      ],
+      "accroche": "Visage, nuque, cuir chevelu et haut du dos, en alternant douceur et gestes plus appuyés, pour repartir l'esprit clair.",
+      "pratique": "Assis, à l'huile de coco",
+      "tarifs": [
+        [
+          "45 min",
+          55
+        ]
+      ]
+    },
+    {
+      "id": "bols-tibetains",
+      "famille": "monde",
+      "nom": "Sonore aux bols tibétains",
+      "origine": "Tibet",
+      "envies": [
+        "detente"
+      ],
+      "image": "grok/soin-bol",
+      "phare": true,
+      "son": true,
+      "accroche": "Les bols chantants posés près du corps diffusent leurs vibrations : un lâcher-prise par le son.",
+      "pratique": "Habillé, allongé sur la table",
+      "tarifs": [
+        [
+          "30 min",
+          40
+        ],
+        [
+          "45 min",
+          55
+        ]
+      ]
+    },
+    {
+      "id": "prenatal",
+      "famille": "monde",
+      "nom": "Prénatal",
+      "origine": "Future maman",
+      "envies": [
+        "maman"
+      ],
+      "image": "grok/soin-maman",
+      "accroche": "Doux et enveloppant, un moment de détente partagé entre la future maman et son bébé.",
+      "pratique": "Surtout sur le côté, dès le 4e mois de grossesse",
+      "tarifs": [
+        [
+          "30 min",
+          40
+        ],
+        [
+          "1 h",
+          70
+        ]
+      ]
+    },
+    {
+      "id": "enfant",
+      "famille": "monde",
+      "nom": "Massage enfant",
+      "origine": "Pour les plus jeunes",
+      "envies": [
+        "enfant"
+      ],
+      "accroche": "Les enfants découvrent le monde par le toucher : un massage tout en douceur pour relâcher les tensions.",
+      "tarifs": [
+        [
+          "15 min",
+          20
+        ],
+        [
+          "30 min",
+          30
+        ]
+      ]
+    },
+    {
+      "id": "kobido",
+      "famille": "visage",
+      "nom": "Kobido",
+      "origine": "Japon",
+      "envies": [
+        "visage"
+      ],
+      "image": "grok/soin-visage",
+      "phare": true,
+      "accroche": "Le rituel japonais du visage : des gestes rapides et précis sur le visage, le cou et le buste.",
+      "pratique": "Visage, cou et buste",
+      "tarifs": [
+        [
+          "45 min",
+          60
+        ],
+        [
+          "Cure de 3 séances",
+          165
+        ]
+      ]
+    },
+    {
+      "id": "kobido-perfect-age",
+      "famille": "visage",
+      "nom": "Kobido « Perfect Age »",
+      "origine": "Japon",
+      "envies": [
+        "visage"
+      ],
+      "accroche": "Le Kobido dans une version longue, pour prendre le temps.",
+      "tarifs": [
+        [
+          "1 h",
+          75
+        ]
+      ]
+    },
+    {
+      "id": "soin-jeunesse",
+      "famille": "visage",
+      "nom": "Soin jeunesse",
+      "origine": "Japon",
+      "envies": [
+        "visage"
+      ],
+      "accroche": "Le soin complet en cinq temps : purification de la peau, rouleaux et gua sha, Kobido, shiatsu du visage et massage crânien.",
+      "pratique": "Jade, quartz rose ou améthyste",
+      "tarifs": [
+        [
+          "1 h 30",
+          110
+        ]
+      ]
+    },
+    {
+      "id": "massage-silhouette",
+      "famille": "silhouette",
+      "nom": "Massage silhouette",
+      "origine": "Jambes, ventre, hanches",
+      "envies": [
+        "silhouette"
+      ],
+      "image": "grok/soin-madero",
+      "accroche": "Un travail précis et vigoureux : frictions, palper-rouler, percussions et pétrissages, complétés par une ventouse souple.",
+      "pratique": "Jambes, fesses, hanches et ventre",
+      "tarifs": [
+        [
+          "45 min",
+          65
+        ],
+        [
+          "1 h",
+          80
+        ]
+      ]
+    },
+    {
+      "id": "maderotherapie",
+      "famille": "silhouette",
+      "nom": "Madérothérapie",
+      "origine": "Outils de bois",
+      "envies": [
+        "silhouette"
+      ],
+      "image": "madero",
+      "phare": true,
+      "accroche": "Des outils de bois sculpté qui roulent, lissent et modèlent, zone par zone.",
+      "tarifs": [
+        [
+          "Ventre et hanches",
+          50
+        ],
+        [
+          "Jambes et fesses",
+          75
+        ],
+        [
+          "Corps",
+          95
+        ],
+        [
+          "Corps et bras",
+          110
+        ]
+      ]
+    }
+  ],
+  "aussi": [
+    {
+      "nom": "L'art du Fascia",
+      "famille": "visage",
+      "prix": 80
+    },
+    {
+      "nom": "Soin IntraGlow Lift",
+      "famille": "visage",
+      "prix": 120
+    },
+    {
+      "nom": "Madérothérapie du visage",
+      "famille": "visage",
+      "prix": 65
+    },
+    {
+      "nom": "Soin Shape Drain Expert",
+      "famille": "silhouette",
+      "prix": 120
+    }
+  ],
+  "cures": [
+    {
+      "nom": "Kobido",
+      "detail": "3 séances",
+      "prix": 165
+    },
+    {
+      "nom": "Kobido",
+      "detail": "10 séances",
+      "prix": 525
+    },
+    {
+      "nom": "Kobido « Perfect Age »",
+      "detail": "10 séances",
+      "prix": 690
+    },
+    {
+      "nom": "Cure mixte visage",
+      "detail": "10 séances",
+      "prix": 575
+    },
+    {
+      "nom": "Madérothérapie du visage",
+      "detail": "10 séances",
+      "prix": 590
+    },
+    {
+      "nom": "Massage silhouette 45 min",
+      "detail": "10 séances",
+      "prix": 590
+    },
+    {
+      "nom": "Massage silhouette 1 h",
+      "detail": "10 séances",
+      "prix": 720
+    }
+  ],
+  "forfaits": [
+    {
+      "nom": "Forfait 5 heures",
+      "detail": "Massages bien-être, valable 6 mois",
+      "prix": 325
+    },
+    {
+      "nom": "Forfait 10 heures",
+      "detail": "Massages bien-être, valable 12 mois",
+      "prix": 610
+    }
+  ],
+  "cadeaux": [
+    {
+      "id": "cranien-30",
+      "libelle": "Crânien, 30 min",
+      "prix": 40
+    },
+    {
+      "id": "suedois-1h",
+      "libelle": "Suédois-Californien, 1 h",
+      "prix": 70
+    },
+    {
+      "id": "pierres-1h",
+      "libelle": "Pierres chaudes, 1 h",
+      "prix": 75
+    },
+    {
+      "id": "kobido",
+      "libelle": "Kobido, 45 min",
+      "prix": 60
+    },
+    {
+      "id": "suedois-1h30",
+      "libelle": "Suédois-Californien, 1 h 30",
+      "prix": 100
+    }
+  ]
+}

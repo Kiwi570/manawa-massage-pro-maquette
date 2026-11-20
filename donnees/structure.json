@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Manawa Massage Pro",
+  "description": "Massages bien-être du monde, Kobido et soins silhouette, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest.",
+  "telephone": "+33768328145",
+  "email": "manawa_massage@outlook.fr",
+  "address": { "@type": "PostalAddress", "streetAddress": "31 bis rue de Dixmude", "postalCode": "29480", "addressLocality": "Le Relecq-Kerhuon", "addressCountry": "FR" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "09:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "09:00", "closes": "19:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "09:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "18:00" }
+  ],
+  "priceRange": "20 € – 130 €",
+  "sameAs": ["https://www.facebook.com/ManawaMassagePro/", "https://www.instagram.com/ManawaMassagePro/"]
+}

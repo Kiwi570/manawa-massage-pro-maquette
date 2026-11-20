@@ -1,0 +1,28 @@
+{
+  "nom": "Manawa Massage Pro",
+  "adresse": "https://manawa-massage-pro-maquette.vercel.app",
+  "siteActuel": "www.manawamassagepro.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "soins", "marie", "offrir", "contact"],
+  "actionEntete": { "externe": "https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" },
+  "couleurs": { "fond": "#F4EEE5", "texte": "#1D1916", "voile": "#1D1916", "ouverture": "#1D1916", "menu": "#F4EEE5", "theme": "#F4EEE5" },
+  "formeVoile": "iris",
+  "contact": {
+    "telephone": "07 68 32 81 45",
+    "telephoneLien": "+33768328145",
+    "email": "manawa_massage@outlook.fr",
+    "adresse": "31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon",
+    "adresseCourte": "31 bis rue de Dixmude, Le Relecq-Kerhuon"
+  },
+  "liens": {
+    "planity": "https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon",
+    "sumup": "https://giftcard.sumup.io/order/G2EHXRP/manawa-massage-pro",
+    "facebook": "https://m.facebook.com/ManawaMassagePro/",
+    "instagram": "https://instagram.com/ManawaMassagePro/",
+    "photographe": "https://www.instagram.com/celinecousinexpressionl/"
+  },
+  "polices": ["/assets/fonts/fraunces-latin-soft-normal.woff2", "/assets/fonts/figtree-latin-wght-normal.woff2"],
+  "imagePartage": "mains-epaule-1280.webp",
+  "curseur": false
+}

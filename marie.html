@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-page="marie">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marie et le cabinet · Manawa Massage Pro</title>
+<meta name="description" content="Marie, praticienne des massages du monde, vous reçoit au Relecq-Kerhuon ou vient chez vous. Son parcours, son cabinet, sa déontologie.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://manawa-massage-pro-maquette.vercel.app/marie">
+<style>:root{--fond:#F4EEE5;--texte:#1D1916;--voile-fond:#1D1916;--ouverture-fond:#1D1916;--menu-fond:#F4EEE5}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE5">
+<link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Manawa Massage Pro">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Marie et le cabinet · Manawa Massage Pro">
+<meta property="og:description" content="Marie, praticienne des massages du monde, vous reçoit au Relecq-Kerhuon ou vient chez vous. Son parcours, son cabinet, sa déontologie.">
+<meta property="og:url" content="https://manawa-massage-pro-maquette.vercel.app/marie">
+<meta property="og:image" content="https://manawa-massage-pro-maquette.vercel.app/assets/partage/marie-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Marie au travail dans son cabinet">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Manawa Massage Pro","description":"Massages bien-être du monde, Kobido et soins silhouette, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest.","telephone":"+33768328145","email":"manawa_massage@outlook.fr","address":{"@type":"PostalAddress","streetAddress":"31 bis rue de Dixmude","postalCode":"29480","addressLocality":"Le Relecq-Kerhuon","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"09:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"09:00","closes":"18:00"}],"priceRange":"20 € – 130 €","sameAs":["https://www.facebook.com/ManawaMassagePro/","https://www.instagram.com/ManawaMassagePro/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-372.png" alt="" width="186" height="73"><span data-voile-libelle>Marie &amp; le cabinet</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-scene">
+    <svg class="parenthese parenthese--g ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <img class="ouverture-logo" src="/assets/images/logo-clair-372.png" alt="" width="372" height="145" data-ouverture-objet>
+    <svg class="parenthese parenthese--d ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+  <p class="ouverture-ligne">Massages du monde</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Manawa Massage Pro, Accueil" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-372.png" alt="Manawa Massage Pro" width="372" height="145">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/soins" data-libelle="Les soins">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet" aria-current="page">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton" data-survol="magnetique">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/soins" class="menu-lien" data-libelle="Les soins">Les soins</a></li><li style="--i:2"><a href="/marie" class="menu-lien" data-libelle="Marie &amp; le cabinet" aria-current="page">Marie &amp; le cabinet</a></li><li style="--i:3"><a href="/offrir" class="menu-lien" data-libelle="Offrir">Offrir</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a> <a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+  <p class="menu-adresse">31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="marie-tete fond-sombre" id="debut">
+  <div class="marie-tete-visuel">
+    <figure class="media marie-tete-media" data-fx="onde" data-iris-centre style="--cadrage:53% 38%">
+  <picture>
+    <img src="/assets/images/marie-au-travail-1600.webp" srcset="/assets/images/marie-au-travail-1024.webp 1024w, /assets/images/marie-au-travail-1168.webp 1168w, /assets/images/marie-au-travail-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Marie masse le bras d&#39;une cliente au cabinet, dans la pénombre" width="1600" height="2000" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <span class="chaleur chaleur--sombre" data-chaleur data-effet="chaleur" data-souris aria-hidden="true" data-audit-ignorer></span>
+  </div>
+  <div class="marie-tete-texte">
+    <p class="surtitre hero-anime" data-anime="gsap">Votre praticienne</p>
+    <h1 class="page-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">Marie,</span></span><span class="ligne-masque"><span class="hero-ligne">praticienne des</span></span><span class="ligne-masque"><span class="hero-ligne"><em>massages du monde</em></span></span></h1>
+    <p class="hero-intro hero-anime masque-ecran-bas" data-anime="gsap">Au cabinet du Relecq-Kerhuon ou chez vous, Marie compose chaque séance avec vous, avec douceur et professionnalisme.</p>
+    <p class="hero-actions hero-anime" data-anime="gsap"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--or" data-action-principale>Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><a class="bouton bouton--contour" href="tel:+33768328145">Appeler</a></p>
+    <p class="hero-info hero-anime" data-anime="gsap" data-info-cle>Au cabinet ou à domicile · 5,0 sur 5 sur Planity</p>
+  </div>
+</section>
+<section class="parcours" id="parcours">
+  <div class="conteneur parcours-grille">
+    <div class="parcours-texte">
+      <p class="surtitre">Son parcours</p>
+      <h2 data-anime="lignes" data-grille="fil">Contribuer au bien-être des autres.</h2>
+      <p data-anime>L&#39;envie de Marie est née d&#39;un désir simple : contribuer à l&#39;épanouissement des autres. Elle l&#39;a nourrie dans une École des Arts du Bien-Être, où elle s&#39;est perfectionnée aux massages du monde.</p>
+      <p data-anime>Aujourd&#39;hui, elle propose des soins relaxants, énergétiques ou spécifiques, du Suédois-Californien au Kobido, de la madérothérapie au massage prénatal.</p>
+      <blockquote class="grande-citation" data-anime="mots"><p>« Nous avons de plus en plus besoin de prendre soin de nous, de souffler et de nous sentir bien. »</p></blockquote>
+    </div>
+    <div class="parcours-photos">
+      <figure class="media parcours-grande" data-fx="parallaxe" style="--cadrage:40% 45%">
+  <picture>
+    <img src="/assets/images/marie-jambe-1600.webp" srcset="/assets/images/marie-jambe-1024.webp 1024w, /assets/images/marie-jambe-1168.webp 1168w, /assets/images/marie-jambe-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marie masse une jambe au jardin, en noir et blanc" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media parcours-petite" data-fx="vitesse" style="--cadrage:40% 40%">
+  <picture>
+    <img src="/assets/images/marie-portrait-480.webp" srcset="/assets/images/marie-portrait-480.webp 480w" sizes="(max-width: 760px) 44vw, 16vw" alt="Portrait de Marie, souriante" width="480" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="credit">Photos de Marie et du cabinet : Céline Cousin</p>
+    </div>
+  </div>
+</section>
+<section class="cabinet fond-sable" id="cabinet">
+  <div class="conteneur deux-colonnes">
+    <figure class="media cabinet-media" data-anime="rideau" style="--cadrage:44% 42%">
+  <picture>
+    <img src="/assets/images/cabinet-1600.webp" srcset="/assets/images/cabinet-800.webp 800w, /assets/images/cabinet-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 50vw" alt="Le cabinet, mur ocre et étagères en hexagone, pendant un massage khmer" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <p class="surtitre">Le cabinet</p>
+      <h2 data-anime="lignes">Un cabinet chaleureux, à deux pas de Brest.</h2>
+      <p data-anime>Mur ocre, lumière douce, linge propre : le cabinet du Relecq-Kerhuon est pensé pour que la détente commence dès la porte passée.</p>
+      <p class="lieu-adresse" data-anime>31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+      <p data-anime><span class="statut " data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+      <p data-anime><a href="/contact#horaires" class="lien-fleche" data-libelle="Contact">Venir au cabinet</a></p>
+    </div>
+  </div>
+</section>
+<section class="domicile" id="domicile">
+  <div class="conteneur deux-colonnes deux-colonnes--inverse">
+    <figure class="media domicile-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/domicile-1600.webp" srcset="/assets/images/grok/domicile-800.webp 800w, /assets/images/grok/domicile-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 50vw" alt="Salon chaleureux où une table de massage est installée" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre">À domicile</p>
+      <h2 data-anime="lignes">Ou le cocon de votre maison.</h2>
+      <p data-anime>Pas besoin de vous déplacer : Marie vient chez vous avec tout le matériel. Vous restez en peignoir et profitez du soin pendant et après son départ.</p>
+      <p class="lieu-note" data-anime>Au-delà de quelques kilomètres du cabinet, des frais de déplacement s&#39;ajoutent : ils vous sont indiqués à la réservation.</p>
+    </div>
+  </div>
+</section>
+<section class="deontologie fond-sable" id="deontologie">
+  <div class="conteneur deonto-grille">
+    <div>
+      <p class="surtitre">Déontologie</p>
+      <h2 data-anime="lignes">Un cadre clair, pour lâcher prise.</h2>
+      <p data-anime>Marie s&#39;engage à respecter le code de déontologie des praticiens bien-être.</p>
+      <ol class="engagements" data-anime="cascade">
+        <li>Le respect de votre vie privée</li><li>L&#39;hygiène corporelle</li><li>Des produits naturels</li><li>La durée effective du massage</li>
+      </ol>
+      <p class="confiance-cadre" data-anime>Des soins de bien-être, sans aucun caractère thérapeutique, sexuel ou érotique.</p>
+      <p data-anime>Respect mutuel, échange, écoute, discrétion et bien-être guident chaque séance.</p>
+      <p class="ffmbe" data-anime><img src="/assets/images/ffmbe.jpg" alt="Logo de la Fédération Française de Massages Bien-être" width="800" height="210" loading="lazy"></p>
+    </div>
+    <figure class="media deonto-media" data-fx="parallaxe" style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/marie-jardin-480.webp" srcset="/assets/images/marie-jardin-480.webp 480w" sizes="(max-width: 760px) 70vw, 24vw" alt="Marie assise en méditation dans son jardin" width="480" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="fin fond-sombre" id="fin">
+  <div class="fin-scene" data-visuel>
+    <svg class="parenthese parenthese--g fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <div class="fin-texte">
+      <h2 class="fin-titre" data-anime="lignes">Rendez-vous<br><em>avec Marie.</em></h2>
+      <p data-anime>Réservez en ligne sur Planity, ou appelez-la pour composer votre séance.</p>
+      <p class="fin-actions" data-anime><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--or" data-survol="magnetique">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+      <p class="fin-statut" data-anime><span class="statut " data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <svg class="parenthese parenthese--d fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-372.png" alt="Manawa Massage Pro" width="372" height="145" loading="lazy">
+      <p>31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+      <p><a href="tel:+33768328145">07 68 32 81 45</a><br><span class="email">manawa_massage@outlook.fr</span></p>
+      <p><span class="statut statut--pied" data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/soins" data-libelle="Les soins">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet" aria-current="page">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Manawa</p>
+      <ul>
+        <li><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://instagram.com/ManawaMassagePro/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://m.facebook.com/ManawaMassagePro/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter<br>Politique de confidentialité · à compléter</p>
+    <p>Micro-entreprise, SIRET 848 217 220 00021<br>Photos de Marie et du cabinet : Céline Cousin</p>
+    <p>Maquette de démonstration : réservation, carte cadeau et formulaire sont simulés ou renvoient vers Planity et SumUp.</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33768328145">Appeler</a>
+  <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+</div>
+<script type="application/json" id="donnees-horaires">[{"jour":1,"nom":"Lundi","plages":[["09:00","18:00"]]},{"jour":2,"nom":"Mardi","plages":[]},{"jour":3,"nom":"Mercredi","plages":[["09:00","19:30"]]},{"jour":4,"nom":"Jeudi","plages":[["09:00","17:00"]]},{"jour":5,"nom":"Vendredi","plages":[["09:00","18:00"]]},{"jour":6,"nom":"Samedi","plages":[]},{"jour":0,"nom":"Dimanche","plages":[]}]</script>
+</body>
+</html>

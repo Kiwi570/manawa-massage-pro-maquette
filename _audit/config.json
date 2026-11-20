@@ -1,0 +1,6 @@
+{
+  "siteActuel": "www.manawamassagepro.com",
+  "pagesTypes": ["/", "/soins", "/marie", "/offrir", "/contact"],
+  "effets": ["parentheses", "chaleur", "envies", "rangee", "carte-cadeau", "parentheses-fin", "bol"],
+  "grille": { "dispenses": {} }
+}

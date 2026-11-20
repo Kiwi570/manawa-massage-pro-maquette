@@ -1,0 +1,1619 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "assets/images/logo.png",
+    "role": "logo",
+    "alt": "Manawa Massage, massages du monde",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "cdb7af82c79f12d7",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 8032,
+      "logo-480.webp": 18904
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Manawa Massage, massages du monde\", sizes: '240px' })"
+  },
+  "mains-epaule": {
+    "nom": "mains-epaule",
+    "source": "_suivi/recu/site/manawa-massage-bien-etre-2.png",
+    "role": "galerie",
+    "alt": "La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "140650b88255f29b",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 422,
+      "top": 0,
+      "width": 1152,
+      "height": 1440,
+      "source": [
+        1920,
+        1440
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,39 fois (source de 1152 px après recadrage)"
+    ],
+    "fichiers": [
+      "mains-epaule-1024.webp",
+      "mains-epaule-1168.webp",
+      "mains-epaule-1600.webp"
+    ],
+    "poids": {
+      "mains-epaule-1024.webp": 65830,
+      "mains-epaule-1168.webp": 78824,
+      "mains-epaule-1600.webp": 126032
+    },
+    "media": "c.media({ nom: 'mains-epaule', alt: \"La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "marie-au-travail": {
+    "nom": "marie-au-travail",
+    "source": "_suivi/recu/site/manawa-massage-bien-etre.jpg",
+    "role": "galerie",
+    "alt": "Marie masse le bras d'une cliente au cabinet, dans la pénombre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "04c73504440de6e7",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "53% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 3.4,
+      "l": 95.8,
+      "h": 96.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 120,
+      "width": 1440,
+      "height": 1800,
+      "source": [
+        1440,
+        1920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 1440 px après recadrage)"
+    ],
+    "fichiers": [
+      "marie-au-travail-1024.webp",
+      "marie-au-travail-1168.webp",
+      "marie-au-travail-1600.webp"
+    ],
+    "poids": {
+      "marie-au-travail-1024.webp": 40120,
+      "marie-au-travail-1168.webp": 50390,
+      "marie-au-travail-1600.webp": 82934
+    },
+    "media": "c.media({ nom: 'marie-au-travail', alt: \"Marie masse le bras d'une cliente au cabinet, dans la pénombre\", cadrage: '53% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "marie-portrait": {
+    "nom": "marie-portrait",
+    "source": "_suivi/recu/site/portrait-manawa-massage-pro.jpg",
+    "role": "portrait",
+    "alt": "Portrait de Marie, praticienne de Manawa Massage, souriante",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6bd175ce3d99c0d9",
+    "ratio": "4:5",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "42% 45%",
+    "sujet": {
+      "x": 23.2,
+      "y": 21.9,
+      "l": 58.1,
+      "h": 78.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 975,
+      "height": 1219,
+      "source": [
+        1018,
+        1219
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1018 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "marie-portrait-480.webp"
+    ],
+    "poids": {
+      "marie-portrait-480.webp": 17228
+    },
+    "media": "c.media({ nom: 'marie-portrait', alt: \"Portrait de Marie, praticienne de Manawa Massage, souriante\", cadrage: '42% 45%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "marie-jambe": {
+    "nom": "marie-jambe",
+    "source": "_suivi/recu/site/manawa-massage-bien-etre-3.jpg",
+    "role": "galerie",
+    "alt": "Marie masse une jambe au jardin, en noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ce512122a981aea8",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "40% 50%",
+    "sujet": {
+      "x": 13,
+      "y": 3.1,
+      "l": 87,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 7,
+      "width": 1372,
+      "height": 1715,
+      "source": [
+        1372,
+        1920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1372 px après recadrage)"
+    ],
+    "fichiers": [
+      "marie-jambe-1024.webp",
+      "marie-jambe-1168.webp",
+      "marie-jambe-1600.webp"
+    ],
+    "poids": {
+      "marie-jambe-1024.webp": 68818,
+      "marie-jambe-1168.webp": 80884,
+      "marie-jambe-1600.webp": 117810
+    },
+    "media": "c.media({ nom: 'marie-jambe', alt: \"Marie masse une jambe au jardin, en noir et blanc\", cadrage: '40% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "cabinet": {
+    "nom": "cabinet",
+    "source": "_suivi/recu/site/massage-khmer-manawamassagepro-brest.jpg",
+    "role": "produit",
+    "alt": "Le cabinet du Relecq-Kerhuon, mur ocre et étagères en hexagone, pendant un massage khmer",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8d3ab5dd57f29143",
+    "ratio": "3:2",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 4.8,
+      "l": 98.4,
+      "h": 95.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1728,
+      "height": 1152,
+      "source": [
+        1754,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cabinet-800.webp",
+      "cabinet-1600.webp"
+    ],
+    "poids": {
+      "cabinet-800.webp": 37010,
+      "cabinet-1600.webp": 120418
+    },
+    "media": "c.media({ nom: 'cabinet', alt: \"Le cabinet du Relecq-Kerhuon, mur ocre et étagères en hexagone, pendant un massage khmer\", cadrage: '45% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "madero": {
+    "nom": "madero",
+    "source": "_suivi/recu/site/maderotherapie-manawa-massage.jpg",
+    "role": "vignette",
+    "alt": "Ventouse de bois de madérothérapie sur une peau huilée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a08e93a34ec99086",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 54,
+      "top": 0,
+      "width": 864,
+      "height": 1080,
+      "source": [
+        1080,
+        1080
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1080 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "madero-640.webp",
+      "madero-800.webp"
+    ],
+    "poids": {
+      "madero-640.webp": 19960,
+      "madero-800.webp": 27792
+    },
+    "media": "c.media({ nom: 'madero', alt: \"Ventouse de bois de madérothérapie sur une peau huilée\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "marie-jardin": {
+    "nom": "marie-jardin",
+    "source": "_suivi/recu/site/deontologie-manawamassagepro-france.jpg",
+    "role": "portrait",
+    "alt": "Marie assise en méditation dans son jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3cc9282fc2f705fa",
+    "ratio": "4:5",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 125,
+      "width": 1500,
+      "height": 1875,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "marie-jardin-480.webp"
+    ],
+    "poids": {
+      "marie-jardin-480.webp": 52568
+    },
+    "media": "c.media({ nom: 'marie-jardin', alt: \"Marie assise en méditation dans son jardin\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grok/soins-ouverture": {
+    "nom": "grok/soins-ouverture",
+    "source": "_suivi/recu/grok/soins-ouverture.jpg",
+    "role": "section-fond",
+    "alt": "Galets, huile, rouleau de quartz et linge sur une table de chêne",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "37d242bc9ebf40c9",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "59% 58%"
+    },
+    "cadrage": "63% 48%",
+    "sujet": {
+      "x": 46.9,
+      "y": 7.7,
+      "l": 53.1,
+      "h": 92.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.76,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 126,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/soins-ouverture-640.webp",
+      "grok/soins-ouverture-1280.webp",
+      "grok/soins-ouverture-1920.webp",
+      "grok/soins-ouverture-mobile-640.webp",
+      "grok/soins-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/soins-ouverture-640.webp": 33814,
+      "grok/soins-ouverture-1280.webp": 144752,
+      "grok/soins-ouverture-1920.webp": 235374,
+      "grok/soins-ouverture-mobile-640.webp": 89974,
+      "grok/soins-ouverture-mobile-1080.webp": 172992
+    },
+    "media": "c.media({ nom: 'grok/soins-ouverture', alt: \"Galets, huile, rouleau de quartz et linge sur une table de chêne\", cadrage: '63% 48%', cadrageMobile: '59% 58%', sizes: '100vw' })"
+  },
+  "grok/soin-pierres": {
+    "nom": "grok/soin-pierres",
+    "source": "_suivi/recu/grok/soin-pierres.jpg",
+    "role": "carte-service",
+    "alt": "Galets de basalte qui chauffent dans un bac de céramique",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "742dfd82f7bfe525",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "52% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 74,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-pierres-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-pierres-1168.webp": 58356
+    },
+    "media": "c.media({ nom: 'grok/soin-pierres', alt: \"Galets de basalte qui chauffent dans un bac de céramique\", cadrage: '52% 60%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-visage": {
+    "nom": "grok/soin-visage",
+    "source": "_suivi/recu/grok/soin-visage.jpg",
+    "role": "carte-service",
+    "alt": "Rouleaux de quartz rose et de jade et pierre de gua sha sur du lin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "ae288ede992f727e",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "46% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 5,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-visage-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-visage-1168.webp": 63986
+    },
+    "media": "c.media({ nom: 'grok/soin-visage', alt: \"Rouleaux de quartz rose et de jade et pierre de gua sha sur du lin\", cadrage: '46% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-bol": {
+    "nom": "grok/soin-bol",
+    "source": "_suivi/recu/grok/soin-bol.jpg",
+    "role": "carte-service",
+    "alt": "Bol chantant de bronze et son maillet sur un linge",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "03f6aa0dc9fff4e4",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "58% 55%",
+    "sujet": {
+      "x": 25,
+      "y": 26.8,
+      "l": 65.6,
+      "h": 58.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.81,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.63,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 74,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-bol-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-bol-1168.webp": 39666
+    },
+    "media": "c.media({ nom: 'grok/soin-bol', alt: \"Bol chantant de bronze et son maillet sur un linge\", cadrage: '58% 55%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-lomi": {
+    "nom": "grok/soin-lomi",
+    "source": "_suivi/recu/grok/soin-lomi.jpg",
+    "role": "carte-service",
+    "alt": "Fleur de frangipanier et bol d'huile sur une serviette",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a74c5902f051528b",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "55% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 26,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-lomi-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-lomi-1168.webp": 45310
+    },
+    "media": "c.media({ nom: 'grok/soin-lomi', alt: \"Fleur de frangipanier et bol d'huile sur une serviette\", cadrage: '55% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-table": {
+    "nom": "grok/soin-table",
+    "source": "_suivi/recu/grok/soin-table.jpg",
+    "role": "carte-service",
+    "alt": "Table de massage habillée de linge blanc dans une pièce calme",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "2d72ff0d0b7e4d65",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "44% 46%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 90.6,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-table-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-table-1168.webp": 51148
+    },
+    "media": "c.media({ nom: 'grok/soin-table', alt: \"Table de massage habillée de linge blanc dans une pièce calme\", cadrage: '44% 46%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-coco": {
+    "nom": "grok/soin-coco",
+    "source": "_suivi/recu/grok/soin-coco.jpg",
+    "role": "carte-service",
+    "alt": "Noix de coco ouverte et bol d'huile de coco",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c6f8f916acdd75d1",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "44% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-coco-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-coco-1168.webp": 81818
+    },
+    "media": "c.media({ nom: 'grok/soin-coco', alt: \"Noix de coco ouverte et bol d'huile de coco\", cadrage: '44% 45%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-madero": {
+    "nom": "grok/soin-madero",
+    "source": "_suivi/recu/grok/soin-madero.jpg",
+    "role": "carte-service",
+    "alt": "Outils de bois de madérothérapie posés sur une serviette",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "2ab1c3b4c5f8ea68",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-madero-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-madero-1168.webp": 42770
+    },
+    "media": "c.media({ nom: 'grok/soin-madero', alt: \"Outils de bois de madérothérapie posés sur une serviette\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-maman": {
+    "nom": "grok/soin-maman",
+    "source": "_suivi/recu/grok/soin-maman.jpg",
+    "role": "carte-service",
+    "alt": "Coussins disposés sur la table pour un massage allongé sur le côté",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c797f7a5a11f188a",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "60% 48%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-maman-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-maman-1168.webp": 57046
+    },
+    "media": "c.media({ nom: 'grok/soin-maman', alt: \"Coussins disposés sur la table pour un massage allongé sur le côté\", cadrage: '60% 48%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-huile": {
+    "nom": "grok/soin-huile",
+    "source": "_suivi/recu/grok/soin-huile.jpg",
+    "role": "carte-service",
+    "alt": "Bol de cuivre d'huile chaude et fleurs séchées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a42f28c2278d3f81",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "54% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 26,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-huile-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-huile-1168.webp": 70186
+    },
+    "media": "c.media({ nom: 'grok/soin-huile', alt: \"Bol de cuivre d'huile chaude et fleurs séchées\", cadrage: '54% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/soin-pieds": {
+    "nom": "grok/soin-pieds",
+    "source": "_suivi/recu/grok/soin-pieds.jpg",
+    "role": "carte-service",
+    "alt": "Bâtonnet de bois et baume sur un linge plié",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3997b2a5d21d077a",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 16,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soin-pieds-1168.webp"
+    ],
+    "poids": {
+      "grok/soin-pieds-1168.webp": 64926
+    },
+    "media": "c.media({ nom: 'grok/soin-pieds', alt: \"Bâtonnet de bois et baume sur un linge plié\", cadrage: '52% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/domicile": {
+    "nom": "grok/domicile",
+    "source": "_suivi/recu/grok/domicile.jpg",
+    "role": "produit",
+    "alt": "Salon chaleureux où une table de massage est installée, peignoir sur le fauteuil",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "f6f3292aa4445959",
+    "ratio": "3:2",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "63% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 93.8,
+      "h": 82.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/domicile-800.webp",
+      "grok/domicile-1600.webp"
+    ],
+    "poids": {
+      "grok/domicile-800.webp": 85202,
+      "grok/domicile-1600.webp": 222836
+    },
+    "media": "c.media({ nom: 'grok/domicile', alt: \"Salon chaleureux où une table de massage est installée, peignoir sur le fauteuil\", cadrage: '63% 38%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/offrir-ouverture": {
+    "nom": "grok/offrir-ouverture",
+    "source": "_suivi/recu/grok/offrir-ouverture.jpg",
+    "role": "galerie",
+    "alt": "Enveloppe crème nouée d'un ruban de lin, brin d'eucalyptus et galet",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "bca694dc839acf22",
+    "ratio": "4:5",
+    "largeurs": [
+      800,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "43% 50%",
+    "sujet": {
+      "x": 4.5,
+      "y": 31.7,
+      "l": 81.8,
+      "h": 41
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.51,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 293,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        2086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/offrir-ouverture-800.webp",
+      "grok/offrir-ouverture-1168.webp"
+    ],
+    "poids": {
+      "grok/offrir-ouverture-800.webp": 111208,
+      "grok/offrir-ouverture-1168.webp": 184280
+    },
+    "media": "c.media({ nom: 'grok/offrir-ouverture', alt: \"Enveloppe crème nouée d'un ruban de lin, brin d'eucalyptus et galet\", cadrage: '43% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/evenement": {
+    "nom": "grok/evenement",
+    "source": "_suivi/recu/grok/evenement.jpg",
+    "role": "produit",
+    "alt": "Deux tables de massage préparées côte à côte dans un salon",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "afc9cdc79f980bd1",
+    "ratio": "3:2",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "40% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/evenement-800.webp",
+      "grok/evenement-1600.webp"
+    ],
+    "poids": {
+      "grok/evenement-800.webp": 49568,
+      "grok/evenement-1600.webp": 126868
+    },
+    "media": "c.media({ nom: 'grok/evenement', alt: \"Deux tables de massage préparées côte à côte dans un salon\", cadrage: '40% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "_suivi/recu/grok/contact-ouverture.jpg",
+    "role": "section-fond",
+    "alt": "Estuaire breton à l'aube, brume légère et barques au mouillage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "db5267a45fea0b5b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 74%"
+    },
+    "cadrage": "76% 52%",
+    "sujet": {
+      "x": 34.4,
+      "y": 13.2,
+      "l": 65.6,
+      "h": 81.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.81,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.78,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-ouverture-640.webp",
+      "grok/contact-ouverture-1280.webp",
+      "grok/contact-ouverture-1920.webp",
+      "grok/contact-ouverture-mobile-640.webp",
+      "grok/contact-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-640.webp": 24310,
+      "grok/contact-ouverture-1280.webp": 65832,
+      "grok/contact-ouverture-1920.webp": 100162,
+      "grok/contact-ouverture-mobile-640.webp": 67952,
+      "grok/contact-ouverture-mobile-1080.webp": 119332
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Estuaire breton à l'aube, brume légère et barques au mouillage\", cadrage: '76% 52%', cadrageMobile: '50% 74%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "_suivi/recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Galet noir posé sur une serviette pliée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ccfc05c9d0b844c4",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "66% 63%",
+    "sujet": {
+      "x": 43.8,
+      "y": 24.1,
+      "l": 53.1,
+      "h": 70.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.88,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/page-404-640.webp",
+      "grok/page-404-1280.webp",
+      "grok/page-404-1920.webp"
+    ],
+    "poids": {
+      "grok/page-404-640.webp": 8330,
+      "grok/page-404-1280.webp": 28862,
+      "grok/page-404-1920.webp": 50998
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Galet noir posé sur une serviette pliée\", cadrage: '66% 63%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

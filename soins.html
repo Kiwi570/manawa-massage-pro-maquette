@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-page="soins">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La carte des soins · Manawa Massage Pro</title>
+<meta name="description" content="Quatorze massages du monde, soins du visage et silhouette, avec les durées et les prix. Au cabinet du Relecq-Kerhuon ou à domicile.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://manawa-massage-pro-maquette.vercel.app/soins">
+<style>:root{--fond:#F4EEE5;--texte:#1D1916;--voile-fond:#1D1916;--ouverture-fond:#1D1916;--menu-fond:#F4EEE5}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE5">
+<link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Manawa Massage Pro">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="La carte des soins · Manawa Massage Pro">
+<meta property="og:description" content="Quatorze massages du monde, soins du visage et silhouette, avec les durées et les prix. Au cabinet du Relecq-Kerhuon ou à domicile.">
+<meta property="og:url" content="https://manawa-massage-pro-maquette.vercel.app/soins">
+<meta property="og:image" content="https://manawa-massage-pro-maquette.vercel.app/assets/partage/soins-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La carte des soins de Manawa Massage Pro">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Manawa Massage Pro","description":"Massages bien-être du monde, Kobido et soins silhouette, au cabinet du Relecq-Kerhuon ou à domicile autour de Brest.","telephone":"+33768328145","email":"manawa_massage@outlook.fr","address":{"@type":"PostalAddress","streetAddress":"31 bis rue de Dixmude","postalCode":"29480","addressLocality":"Le Relecq-Kerhuon","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"09:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"09:00","closes":"18:00"}],"priceRange":"20 € – 130 €","sameAs":["https://www.facebook.com/ManawaMassagePro/","https://www.instagram.com/ManawaMassagePro/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-372.png" alt="" width="186" height="73"><span data-voile-libelle>Les soins</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-scene">
+    <svg class="parenthese parenthese--g ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <img class="ouverture-logo" src="/assets/images/logo-clair-372.png" alt="" width="372" height="145" data-ouverture-objet>
+    <svg class="parenthese parenthese--d ouverture-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+  <p class="ouverture-ligne">Massages du monde</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Manawa Massage Pro, Accueil" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-372.png" alt="Manawa Massage Pro" width="372" height="145">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/soins" data-libelle="Les soins" aria-current="page">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton" data-survol="magnetique">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/soins" class="menu-lien" data-libelle="Les soins" aria-current="page">Les soins</a></li><li style="--i:2"><a href="/marie" class="menu-lien" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li style="--i:3"><a href="/offrir" class="menu-lien" data-libelle="Offrir">Offrir</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a> <a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+  <p class="menu-adresse">31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="soins-tete" id="debut">
+  <figure class="media soins-tete-media" data-grok data-fx="parallaxe" data-fx-force="6" data-iris-centre style="--cadrage:62% 50%;--cadrage-mobile:60% 70%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/soins-ouverture-mobile-640.webp 640w, /assets/images/grok/soins-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/soins-ouverture-1280.webp" srcset="/assets/images/grok/soins-ouverture-640.webp 640w, /assets/images/grok/soins-ouverture-1280.webp 1280w, /assets/images/grok/soins-ouverture-1920.webp 1920w" sizes="100vw" alt="Galets, huile, rouleau de quartz et linge sur une table de chêne" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur soins-tete-texte">
+    <p class="surtitre hero-anime" data-anime="gsap">La carte des soins</p>
+    <h1 class="page-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">Choisissez</span></span><span class="ligne-masque"><span class="hero-ligne">votre <em>rituel</em>.</span></span></h1>
+    <p class="hero-intro hero-anime masque-ecran-bas" data-anime="gsap">Quatorze massages du monde, des soins du visage et de la silhouette. Chaque séance est personnalisée.</p>
+    <div class="filtres puces hero-anime" data-anime="gsap" role="group" aria-label="Filtrer la carte" data-filtres data-grille="manipuler fil">
+      <button type="button" class="puce" aria-pressed="true" data-envie="tout">Tout voir</button>
+      <button type="button" class="puce" aria-pressed="false" data-envie="detente">Détente</button><button type="button" class="puce" aria-pressed="false" data-envie="energie">Énergie</button><button type="button" class="puce" aria-pressed="false" data-envie="visage">Visage</button><button type="button" class="puce" aria-pressed="false" data-envie="silhouette">Silhouette</button><button type="button" class="puce" aria-pressed="false" data-envie="maman">Future maman</button><button type="button" class="puce" aria-pressed="false" data-envie="enfant">Enfant</button>
+    </div>
+    <p class="hero-actions hero-anime" data-anime="gsap"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton" data-action-principale>Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><span class="hero-info" data-info-cle>De 20 € à 130 € · au cabinet ou à domicile</span></p>
+    <p class="visuellement-cache" role="status" data-filtres-resultat data-gabarit="{n} soins correspondent à votre choix."></p>
+  </div>
+</section>
+<section class="famille " id="monde" data-famille>
+  <div class="conteneur">
+    <div class="famille-tete">
+      <h2 data-anime="lignes">Massages du monde</h2>
+      <p data-anime>Des gestes venus de Suède, d&#39;Hawaï, d&#39;Inde, d&#39;Afrique, du Cambodge, de Thaïlande ou du Tibet, réunis dans un même cabinet.</p>
+    </div>
+    <div class="soins-grille">
+      <div class="soin-ancre" id="suedois-californien" data-envies="detente">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-table-1168.webp" srcset="/assets/images/grok/soin-table-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Table de massage habillée de linge blanc dans une pièce calme" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Suède et Californie</p>
+      <h3>Suédois-Californien</h3>
+      <p class="soin-accroche">Des gestes enveloppants, tantôt fermes, tantôt légers, qui s&#39;adressent au corps comme à l&#39;esprit.</p>
+      <ul class="tarifs"><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>45 min</span><span class="prix" data-prix>55&nbsp;€</span></li><li><span>1 h</span><span class="prix" data-prix>70&nbsp;€</span></li><li><span>1 h 30</span><span class="prix" data-prix>100&nbsp;€</span></li><li><span>2 h</span><span class="prix" data-prix>130&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="sur-mesure" data-envies="detente energie">
+  <article class="soin soin--texte">
+    <div class="soin-corps">
+      <p class="soin-origine">Composé avec vous</p>
+      <h3>Massage sur mesure</h3>
+      <p class="soin-accroche">Marie compose la séance avec vous, selon vos envies du jour et les gestes qui vous font du bien.</p>
+      <ul class="tarifs"><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>45 min</span><span class="prix" data-prix>55&nbsp;€</span></li><li><span>1 h</span><span class="prix" data-prix>70&nbsp;€</span></li><li><span>1 h 30</span><span class="prix" data-prix>100&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="lomi-lomi" data-envies="detente energie">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-lomi-1168.webp" srcset="/assets/images/grok/soin-lomi-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Fleur de frangipanier et bol d&#39;huile sur une serviette" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Hawaï</p>
+      <h3>Lomi-Lomi</h3>
+      <p class="soin-accroche">Le massage hawaïen du « Mana », le souffle vital : de longs mouvements des mains et des avant-bras, comme une vague.</p>
+      <p class="soin-pratique">Mains et avant-bras</p>
+      <ul class="tarifs"><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>1 h</span><span class="prix" data-prix>70&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="pierres-chaudes" data-envies="detente">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-pierres-1168.webp" srcset="/assets/images/grok/soin-pierres-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Galets de basalte qui chauffent dans un bac de céramique" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Amérique du Nord et Hawaï</p>
+      <h3>Pierres chaudes</h3>
+      <p class="soin-accroche">Le corps est d&#39;abord massé à la main, puis avec des galets chauffés qui glissent, pressent et réchauffent.</p>
+      <p class="soin-pratique">À la main, puis aux galets chauds</p>
+      <ul class="tarifs"><li><span>1 h</span><span class="prix" data-prix>75&nbsp;€</span></li><li><span>1 h 30</span><span class="prix" data-prix>105&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="ayurvedique" data-envies="detente energie">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-huile-1168.webp" srcset="/assets/images/grok/soin-huile-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Bol de cuivre d&#39;huile chaude et fleurs séchées" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Inde</p>
+      <h3>Ayurvédique rééquilibrant</h3>
+      <p class="soin-accroche">Le massage traditionnel indien : lissages et pétrissages alternés pour détendre le corps et apaiser l&#39;esprit.</p>
+      <ul class="tarifs"><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>1 h</span><span class="prix" data-prix>70&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="africain" data-envies="energie">
+  <article class="soin soin--texte">
+    <div class="soin-corps">
+      <p class="soin-origine">Afrique</p>
+      <h3>Africain</h3>
+      <p class="soin-accroche">Tonique, relaxant et dynamisant : des séquences rythmées de percussions, de vibrations et de pressions.</p>
+      <p class="soin-pratique">Au son de musiques traditionnelles</p>
+      <ul class="tarifs"><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>1 h</span><span class="prix" data-prix>70&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="khmer" data-envies="energie">
+  <article class="soin">
+    <figure class="media soin-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cabinet-1600.webp" srcset="/assets/images/cabinet-800.webp 800w, /assets/images/cabinet-1600.webp 1600w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Le cabinet du Relecq-Kerhuon, mur ocre et étagères en hexagone, pendant un massage khmer" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Cambodge</p>
+      <h3>Khmer</h3>
+      <p class="soin-accroche">Pressions, pétrissages et étirements doux pour retrouver souplesse et mobilité.</p>
+      <p class="soin-pratique">Habillé, sur futon</p>
+      <ul class="tarifs"><li><span>1 h</span><span class="prix" data-prix>70&nbsp;€</span></li><li><span>1 h 30</span><span class="prix" data-prix>100&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="thai-pieds" data-envies="energie detente">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-pieds-1168.webp" srcset="/assets/images/grok/soin-pieds-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Bâtonnet de bois et baume sur un linge plié" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Thaïlande</p>
+      <h3>Thaï des pieds</h3>
+      <p class="soin-accroche">Du bout des pieds jusqu&#39;aux genoux, un rituel à la fois tonique et profondément relaxant.</p>
+      <p class="soin-pratique">Avec un bâtonnet de bois</p>
+      <ul class="tarifs"><li><span>45 min</span><span class="prix" data-prix>55&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="cranien" data-envies="detente">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-coco-1168.webp" srcset="/assets/images/grok/soin-coco-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Noix de coco ouverte et bol d&#39;huile de coco" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Inde</p>
+      <h3>Crânien</h3>
+      <p class="soin-accroche">La tête, le visage et la nuque : une détente immédiate, même sur une pause courte.</p>
+      <ul class="tarifs"><li><span>20 min</span><span class="prix" data-prix>30&nbsp;€</span></li><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>45 min</span><span class="prix" data-prix>55&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="shiroshampi" data-envies="detente energie">
+  <article class="soin soin--texte">
+    <div class="soin-corps">
+      <p class="soin-origine">Inde</p>
+      <h3>Shiroshampi</h3>
+      <p class="soin-accroche">Visage, nuque, cuir chevelu et haut du dos, en alternant douceur et gestes plus appuyés, pour repartir l&#39;esprit clair.</p>
+      <p class="soin-pratique">Assis, à l&#39;huile de coco</p>
+      <ul class="tarifs"><li><span>45 min</span><span class="prix" data-prix>55&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="bols-tibetains" data-envies="detente">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-bol-1168.webp" srcset="/assets/images/grok/soin-bol-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Bol chantant de bronze et son maillet sur un linge" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Tibet</p>
+      <h3>Sonore aux bols tibétains</h3>
+      <p class="soin-accroche">Les bols chantants posés près du corps diffusent leurs vibrations : un lâcher-prise par le son.</p>
+      <p class="soin-pratique">Habillé, allongé sur la table</p>
+      <ul class="tarifs"><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>45 min</span><span class="prix" data-prix>55&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a><button type="button" class="bouton bouton--contour bouton--petit bol-bouton" data-bol data-effet="bol" data-libelle-jouer="Faire sonner le bol" data-libelle-arreter="Arrêter le son" data-libelle-en-cours="Le bol sonne"><span class="bol-ondes" aria-hidden="true"><i></i><i></i><i></i></span><span data-libelle-bouton>Faire sonner le bol</span></button></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="prenatal" data-envies="maman">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-maman-1168.webp" srcset="/assets/images/grok/soin-maman-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Coussins disposés sur la table pour un massage allongé sur le côté" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Future maman</p>
+      <h3>Prénatal</h3>
+      <p class="soin-accroche">Doux et enveloppant, un moment de détente partagé entre la future maman et son bébé.</p>
+      <p class="soin-pratique">Surtout sur le côté, dès le 4e mois de grossesse</p>
+      <ul class="tarifs"><li><span>30 min</span><span class="prix" data-prix>40&nbsp;€</span></li><li><span>1 h</span><span class="prix" data-prix>70&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="enfant" data-envies="enfant">
+  <article class="soin soin--texte">
+    <div class="soin-corps">
+      <p class="soin-origine">Pour les plus jeunes</p>
+      <h3>Massage enfant</h3>
+      <p class="soin-accroche">Les enfants découvrent le monde par le toucher : un massage tout en douceur pour relâcher les tensions.</p>
+      <ul class="tarifs"><li><span>15 min</span><span class="prix" data-prix>20&nbsp;€</span></li><li><span>30 min</span><span class="prix" data-prix>30&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div>
+    </div>
+    <p class="famille-vide" data-famille-vide hidden>Aucun soin de cette famille pour ce choix.</p>
+  </div>
+</section><section class="famille fond-sable" id="visage" data-famille>
+  <div class="conteneur">
+    <div class="famille-tete">
+      <h2 data-anime="lignes">Soins du visage</h2>
+      <p data-anime>Le rituel japonais du Kobido et ses variantes, du soin court au soin complet.</p>
+    </div>
+    <div class="soins-grille">
+      <div class="soin-ancre" id="kobido" data-envies="visage">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-visage-1168.webp" srcset="/assets/images/grok/soin-visage-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Rouleaux de quartz rose et de jade et pierre de gua sha sur du lin" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Japon</p>
+      <h3>Kobido</h3>
+      <p class="soin-accroche">Le rituel japonais du visage : des gestes rapides et précis sur le visage, le cou et le buste.</p>
+      <p class="soin-pratique">Visage, cou et buste</p>
+      <ul class="tarifs"><li><span>45 min</span><span class="prix" data-prix>60&nbsp;€</span></li><li><span>Cure de 3 séances</span><span class="prix" data-prix>165&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="kobido-perfect-age" data-envies="visage">
+  <article class="soin soin--texte">
+    <div class="soin-corps">
+      <p class="soin-origine">Japon</p>
+      <h3>Kobido « Perfect Age »</h3>
+      <p class="soin-accroche">Le Kobido dans une version longue, pour prendre le temps.</p>
+      <ul class="tarifs"><li><span>1 h</span><span class="prix" data-prix>75&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="soin-jeunesse" data-envies="visage">
+  <article class="soin soin--texte">
+    <div class="soin-corps">
+      <p class="soin-origine">Japon</p>
+      <h3>Soin jeunesse</h3>
+      <p class="soin-accroche">Le soin complet en cinq temps : purification de la peau, rouleaux et gua sha, Kobido, shiatsu du visage et massage crânien.</p>
+      <p class="soin-pratique">Jade, quartz rose ou améthyste</p>
+      <ul class="tarifs"><li><span>1 h 30</span><span class="prix" data-prix>110&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div>
+    </div>
+    <p class="famille-vide" data-famille-vide hidden>Aucun soin de cette famille pour ce choix.</p>
+    <div class="aussi">
+      <h3>Aussi au cabinet</h3>
+      <ul><li><span>L&#39;art du Fascia</span><span class="prix" data-prix>80&nbsp;€</span></li><li><span>Soin IntraGlow Lift</span><span class="prix" data-prix>120&nbsp;€</span></li><li><span>Madérothérapie du visage</span><span class="prix" data-prix>65&nbsp;€</span></li></ul>
+      <p class="aussi-note">Durée et déroulé précisés à la réservation.</p>
+    </div>
+  </div>
+</section><section class="famille " id="silhouette" data-famille>
+  <div class="conteneur">
+    <div class="famille-tete">
+      <h2 data-anime="lignes">Silhouette</h2>
+      <p data-anime>Des gestes vigoureux et des outils de bois, zone par zone, en séance ou en cure.</p>
+    </div>
+    <div class="soins-grille">
+      <div class="soin-ancre" id="massage-silhouette" data-envies="silhouette">
+  <article class="soin">
+    <figure class="media soin-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soin-madero-1168.webp" srcset="/assets/images/grok/soin-madero-1168.webp 1168w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Outils de bois de madérothérapie posés sur une serviette" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Jambes, ventre, hanches</p>
+      <h3>Massage silhouette</h3>
+      <p class="soin-accroche">Un travail précis et vigoureux : frictions, palper-rouler, percussions et pétrissages, complétés par une ventouse souple.</p>
+      <p class="soin-pratique">Jambes, fesses, hanches et ventre</p>
+      <ul class="tarifs"><li><span>45 min</span><span class="prix" data-prix>65&nbsp;€</span></li><li><span>1 h</span><span class="prix" data-prix>80&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div><div class="soin-ancre" id="maderotherapie" data-envies="silhouette">
+  <article class="soin">
+    <figure class="media soin-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/madero-800.webp" srcset="/assets/images/madero-640.webp 640w, /assets/images/madero-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw" alt="Ventouse de bois de madérothérapie sur une peau huilée" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="soin-corps">
+      <p class="soin-origine">Outils de bois</p>
+      <h3>Madérothérapie</h3>
+      <p class="soin-accroche">Des outils de bois sculpté qui roulent, lissent et modèlent, zone par zone.</p>
+      <ul class="tarifs"><li><span>Ventre et hanches</span><span class="prix" data-prix>50&nbsp;€</span></li><li><span>Jambes et fesses</span><span class="prix" data-prix>75&nbsp;€</span></li><li><span>Corps</span><span class="prix" data-prix>95&nbsp;€</span></li><li><span>Corps et bras</span><span class="prix" data-prix>110&nbsp;€</span></li></ul>
+      <p class="soin-actions"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--petit">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </article>
+</div>
+    </div>
+    <p class="famille-vide" data-famille-vide hidden>Aucun soin de cette famille pour ce choix.</p>
+    <div class="aussi">
+      <h3>Aussi au cabinet</h3>
+      <ul><li><span>Soin Shape Drain Expert</span><span class="prix" data-prix>120&nbsp;€</span></li></ul>
+      <p class="aussi-note">Durée et déroulé précisés à la réservation.</p>
+    </div>
+  </div>
+</section>
+<section class="cures fond-sombre" id="cures">
+  <div class="conteneur cures-grille">
+    <div>
+      <p class="surtitre">Cures et forfaits</p>
+      <h2 data-anime="lignes">Prendre soin de soi dans la durée.</h2>
+      <p data-anime>Les cures et les forfaits se réservent directement auprès de Marie, par téléphone ou par message.</p>
+      <figure class="media cures-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/offrir-ouverture-1168.webp" srcset="/assets/images/grok/offrir-ouverture-800.webp 800w, /assets/images/grok/offrir-ouverture-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 36vw" alt="Enveloppe crème nouée d&#39;un ruban de lin, brin d&#39;eucalyptus et galet" width="1168" height="1460" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <div class="cures-listes">
+      <h3>Cures</h3>
+      <ul class="liste-prix" data-anime="cascade"><li><span>Kobido <small>3 séances</small></span><span class="prix" data-prix>165&nbsp;€</span></li><li><span>Kobido <small>10 séances</small></span><span class="prix" data-prix>525&nbsp;€</span></li><li><span>Kobido « Perfect Age » <small>10 séances</small></span><span class="prix" data-prix>690&nbsp;€</span></li><li><span>Cure mixte visage <small>10 séances</small></span><span class="prix" data-prix>575&nbsp;€</span></li><li><span>Madérothérapie du visage <small>10 séances</small></span><span class="prix" data-prix>590&nbsp;€</span></li><li><span>Massage silhouette 45 min <small>10 séances</small></span><span class="prix" data-prix>590&nbsp;€</span></li><li><span>Massage silhouette 1 h <small>10 séances</small></span><span class="prix" data-prix>720&nbsp;€</span></li></ul>
+      <h3>Forfaits massages bien-être</h3>
+      <ul class="liste-prix" data-anime="cascade"><li><span>Forfait 5 heures <small>Massages bien-être, valable 6 mois</small></span><span class="prix" data-prix>325&nbsp;€</span></li><li><span>Forfait 10 heures <small>Massages bien-être, valable 12 mois</small></span><span class="prix" data-prix>610&nbsp;€</span></li></ul>
+      <p><a href="/offrir#forfaits" class="lien-fleche" data-libelle="Offrir">Offrir une cure ou un forfait</a></p>
+    </div>
+  </div>
+</section>
+<section class="pratique" id="pratique">
+  <div class="conteneur pratique-grille">
+    <figure class="media pratique-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/domicile-1600.webp" srcset="/assets/images/grok/domicile-800.webp 800w, /assets/images/grok/domicile-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 40vw" alt="Salon où une table de massage est installée, peignoir sur le fauteuil" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre">Bon à savoir</p>
+      <h2 data-anime="lignes">Avant votre séance</h2>
+      <dl class="pratique-liste" data-anime="cascade">
+        <div><dt>Annulation</dt><dd>Gratuite jusqu&#39;à 48 h avant la séance. À moins de 48 h, la moitié du montant est due ; sans annulation, la totalité.</dd></div>
+        <div><dt>Paiement</dt><dd>Au cabinet, en fin de séance : espèces, chèque, virement, PayPal ou SumUp.</dd></div>
+        <div><dt>À domicile</dt><dd>Tous les massages sont possibles chez vous. Au-delà de quelques kilomètres, des frais de déplacement s&#39;ajoutent.</dd></div>
+        <div><dt>Massage bien-être</dt><dd>Les soins n&#39;ont aucun caractère thérapeutique, sexuel ou érotique.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="fin fond-sombre" id="fin">
+  <div class="fin-scene" data-visuel>
+    <svg class="parenthese parenthese--g fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M70 6 C 4 150, 4 370, 70 514" pathLength="1"/></svg>
+    <div class="fin-texte">
+      <h2 class="fin-titre" data-anime="lignes">Votre rituel<br><em>vous attend.</em></h2>
+      <p data-anime>Réservez en ligne sur Planity, ou appelez Marie pour composer la séance.</p>
+      <p class="fin-actions" data-anime><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton bouton--or" data-survol="magnetique">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><a class="bouton bouton--contour" href="tel:+33768328145">Appeler 07 68 32 81 45</a></p>
+      <p class="fin-statut" data-anime><span class="statut " data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <svg class="parenthese parenthese--d fin-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses-fin"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-372.png" alt="Manawa Massage Pro" width="372" height="145" loading="lazy">
+      <p>31 bis rue de Dixmude, 29480 Le Relecq-Kerhuon</p>
+      <p><a href="tel:+33768328145">07 68 32 81 45</a><br><span class="email">manawa_massage@outlook.fr</span></p>
+      <p><span class="statut statut--pied" data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/soins" data-libelle="Les soins" aria-current="page">Les soins</a></li><li><a href="/marie" data-libelle="Marie &amp; le cabinet">Marie &amp; le cabinet</a></li><li><a href="/offrir" data-libelle="Offrir">Offrir</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Manawa</p>
+      <ul>
+        <li><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://instagram.com/ManawaMassagePro/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://m.facebook.com/ManawaMassagePro/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter<br>Politique de confidentialité · à compléter</p>
+    <p>Micro-entreprise, SIRET 848 217 220 00021<br>Photos de Marie et du cabinet : Céline Cousin</p>
+    <p>Maquette de démonstration : réservation, carte cadeau et formulaire sont simulés ou renvoient vers Planity et SumUp.</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33768328145">Appeler</a>
+  <a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton">Réserver<span class="visuellement-cache"> (nouvel onglet)</span></a>
+</div>
+<script type="application/json" id="donnees-horaires">[{"jour":1,"nom":"Lundi","plages":[["09:00","18:00"]]},{"jour":2,"nom":"Mardi","plages":[]},{"jour":3,"nom":"Mercredi","plages":[["09:00","19:30"]]},{"jour":4,"nom":"Jeudi","plages":[["09:00","17:00"]]},{"jour":5,"nom":"Vendredi","plages":[["09:00","18:00"]]},{"jour":6,"nom":"Samedi","plages":[]},{"jour":0,"nom":"Dimanche","plages":[]}]</script>
+</body>
+</html>

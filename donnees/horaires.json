@@ -1,0 +1,13 @@
+{
+  "fuseau": "Europe/Paris",
+  "source": "Horaires du cabinet affichés sur Planity (20 novembre 2026)",
+  "jours": [
+    { "jour": 1, "nom": "Lundi", "plages": [["09:00", "18:00"]] },
+    { "jour": 2, "nom": "Mardi", "plages": [] },
+    { "jour": 3, "nom": "Mercredi", "plages": [["09:00", "19:30"]] },
+    { "jour": 4, "nom": "Jeudi", "plages": [["09:00", "17:00"]] },
+    { "jour": 5, "nom": "Vendredi", "plages": [["09:00", "18:00"]] },
+    { "jour": 6, "nom": "Samedi", "plages": [] },
+    { "jour": 0, "nom": "Dimanche", "plages": [] }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-20T20:00:25.442Z",
+  "plan": "/home/claude/manawa-massage-pro-maquette/plan-images.json",
+  "attendus": 18,
+  "recus": 18,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [],
+  "images": [
+    {
+      "nom": "grok/soins-ouverture",
+      "attendu": "soins-ouverture.jpg",
+      "fichier": "soins-ouverture.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soins-ouverture",
+      "mobile": true,
+      "attendu": "soins-ouverture-mobile.jpg",
+      "fichier": "soins-ouverture-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-pierres",
+      "attendu": "soin-pierres.jpg",
+      "fichier": "soin-pierres.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-visage",
+      "attendu": "soin-visage.jpg",
+      "fichier": "soin-visage.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-bol",
+      "attendu": "soin-bol.jpg",
+      "fichier": "soin-bol.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-lomi",
+      "attendu": "soin-lomi.jpg",
+      "fichier": "soin-lomi.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-table",
+      "attendu": "soin-table.jpg",
+      "fichier": "soin-table.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-coco",
+      "attendu": "soin-coco.jpg",
+      "fichier": "soin-coco.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-madero",
+      "attendu": "soin-madero.jpg",
+      "fichier": "soin-madero.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-maman",
+      "attendu": "soin-maman.jpg",
+      "fichier": "soin-maman.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-huile",
+      "attendu": "soin-huile.jpg",
+      "fichier": "soin-huile.jpg",
+      "priorite": "Facultative",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/soin-pieds",
+      "attendu": "soin-pieds.jpg",
+      "fichier": "soin-pieds.jpg",
+      "priorite": "Facultative",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/domicile",
+      "attendu": "domicile.jpg",
+      "fichier": "domicile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/offrir-ouverture",
+      "attendu": "offrir-ouverture.jpg",
+      "fichier": "offrir-ouverture.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/evenement",
+      "attendu": "evenement.jpg",
+      "fichier": "evenement.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/contact-ouverture",
+      "attendu": "contact-ouverture.jpg",
+      "fichier": "contact-ouverture.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/contact-ouverture",
+      "mobile": true,
+      "attendu": "contact-ouverture-mobile.jpg",
+      "fichier": "contact-ouverture-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/page-404",
+      "attendu": "page-404.jpg",
+      "fichier": "page-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    }
+  ]
+}

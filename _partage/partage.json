@@ -1,0 +1,180 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "mains-epaule-1600.webp",
+      "poids": 56435,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 266,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/contact-ouverture-1280.webp",
+      "poids": 85557,
+      "sujet": {
+        "x": 600,
+        "y": 83,
+        "l": 600,
+        "h": 513
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "marie",
+      "langue": "fr",
+      "fichier": "assets/partage/marie-fr.jpg",
+      "gabarit": "droite",
+      "image": "marie-au-travail-1600.webp",
+      "poids": 58078,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 575,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 202,
+          "l": 480,
+          "h": 258
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "offrir",
+      "langue": "fr",
+      "fichier": "assets/partage/offrir-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/offrir-ouverture-1168.webp",
+      "poids": 86624,
+      "sujet": {
+        "x": 627,
+        "y": 175,
+        "l": 491,
+        "h": 308
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 266,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "soins",
+      "langue": "fr",
+      "fichier": "assets/partage/soins-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/soins-ouverture-1280.webp",
+      "poids": 101175,
+      "sujet": {
+        "x": 605,
+        "y": 49,
+        "l": 595,
+        "h": 581
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 202,
+          "l": 480,
+          "h": 258
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}
