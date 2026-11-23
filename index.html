@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-page="accueil">
+<html lang="fr" data-v="2" data-page="accueil">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4EEE5">
 <link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
 <link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
@@ -112,7 +112,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="hero" id="debut">
   <div class="hero-texte">
     <p class="surtitre hero-anime masque-ecran-tres-bas" data-anime="gsap">Massages du monde · Le Relecq-Kerhuon, à deux pas de Brest</p>
-    <h1 class="hero-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">Offrez-vous</span></span><span class="ligne-masque"><span class="hero-ligne">une <em>parenthèse</em>.</span></span></h1>
+    <h1 class="hero-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">Offrez-vous</span></span><span class="ligne-masque"><span class="hero-ligne hero-ligne--entiere">une <em>parenthèse</em>.</span></span></h1>
     <p class="hero-intro hero-anime masque-ecran-bas" data-anime="gsap">Massages sur mesure, Kobido, soins silhouette et rituels du monde, dans un cabinet chaleureux ou chez vous. Chaque séance est personnalisée.</p>
     <p class="hero-actions hero-anime" data-anime="gsap"><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="bouton" data-action-principale data-survol="magnetique">Réserver sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a><a href="/offrir" class="bouton bouton--contour" data-libelle="Offrir">Offrir un massage</a></p>
     <p class="hero-info hero-anime" data-anime="gsap" data-info-cle><span class="note-courte"><span class="note-etoile" aria-hidden="true">★</span> 5,0 sur 5 · 38 avis sur Planity</span><span class="statut " data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Horaires du cabinet sur Planity</span></span></p>
@@ -126,6 +126,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
     <span class="chaleur" data-chaleur data-effet="chaleur" data-souris aria-hidden="true" data-audit-ignorer></span>
     <svg class="parenthese parenthese--d hero-par" viewBox="0 0 80 520" preserveAspectRatio="none" aria-hidden="true" data-effet="parentheses"><path d="M10 6 C 76 150, 76 370, 10 514" pathLength="1"/></svg>
+    <button type="button" class="respirer" data-respirer aria-pressed="false" data-repos="Prendre une respiration" data-inspirez="Inspirez…" data-expirez="Expirez…" data-arreter="Arrêter" data-merci="Voilà, votre parenthèse a commencé."><span class="respirer-rond" aria-hidden="true"></span><span data-respirer-texte>Prendre une respiration</span></button>
+    <p class="visuellement-cache" role="status" data-respirer-statut></p>
   </div>
 </section>
 <section class="envies fond-sable" id="envies">
@@ -203,6 +205,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="carte-soins" id="carte">
+  <div class="mots-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel data-audit-ignorer>
+    <p data-fx-rangee data-mots="Suédois-Californien · Lomi-Lomi · Pierres chaudes · Ayurvédique · Kobido · Africain · Suédois-Californien · Lomi-Lomi · Pierres chaudes · Ayurvédique · Kobido · Africain ·"></p>
+    <p data-fx-rangee data-sens="-1" data-mots="Khmer · Thaï des pieds · Shiroshampi · Bols tibétains · Madérothérapie · Crânien · Khmer · Thaï des pieds · Shiroshampi · Bols tibétains · Madérothérapie · Crânien ·"></p>
+  </div>
   <div class="conteneur carte-tete">
     <div>
       <p class="surtitre">La carte</p>
@@ -296,7 +302,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <h3>Au cabinet</h3>
         <p>Un cabinet chaleureux au Relecq-Kerhuon, à deux pas de Brest.</p>
         <p class="lieu-adresse">31 bis rue de Dixmude, Le Relecq-Kerhuon</p>
-        <p><a href="/contact#horaires" class="lien-fleche" data-libelle="Contact">Accès et horaires</a></p>
+        <p class="lieu-liens"><a href="/contact#horaires" class="lien-fleche" data-libelle="Contact">Accès et horaires</a><a href="https://www.google.com/maps/dir/?api=1&amp;destination=31%20bis%20rue%20de%20Dixmude%2029480%20Le%20Relecq-Kerhuon" target="_blank" rel="noopener" class="lien-fleche">Itinéraire<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
       </article>
       <article class="lieu lieu--decale">
         <figure class="media lieu-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
@@ -320,7 +326,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="cadeau-titre">Carte cadeau</p>
       <p class="cadeau-soin" data-cadeau-soin>Suédois-Californien, 1 h</p>
       <p class="cadeau-montant"><span data-cadeau-prix>70</span>&nbsp;€</p>
-      <p class="cadeau-pied">Valable un an</p>
+      <p class="cadeau-pied"><span data-cadeau-pour data-defaut="Pour vous">Pour vous</span> · Valable un an</p>
     </div>
     <div class="cadeau-face cadeau-verso" data-face="dos">
       <p class="cadeau-titre">Valable un an</p>
@@ -350,6 +356,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="note-avis"><strong data-compteur="38">38</strong> avis sur Planity</p>
       <p><a href="https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" target="_blank" rel="noopener" class="lien-fleche">Lire les avis sur Planity<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
     </div>
+    <figure class="media confiance-media" data-fx="parallaxe" style="--cadrage:40% 45%">
+  <picture>
+    <img src="/assets/images/marie-jambe-1600.webp" srcset="/assets/images/marie-jambe-1024.webp 1024w, /assets/images/marie-jambe-1168.webp 1168w, /assets/images/marie-jambe-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 22vw" alt="Marie masse une jambe au jardin, en noir et blanc" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
     <div class="confiance-engagements">
       <h3>Ses engagements</h3>
       <ol class="engagements" data-anime="cascade">

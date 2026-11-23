@@ -34,13 +34,13 @@
   },
   "mains-epaule": {
     "nom": "mains-epaule",
-    "source": "_suivi/recu/site/manawa-massage-bien-etre-2.png",
+    "source": "_suivi/recu/retouches/mains-epaule-chaud.png",
     "role": "galerie",
     "alt": "La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude",
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "140650b88255f29b",
+    "empreinte": "6c05e6218cc69b47",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -58,22 +58,22 @@
     "zones_calmes": [
       {
         "cote": "bas",
-        "score": 0.32,
+        "score": 0.31,
         "ton": "moyen"
       },
       {
         "cote": "gauche",
-        "score": 0.31,
+        "score": 0.3,
         "ton": "sombre"
       },
       {
         "cote": "droite",
-        "score": 0.27,
+        "score": 0.26,
         "ton": "sombre"
       },
       {
         "cote": "haut",
-        "score": 0.21,
+        "score": 0.2,
         "ton": "sombre"
       }
     ],
@@ -99,9 +99,9 @@
       "mains-epaule-1600.webp"
     ],
     "poids": {
-      "mains-epaule-1024.webp": 65830,
-      "mains-epaule-1168.webp": 78824,
-      "mains-epaule-1600.webp": 126032
+      "mains-epaule-1024.webp": 66578,
+      "mains-epaule-1168.webp": 79390,
+      "mains-epaule-1600.webp": 126492
     },
     "media": "c.media({ nom: 'mains-epaule', alt: \"La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
   },

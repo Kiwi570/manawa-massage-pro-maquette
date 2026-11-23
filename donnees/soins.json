@@ -149,7 +149,8 @@
           "1 h 30",
           100
         ]
-      ]
+      ],
+      "motif": "Sur mesure"
     },
     {
       "id": "lomi-lomi",
@@ -239,7 +240,8 @@
           "1 h",
           70
         ]
-      ]
+      ],
+      "motif": "Afrique"
     },
     {
       "id": "khmer",
@@ -323,7 +325,8 @@
           "45 min",
           55
         ]
-      ]
+      ],
+      "motif": "Inde"
     },
     {
       "id": "bols-tibetains",
@@ -389,7 +392,8 @@
           "30 min",
           30
         ]
-      ]
+      ],
+      "motif": "Enfance"
     },
     {
       "id": "kobido",
@@ -428,7 +432,8 @@
           "1 h",
           75
         ]
-      ]
+      ],
+      "motif": "Japon"
     },
     {
       "id": "soin-jeunesse",
@@ -445,7 +450,8 @@
           "1 h 30",
           110
         ]
-      ]
+      ],
+      "motif": "Japon"
     },
     {
       "id": "massage-silhouette",

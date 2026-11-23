@@ -2,11 +2,28 @@
   "nom": "Manawa Massage Pro",
   "adresse": "https://manawa-massage-pro-maquette.vercel.app",
   "siteActuel": "www.manawamassagepro.com",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "soins", "marie", "offrir", "contact"],
-  "actionEntete": { "externe": "https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon" },
-  "couleurs": { "fond": "#F4EEE5", "texte": "#1D1916", "voile": "#1D1916", "ouverture": "#1D1916", "menu": "#F4EEE5", "theme": "#F4EEE5" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "soins",
+    "marie",
+    "offrir",
+    "contact"
+  ],
+  "actionEntete": {
+    "externe": "https://www.planity.com/manawamassages-pro-29480-le-relecq-kerhuon"
+  },
+  "couleurs": {
+    "fond": "#F4EEE5",
+    "texte": "#1D1916",
+    "voile": "#1D1916",
+    "ouverture": "#1D1916",
+    "menu": "#F4EEE5",
+    "theme": "#F4EEE5"
+  },
   "formeVoile": "iris",
   "contact": {
     "telephone": "07 68 32 81 45",
@@ -20,9 +37,13 @@
     "sumup": "https://giftcard.sumup.io/order/G2EHXRP/manawa-massage-pro",
     "facebook": "https://m.facebook.com/ManawaMassagePro/",
     "instagram": "https://instagram.com/ManawaMassagePro/",
-    "photographe": "https://www.instagram.com/celinecousinexpressionl/"
+    "photographe": "https://www.instagram.com/celinecousinexpressionl/",
+    "itineraire": "https://www.google.com/maps/dir/?api=1&destination=31%20bis%20rue%20de%20Dixmude%2029480%20Le%20Relecq-Kerhuon"
   },
-  "polices": ["/assets/fonts/fraunces-latin-soft-normal.woff2", "/assets/fonts/figtree-latin-wght-normal.woff2"],
+  "polices": [
+    "/assets/fonts/fraunces-latin-soft-normal.woff2",
+    "/assets/fonts/figtree-latin-wght-normal.woff2"
+  ],
   "imagePartage": "mains-epaule-1280.webp",
   "curseur": false
 }

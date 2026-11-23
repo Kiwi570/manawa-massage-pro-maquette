@@ -28,7 +28,8 @@
     "instagram": "Instagram",
     "voirSoin": "Voir le soin",
     "des": "dès",
-    "statutChargement": "Horaires du cabinet sur Planity"
+    "statutChargement": "Horaires du cabinet sur Planity",
+    "itineraire": "Itinéraire"
   },
   "pages": {
     "accueil": {
@@ -82,7 +83,12 @@
       "titreMot": "parenthèse",
       "texte": "Massages sur mesure, Kobido, soins silhouette et rituels du monde, dans un cabinet chaleureux ou chez vous. Chaque séance est personnalisée.",
       "offrir": "Offrir un massage",
-      "alt": "La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude"
+      "alt": "La main de Marie posée sur l'épaule d'une cliente, linge blanc et lumière chaude",
+      "respirer": "Prendre une respiration",
+      "inspirez": "Inspirez…",
+      "expirez": "Expirez…",
+      "arreter": "Arrêter",
+      "merci": "Voilà, votre parenthèse a commencé."
     },
     "envies": {
       "surtitre": "Choisir son massage",
@@ -97,7 +103,9 @@
       "titre": "Quatorze massages, un même soin du détail.",
       "texte": "Des soins du visage et de la silhouette complètent la carte. De 20 € pour un massage enfant à 130 € pour deux heures de Suédois-Californien.",
       "region": "Soins phares, défilement horizontal",
-      "tout": "Toute la carte et les tarifs"
+      "tout": "Toute la carte et les tarifs",
+      "mots1": "Suédois-Californien · Lomi-Lomi · Pierres chaudes · Ayurvédique · Kobido · Africain ·",
+      "mots2": "Khmer · Thaï des pieds · Shiroshampi · Bols tibétains · Madérothérapie · Crânien ·"
     },
     "marie": {
       "surtitre": "Votre praticienne",
@@ -139,7 +147,8 @@
       "federation": "Fédération Française de Massages Bien-être",
       "ffmbeAlt": "Logo de la Fédération Française de Massages Bien-être",
       "avis": "avis sur Planity",
-      "sur": "sur 5"
+      "sur": "sur 5",
+      "alt": "Marie masse une jambe au jardin, en noir et blanc"
     },
     "fin": {
       "titre1": "Votre parenthèse",
@@ -193,7 +202,10 @@
       "titre1": "Votre rituel",
       "titre2": "vous attend.",
       "texte": "Réservez en ligne sur Planity, ou appelez Marie pour composer la séance."
-    }
+    },
+    "familles": "Aller à",
+    "curesNav": "Cures et forfaits",
+    "pratiqueNav": "Bon à savoir"
   },
   "marie": {
     "tete": {
@@ -249,14 +261,17 @@
       "texte": "Un massage à offrir, pour un anniversaire, un merci ou simplement pour faire du bien. Choisissez le soin : la carte se compose.",
       "info": "Valable un an · commande en ligne sur SumUp",
       "choix": "Choisir le massage offert",
-      "retourner": "Retourner la carte"
+      "retourner": "Retourner la carte",
+      "prenom": "Pour qui ? (facultatif)",
+      "prenomAide": "Le prénom s’inscrit sur la carte."
     },
     "carte": {
       "titre": "Carte cadeau",
       "pour": "Une parenthèse pour vous",
       "valable": "Valable un an",
       "verso": "À réserver au cabinet du Relecq-Kerhuon ou à domicile, sur Planity ou au 07 68 32 81 45.",
-      "papier": "Bons cadeaux papier de 30 € à 900 € disponibles au cabinet."
+      "papier": "Bons cadeaux papier de 30 € à 900 € disponibles au cabinet.",
+      "pourDefaut": "Pour vous"
     },
     "forfaits": {
       "surtitre": "Forfaits",

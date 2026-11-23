@@ -60,7 +60,7 @@ export default (c) => {
     </div>
     <figure class="plan-cadre" data-grille="fil">
       ${PLAN(c.s('contact.horaires.carteAlt'))}
-      <figcaption>${c.t('contact.horaires.itineraire')}</figcaption>
+      <figcaption>${c.t('contact.horaires.itineraire')} · ${ext(c, c.site.liens.itineraire, c.t('commun.itineraire'), { classe: 'lien-fleche' })}</figcaption>
     </figure>
   </div>
 </section>

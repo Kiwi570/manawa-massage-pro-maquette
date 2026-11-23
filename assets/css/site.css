@@ -71,8 +71,8 @@ main > section { position: relative; padding-block: var(--section); }
 
 /* En-tête. */
 [data-entete] { background: var(--lin); border-bottom-color: color-mix(in srgb, var(--sombre) 10%, var(--lin)); }
-.entete-rangee { min-height: 72px; }
-.entete-logo img { width: auto; height: 56px; }
+.entete-rangee { min-height: 76px; }
+.entete-logo img { width: auto; height: 62px; }
 [data-nav] a { font-weight: 600; font-size: .9688rem; min-width: 44px; justify-content: center; }
 [data-nav] a[aria-current] { text-decoration-color: var(--bronze); }
 [data-menu-bouton] { background: var(--sombre); color: var(--lin); }
@@ -106,7 +106,8 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-anime { opacity: 0; }
 /* ——— Accueil : ouverture ——— */
 .hero { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); align-items: center; gap: clamp(24px, 4vw, 72px);
   min-height: 100svh; padding: calc(var(--entete-h) + 24px) var(--gouttiere) 40px; max-width: calc(var(--largeur) + 2 * var(--gouttiere)); margin-inline: auto; }
-.hero-titre { font-size: clamp(3.1rem, min(7.4vw, 12vh), 7.6rem); line-height: 1.04; font-weight: 340; margin-bottom: .32em; }
+.hero-titre { font-size: clamp(3.1rem, min(5.9vw, 11vh), 6.8rem); line-height: 1.04; font-weight: 340; margin-bottom: .32em; }
+@media (min-width: 761px) { .hero-ligne--entiere { white-space: nowrap; } }
 .hero-intro { max-width: 34em; font-size: clamp(1.0625rem, 1rem + .3vw, 1.25rem); color: var(--texte-doux); }
 .fond-sombre .hero-intro { color: #D9CEC0; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 14px; margin-bottom: 1.3em; }
@@ -122,8 +123,19 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-par path { stroke-dasho
 
 /* Lumière chaude qui suit la main (effet « chaleur ») : simple calque, sans fusion. */
 .chaleur { position: relative; z-index: 3; pointer-events: none; overflow: hidden;
-  background: radial-gradient(circle at var(--lx, 62%) var(--ly, 32%), rgba(255, 196, 120, .34), rgba(255, 176, 96, .12) 26%, rgba(255, 170, 90, 0) 52%); }
+  background: radial-gradient(circle at var(--lx, 62%) var(--ly, 32%), rgba(255, 196, 120, .44), rgba(255, 176, 96, .16) 28%, rgba(255, 170, 90, 0) 56%); }
 .chaleur--sombre { background: radial-gradient(circle at var(--lx, 55%) var(--ly, 38%), rgba(255, 190, 110, .30), rgba(255, 170, 90, .08) 30%, rgba(0, 0, 0, 0) 56%); }
+
+/* « Prendre une respiration » : sous la photo, un rond qui se gonfle et se vide avec le souffle. */
+.respirer { position: absolute; left: 50%; top: calc(100% + 16px); translate: -50% 0; z-index: 4; display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 6px 20px 6px 8px; border-radius: 999px; border: 1.5px solid color-mix(in srgb, var(--bronze) 55%, transparent); background: var(--lin); color: var(--sombre); font-weight: 650; font-size: .9688rem; white-space: nowrap; transition: border-color .3s, background-color .3s; }
+.respirer:hover { border-color: var(--bronze); background: var(--papier); }
+.respirer-rond { position: relative; width: 34px; height: 34px; flex: none; }
+.respirer-rond::before, .respirer-rond::after { content: ''; position: absolute; inset: 0; border-radius: 50%; }
+.respirer-rond::before { border: 1.5px solid var(--or); }
+.respirer-rond::after { inset: 9px; background: var(--bronze); transform: scale(var(--souffle, 1)); transition: transform .2s linear; }
+.respirer[aria-pressed="true"] { border-color: var(--bronze); }
+.hero { padding-bottom: 84px; }
+.hero-visuel .chaleur { opacity: .8; }
 
 /* ——— Accueil : envies ——— */
 .envies-grille { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .62fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: start; }
@@ -145,6 +157,14 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 .mini-soin-tarifs { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .9375rem; color: var(--texte-doux); font-variant-numeric: tabular-nums; }
 .mini-soin-tarifs span { white-space: nowrap; }
 .mini-soin--tout { padding-top: 12px; }
+
+/* Bandeau des noms de massages, très grands, qui filent au défilement (décor : le vrai titre est dessous). */
+.mots-geants { margin: calc(-1 * var(--section) + 24px) 0 clamp(40px, 6vw, 80px); padding-top: 8px; }
+.mots-geants p { font-family: var(--police-titres); font-style: italic; font-weight: 300; font-size: clamp(3rem, 2rem + 5vw, 7.5rem); line-height: 1.15; color: color-mix(in srgb, var(--bronze) 26%, var(--lin)); letter-spacing: -.01em; }
+.mots-geants p + p { color: color-mix(in srgb, var(--or) 38%, var(--lin)); }
+/* Les mots sont dessinés par le CSS (décor) : aucun texte à lire pour les lecteurs d'écran ni pour les contrôles de contraste. */
+.mots-geants p::before { content: attr(data-mots); }
+.mots-geants p { min-height: 1.15em; }
 
 /* ——— Accueil : la carte en rangée ——— */
 .carte-soins { overflow: hidden; }
@@ -182,6 +202,7 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 .lieu-media { aspect-ratio: 3 / 2; margin-bottom: 22px; }
 .lieu p { color: var(--texte-doux); max-width: 32em; }
 .lieu-adresse { font-weight: 650; color: var(--texte) !important; }
+.lieu-liens { display: flex; flex-wrap: wrap; gap: 4px 26px; }
 .fond-sombre .lieu-adresse { color: var(--lin) !important; }
 .lieu-note { font-size: .9688rem; color: var(--texte-doux); border-left: 2px solid var(--or); padding-left: 14px; }
 
@@ -197,19 +218,20 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 .cadeau-recto::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: radial-gradient(120% 90% at 85% 10%, #3A2F26 0%, rgba(29, 25, 22, 0) 60%); }
 .cadeau-recto { background-color: var(--sombre); color: var(--lin); isolation: isolate; box-shadow: 0 30px 60px -28px rgba(29, 25, 22, .65), inset 0 0 0 1px rgba(217, 190, 126, .45); }
 .cadeau-verso { background: var(--papier); color: var(--sombre); transform: rotateY(180deg); box-shadow: 0 30px 60px -28px rgba(29, 25, 22, .5), inset 0 0 0 1px rgba(126, 94, 30, .35); justify-content: center; gap: 4px; }
-.cadeau-verso p { margin: 0 0 .45em; font-size: max(12px, 3.4cqw); line-height: 1.4; }
+.cadeau-verso p { margin: 0 0 .45em; font-size: max(13px, 3.3cqw); line-height: 1.38; }
 .cadeau-recto::after { content: 'M'; position: absolute; right: -2%; bottom: -24%; font-family: var(--police-titres); font-size: 52cqw; line-height: 1; color: var(--or); opacity: .14; pointer-events: none; }
 .cadeau-logo { width: 28cqw; height: auto; margin-bottom: auto; position: relative; z-index: 1; }
-.cadeau-titre { margin: 0; font-size: max(12px, 2.7cqw); line-height: 1.3; font-weight: 650; letter-spacing: .18em; text-transform: uppercase; color: var(--or-clair); position: relative; z-index: 1; }
+.cadeau-titre { margin: 0; font-size: max(13px, 2.7cqw); line-height: 1.3; font-weight: 650; letter-spacing: .18em; text-transform: uppercase; color: var(--or-clair); position: relative; z-index: 1; }
 .cadeau-verso .cadeau-titre { color: var(--bronze); }
 .cadeau-soin { margin: .25em 0 .45em; font-family: var(--police-titres); font-style: italic; font-size: max(13px, 5.2cqw); line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; position: relative; z-index: 1; }
 .cadeau-montant { margin: 0; font-family: var(--police-titres); font-size: 12cqw; line-height: 1.2; color: var(--or); font-variant-numeric: tabular-nums lining-nums; position: relative; z-index: 1; }
 .cadeau-montant [data-cadeau-prix] { display: inline-block; min-width: 3ch; text-align: right; }
-.cadeau-pied { margin: .5em 0 0; font-size: max(12px, 2.8cqw); line-height: 1.3; color: #CFC4B6; position: relative; z-index: 1; }
+.cadeau-pied { margin: .5em 0 0; font-size: max(13px, 2.8cqw); line-height: 1.3; color: #CFC4B6; position: relative; z-index: 1; }
 .cadeau-papier { color: var(--texte-doux); }
 
 /* ——— Confiance ——— */
-.confiance-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.confiance-grille { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .62fr) minmax(0, 1fr); gap: clamp(28px, 4vw, 64px); align-items: start; }
+.confiance-media { aspect-ratio: 4 / 5; border-radius: 999px 999px var(--rayon) var(--rayon); margin-top: 48px; }
 .confiance-note h2 { max-width: 11em; }
 .note-grande { display: flex; align-items: baseline; gap: .15em; margin: .5em 0 0; font-family: var(--police-titres); line-height: 1.05; }
 .note-chiffre { font-size: clamp(6rem, 4rem + 9vw, 11rem); font-weight: 300; letter-spacing: -.03em; }
@@ -249,6 +271,9 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 .filtres .puce[aria-pressed="true"] { background: var(--sombre); }
 
 /* Familles de soins. */
+.familles-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 20px; margin: 0 0 clamp(32px, 5vw, 56px); padding: 10px 0; border-block: 1px solid var(--ligne); font-size: .9688rem; }
+.familles-nav span { font-size: .8125rem; font-weight: 650; letter-spacing: .14em; text-transform: uppercase; color: var(--bronze); }
+.familles-nav a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-decoration-color: var(--or); text-underline-offset: .3em; }
 .famille-tete { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 64px); align-items: end; margin-bottom: clamp(28px, 4vw, 52px); }
 .famille-tete h2 { margin: 0; }
 .famille-tete p { color: var(--texte-doux); margin: 0; }
@@ -259,7 +284,13 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 .fond-sable .soin { background: var(--lin); }
 .soin-media { aspect-ratio: 16 / 10; border-radius: 0; }
 .soin-corps { display: flex; flex-direction: column; flex: 1; padding: 22px clamp(18px, 2vw, 26px) 24px; }
-.soin--texte .soin-corps { border-top: 3px solid var(--or); }
+/* Soin sans photo : son origine entre deux parenthèses d'or, à la place de l'image (même hauteur). */
+.soin-motif { aspect-ratio: 16 / 10; display: grid; place-items: center; background: radial-gradient(120% 90% at 30% 20%, #F7F1E8, var(--sable) 70%); overflow: hidden; }
+.fond-sable .soin-motif { background: radial-gradient(120% 90% at 30% 20%, var(--papier), #E2D5C1 75%); }
+.soin-motif-mot { font-family: var(--police-titres); font-style: italic; font-weight: 340; font-size: clamp(1.9rem, 1.4rem + 1.6vw, 2.8rem); color: var(--bronze); white-space: nowrap; }
+.soin-motif-mot::before, .soin-motif-mot::after { font-style: normal; font-weight: 200; color: var(--or); font-size: 1.5em; vertical-align: -.12em; }
+.soin-motif-mot::before { content: '( '; }
+.soin-motif-mot::after { content: ' )'; }
 .soin-origine { margin: 0 0 4px; font-size: .8125rem; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; color: var(--bronze); }
 .soin h3 { margin: 0 0 .35em; }
 .soin-accroche { color: var(--texte-doux); font-size: 1rem; line-height: 1.55; }
@@ -383,6 +414,9 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 .champ input, .champ select, .champ textarea { width: 100%; min-width: 0; max-width: 100%; background: #fff; border-color: color-mix(in srgb, var(--sombre) 35%, var(--lin)); }
 .champ-radios { border: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 22px; }
 .champ-radios legend { font-weight: 600; margin-bottom: 6px; padding: 0; }
+.champ-prenom { margin: 16px 0 0; max-width: 24rem; }
+.champ-prenom input { background: var(--papier); }
+.champ-aide { margin: 0; font-size: .875rem; color: var(--texte-doux); }
 .radio { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-weight: 500 !important; }
 .radio input { width: 20px; height: 20px; min-height: 0; accent-color: var(--bronze); }
 
@@ -405,11 +439,14 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 [data-barre-fixe] { background: var(--lin); }
 
 /* Mention des illustrations générées. */
-.mention-ia { font-size: 12px; background: rgba(29, 25, 22, .72); }
+.mention-ia { font-size: 13px; background: rgba(29, 25, 22, .72); }
 
 /* ——— Tablette ——— */
 @media (max-width: 1100px) {
   .soins-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .confiance-grille { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .confiance-media { grid-column: 2; grid-row: 1; max-width: 300px; justify-self: center; }
+  .confiance-engagements { grid-column: 1 / -1; }
   .envies-grille { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .envies-images { display: none; }
   .envies-tete { grid-column: 1 / -1; }
@@ -421,7 +458,7 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 /* ——— Téléphone ——— */
 @media (max-width: 760px) {
   main > section { padding-block: clamp(56px, 14vw, 88px); }
-  .hero { grid-template-columns: minmax(0, 1fr); align-content: start; min-height: 0; gap: 26px; padding-top: calc(var(--entete-h) + 22px); padding-bottom: 56px; }
+  .hero { grid-template-columns: minmax(0, 1fr); align-content: start; min-height: 0; gap: 26px; padding-top: calc(var(--entete-h) + 22px); padding-bottom: 80px; }
   .hero-titre { font-size: clamp(2.9rem, 13vw, 4rem); }
   .hero-visuel { --l: min(64vw, 300px); }
   .hero-par { width: calc(var(--l) * .2); }
@@ -470,6 +507,9 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
   .fin-scene { grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px; padding-inline: 10px; }
   .fin-par { width: 26px; height: clamp(260px, 60vh, 460px); }
   .deonto-media { max-width: 70%; }
+  .confiance-media { grid-column: auto; grid-row: auto; max-width: 62%; margin-top: 0; justify-self: start; }
+  .confiance-engagements { grid-column: auto; }
+  .respirer { top: calc(100% + 12px); }
   .introuvable { align-items: flex-start; }
   .introuvable-media::after { background: linear-gradient(180deg, rgba(244, 238, 229, .96) 0%, rgba(244, 238, 229, .88) 55%, rgba(244, 238, 229, .1) 85%); }
   .entete-logo img { height: 44px; }
@@ -523,6 +563,8 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 }
 @media (max-height: 500px) and (min-width: 761px) {
   .hero { grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); }
+  .marie-tete-visuel { min-height: 0; }
+  .marie-tete-texte { align-self: start; }
   .marie-tete { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); }
   .marie-tete .page-titre, .offrir-tete .page-titre { font-size: 1.9rem; }
   .marie-tete .surtitre { display: none; }
@@ -539,7 +581,7 @@ html:not(.js) .envies-sansjs, html.secours .envies-sansjs { display: block; }
 }
 
 /* Aperçus flous des images d'ouverture : au retour arrière ou avant, jamais de case unie avant le décodage. */
-.hero-media { background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAeABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDnPDU1n5TG4iRp0/1TMM4FbcUQvrsebcyFf7oTFc/o9h+5ilMu1yTgY4q/c63cQloAArrwwXoPr61yVIO90dtKS5bM1b+/stOjaO2tlM3QOV+7RXMrdzOS0khYk0U4wSWoN3Z0enaYUgXzJFJHQY6VFfeHmu7vzUukjBAyNpPNTRXLAY5xUjXTDpXa6aORTaKA8KORxqMYP/XM/wCNFXDdvRU+yRXtGf/Z); background-size: cover; background-position: 52% 34%; }
+.hero-media { background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAeABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDnPDM1n5TG5iRp4/8AVMwzgfStyKIX12PNuZCv90Jiue0fT/3MUpm2OScDHFaFzrlxDugACuvDBeg+vrXHUg+a6O6lJctma2oX9lpsbRW1spn6Byv3aK5dbuZyWkkLEminGmktdQlK7Ol07SykC+ZIpI6DHSor/wAONd3fnJdxxggZGwnmporlgMc4qRrph0rocHc5VOxQHhJyONRjU/8AXI/40VcN4/qaKn2cu5XtD//Z); background-size: cover; background-position: 52% 34%; }
 .marie-tete-media { background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAeABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDmLu7iYqltbOjCMqc45PrSeL7S1srm3FtEqbo8tt78CtGAx6jD51taEMg5aPGD7EdjRrFlDcyWs08uEgQIdw+aTGOPaueLtM6XHmhoYF/p8dnpttLK7/aZvmMfZQen44oqrqN9LfXrzSnvwOwFFbq9tTnla+hPpGoz2MjrE+BKuDV/7bJNBPDJ8xdTtJ6hscVhQqWlRQcEsBmvQrXwIy4eXUMn2T/69KyUrlxk+Wx52wKkg5BHXNFej6n4ThNsfNmEjgfK2zaR+INFO5Fj/9k=); background-size: cover; background-position: 53% 38%; }
 .soins-tete-media { background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAOABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDs8KB0Fc34m1G7tbmCCFxBFIciYfMS4/hI9DW/uJOKxtW0y2v2+0TKS+zYRuO0gkYyPasrmliSaae4tbaeOAmJwIp4AM4Pt6fWis+7u7vSybe3mVI5wPLwvK/X3orO66l8r6H/2Q==); background-size: cover; background-position: 62% 50%; }
 @media (max-width: 760px) and (orientation: portrait) { .soins-tete-media { background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAArABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDdubdVaJRvPmdCR0qvdWDROikqS447fhWvIplhKjhl5U1TlurcW+64kRQMZ3noa53FGykzGntzGcSKV+veitZmSQ+RIcnggmip5OxXOWp7gWtm85+83yoPeuGuNXtoJJ5y32tHYRlSdpTHORXZakrS2sLIQNh6+hPeuXg8LzQrHd38qq0Um9Y4kB3jOeTxitHFPchNrYbcx3EFus63ckyOVkjB6r06+/tRWpeW8zExCNVTO4gjgd9+fbPT0ootYTbbNdGEqNC/8Xp2qOG4XynW6CtEpw+7tSQf6xfdqwtadjqiW+T5Tncy9iQOKG7ajSuT+JdaW52adp7jafvMp7UVSeNBLvCjdjrRWbk2aKKR/9k=); background-position: 60% 70%; } }

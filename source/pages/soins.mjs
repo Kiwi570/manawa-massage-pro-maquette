@@ -26,6 +26,7 @@ export default (c) => {
 
 ${S.familles.map((f, i) => html`<section class="famille ${i % 2 ? 'fond-sable' : ''}" id="${f.id}" data-famille>
   <div class="conteneur">
+    ${i === 0 ? html`<nav class="familles-nav" aria-label="${c.s('soins.familles')}"><span>${c.t('soins.familles')}</span>${S.familles.map((x) => html`<a href="#${x.id}" data-sans-transition>${x.titre}</a>`)}<a href="#cures" data-sans-transition>${c.t('soins.curesNav')}</a><a href="#pratique" data-sans-transition>${c.t('soins.pratiqueNav')}</a></nav>` : ''}
     <div class="famille-tete">
       <h2 data-anime="lignes">${f.titre}</h2>
       <p data-anime>${f.texte}</p>

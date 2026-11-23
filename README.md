@@ -1,4 +1,4 @@
-# Manawa Massage Pro · maquette v1
+# Manawa Massage Pro · maquette v2
 
 Maquette de démonstration du futur site de Manawa Massage Pro (Marie, massages du monde, Le Relecq-Kerhuon).
 Adresse prévue : https://manawa-massage-pro-maquette.vercel.app
@@ -9,10 +9,10 @@ Site statique (HTML, CSS, JavaScript), sans étape de construction. Les pages so
 
 | Page | Ouverture | Sections |
 |---|---|---|
-| Accueil `/` | « Offrez-vous une parenthèse. », photo des mains de Marie entre deux parenthèses d'or | envies, la carte en rangée, Marie, cabinet ou domicile, carte cadeau, note et engagements, appel final |
+| Accueil `/` | « Offrez-vous une parenthèse. », photo des mains de Marie entre deux parenthèses d'or, « Prendre une respiration » | envies, bandeau des massages, la carte en rangée, Marie, cabinet ou domicile, carte cadeau, note et engagements, appel final |
 | Les soins `/soins` | plein cadre, filtre d'envies dans le premier écran | massages du monde, visage, silhouette, cures et forfaits, bon à savoir |
 | Marie & le cabinet `/marie` | sombre, Marie au travail à bord perdu | parcours, cabinet, domicile, déontologie |
-| Offrir `/offrir` | la carte cadeau posée sur l'enveloppe | forfaits, cures, événements |
+| Offrir `/offrir` | la carte cadeau posée sur l'enveloppe, prénom inscrit en direct | forfaits, cures, événements |
 | Contact `/contact` | grand titre, statut « ouvert maintenant », bandeau de l'estuaire | horaires et plan, formulaire simulé |
 | 404 | galet sur une serviette | |
 
@@ -43,7 +43,8 @@ Mentions reformulées : le site actuel promet des effets de santé (« élimine 
 
 - Retirer : `noindex` (balise robots dans `source/gabarits/commun.mjs`, en-tête X-Robots-Tag dans `vercel.json`), le formulaire simulé (le brancher sur un vrai envoi), les « à compléter » du pied de page.
 - Garder : la mention « Illustration générée » sur les images créées par IA.
-- Liens réels déjà en place : réservation Planity, cartes cadeaux SumUp, Instagram, Facebook.
+- Liens réels déjà en place : réservation Planity, cartes cadeaux SumUp, itinéraire Google Maps, Instagram, Facebook.
+- La photo d'ouverture (mains de Marie) a été légèrement réchauffée (serviette) : l'original est dans `_suivi/recu/site/`.
 
 ## Travailler sur la maquette
 

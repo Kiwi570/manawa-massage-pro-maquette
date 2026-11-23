@@ -1,6 +1,6 @@
 /* Accueil de Manawa Massage Pro : la parenthèse. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { reserver, statut, parenthese, etoiles, prix } from '../gabarits/elements.mjs';
+import { reserver, statut, parenthese, etoiles, prix, ext } from '../gabarits/elements.mjs';
 import { fin, cadeau, choixCadeau, sumup } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'mains-epaule-1168.webp' };
@@ -18,7 +18,7 @@ export default (c) => {
 <section class="hero" id="debut">
   <div class="hero-texte">
     <p class="surtitre hero-anime masque-ecran-tres-bas" data-anime="gsap">${c.t('accueil.hero.surtitre')}</p>
-    <h1 class="hero-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">${c.t('accueil.hero.titre1')}</span></span><span class="ligne-masque"><span class="hero-ligne">${c.t('accueil.hero.titre2')} <em>${c.t('accueil.hero.titreMot')}</em>.</span></span></h1>
+    <h1 class="hero-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="hero-ligne">${c.t('accueil.hero.titre1')}</span></span><span class="ligne-masque"><span class="hero-ligne hero-ligne--entiere">${c.t('accueil.hero.titre2')} <em>${c.t('accueil.hero.titreMot')}</em>.</span></span></h1>
     <p class="hero-intro hero-anime masque-ecran-bas" data-anime="gsap">${c.t('accueil.hero.texte')}</p>
     <p class="hero-actions hero-anime" data-anime="gsap">${reserver(c, { attrs: 'data-action-principale data-survol="magnetique"' })}${c.lien('offrir', { classe: 'bouton bouton--contour', texte: c.t('accueil.hero.offrir') })}</p>
     <p class="hero-info hero-anime" data-anime="gsap" data-info-cle><span class="note-courte"><span class="note-etoile" aria-hidden="true">★</span> ${c.t('commun.note')} · ${c.t('commun.avis')}</span>${statut(c)}</p>
@@ -28,6 +28,8 @@ export default (c) => {
     ${c.media({ nom: 'mains-epaule', alt: c.s('accueil.hero.alt'), cadrage: '52% 34%', priorite: true, classe: 'hero-media', sizes: '(max-width: 760px) 86vw, 38vw', attrs: 'data-fx="onde" data-iris-centre' })}
     <span class="chaleur" data-chaleur data-effet="chaleur" data-souris aria-hidden="true" data-audit-ignorer></span>
     ${parenthese('d', 'hero-par', 'data-effet="parentheses"')}
+    <button type="button" class="respirer" data-respirer aria-pressed="false" data-repos="${c.s('accueil.hero.respirer')}" data-inspirez="${c.s('accueil.hero.inspirez')}" data-expirez="${c.s('accueil.hero.expirez')}" data-arreter="${c.s('accueil.hero.arreter')}" data-merci="${c.s('accueil.hero.merci')}"><span class="respirer-rond" aria-hidden="true"></span><span data-respirer-texte>${c.t('accueil.hero.respirer')}</span></button>
+    <p class="visuellement-cache" role="status" data-respirer-statut></p>
   </div>
 </section>
 
@@ -58,6 +60,10 @@ export default (c) => {
 </section>
 
 <section class="carte-soins" id="carte">
+  <div class="mots-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel data-audit-ignorer>
+    <p data-fx-rangee data-mots="${c.s('accueil.carte.mots1')} ${c.s('accueil.carte.mots1')}"></p>
+    <p data-fx-rangee data-sens="-1" data-mots="${c.s('accueil.carte.mots2')} ${c.s('accueil.carte.mots2')}"></p>
+  </div>
   <div class="conteneur carte-tete">
     <div>
       <p class="surtitre">${c.t('accueil.carte.surtitre')}</p>
@@ -110,7 +116,7 @@ export default (c) => {
         <h3>${c.t('accueil.lieux.cabinetTitre')}</h3>
         <p>${c.t('accueil.lieux.cabinetTexte')}</p>
         <p class="lieu-adresse">${c.site.contact.adresseCourte}</p>
-        <p>${c.lien('contact', { ancre: 'horaires', classe: 'lien-fleche', texte: c.t('accueil.lieux.acces') })}</p>
+        <p class="lieu-liens">${c.lien('contact', { ancre: 'horaires', classe: 'lien-fleche', texte: c.t('accueil.lieux.acces') })}${ext(c, c.site.liens.itineraire, c.t('commun.itineraire'), { classe: 'lien-fleche' })}</p>
       </article>
       <article class="lieu lieu--decale">
         ${c.media({ nom: 'grok/domicile', alt: alt('grok/domicile'), classe: 'lieu-media', sizes: '(max-width: 760px) 92vw, 45vw', attrs: 'data-anime="rideau"' })}
@@ -145,6 +151,7 @@ export default (c) => {
       <p class="note-avis"><strong data-compteur="38">38</strong> ${c.t('accueil.confiance.avis')}</p>
       <p>${reserver(c, { classe: 'lien-fleche', texte: c.t('accueil.confiance.lire') })}</p>
     </div>
+    ${c.media({ nom: 'marie-jambe', alt: c.s('accueil.confiance.alt'), cadrage: '40% 45%', classe: 'confiance-media', sizes: '(max-width: 760px) 70vw, 22vw', attrs: 'data-fx="parallaxe"' })}
     <div class="confiance-engagements">
       <h3>${c.t('accueil.confiance.engagements')}</h3>
       <ol class="engagements" data-anime="cascade">

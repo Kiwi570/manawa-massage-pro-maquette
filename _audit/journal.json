@@ -55,7 +55,7 @@
           "etape": "livraison",
           "budget": 5,
           "debut": "2026-11-20T23:33:08+01:00",
-          "fin": ""
+          "fin": "2026-11-20T23:34:03+01:00"
         }
       ],
       "attentes": [
@@ -88,6 +88,60 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Images du site et images Grok reçues pendant l'analyse : construction en une passe. Audit long (5 passes)."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "soins",
+        "marie",
+        "offrir",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse complète et plan des améliorations",
+          "budget": 20,
+          "debut": "2026-11-23T14:21:00+01:00",
+          "fin": "2026-11-23T14:28:37+01:00"
+        },
+        {
+          "etape": "améliorations (respiration, bandeau, motifs, prénom, itinéraire, photo, typo)",
+          "budget": 45,
+          "debut": "2026-11-23T14:28:37+01:00",
+          "fin": "2026-11-23T14:28:37+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 60,
+          "debut": "2026-11-23T14:28:37+01:00",
+          "fin": "2026-11-23T14:59:39+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-23T14:59:39+01:00",
+          "fin": "2026-11-23T14:59:39+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "complet (13 tailles) puis ciblé",
+        "echecsPremierPassage": 2,
+        "relances": 2,
+        "corrections": [
+          "bandeau de mots géants dessiné en CSS (contraste)",
+          "ouverture de Marie en téléphone à l'horizontale sans JavaScript",
+          "verso de la carte cadeau en 13 px"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande de l'utilisateur : audit complet, analyse de tout le site et améliorations pour une version optimale, ludique, attrayante."
     }
   ]
 }

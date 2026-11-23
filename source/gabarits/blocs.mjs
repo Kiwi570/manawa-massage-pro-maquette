@@ -23,8 +23,8 @@ const tarifs = (s) => html`<ul class="tarifs">${s.tarifs.map(([d, p]) => html`<l
 /* Carte d'un soin (page des soins). L'identifiant (lien profond) est sur l'enveloppe, qui ne bouge jamais. */
 export function carteSoin(c, s) {
   return html`<div class="soin-ancre" id="${s.id}" data-envies="${s.envies.join(' ')}">
-  <article class="soin${s.image ? '' : ' soin--texte'}">
-    ${s.image ? c.media({ nom: s.image, alt: c.donnees.images?.[s.image]?.alt || s.nom, classe: 'soin-media', sizes: '(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw', attrs: 'data-fx="zoom"' }) : ''}
+  <article class="soin">
+    ${s.image ? c.media({ nom: s.image, alt: c.donnees.images?.[s.image]?.alt || s.nom, classe: 'soin-media', sizes: '(max-width: 760px) 92vw, (max-width: 1100px) 46vw, 30vw', attrs: 'data-fx="zoom"' }) : html`<div class="soin-motif" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2"><span class="soin-motif-mot">${s.motif || s.origine}</span></div>`}
     <div class="soin-corps">
       <p class="soin-origine">${s.origine}</p>
       <h3>${s.nom}</h3>
@@ -47,7 +47,7 @@ export function cadeau(c, { classe = '', attrs = '' } = {}) {
       <p class="cadeau-titre">${c.t('offrir.carte.titre')}</p>
       <p class="cadeau-soin" data-cadeau-soin>${d.libelle}</p>
       <p class="cadeau-montant"><span data-cadeau-prix>${d.prix}</span>&nbsp;€</p>
-      <p class="cadeau-pied">${c.t('offrir.carte.valable')}</p>
+      <p class="cadeau-pied"><span data-cadeau-pour data-defaut="${c.s('offrir.carte.pourDefaut')}">${c.t('offrir.carte.pourDefaut')}</span> · ${c.t('offrir.carte.valable')}</p>
     </div>
     <div class="cadeau-face cadeau-verso" data-face="dos">
       <p class="cadeau-titre">${c.t('offrir.carte.valable')}</p>

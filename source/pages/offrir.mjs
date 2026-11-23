@@ -16,7 +16,7 @@ export default (c) => {
       <p class="hero-intro hero-anime masque-ecran-bas" data-anime="gsap">${c.t('offrir.tete.texte')}</p>
       <p class="hero-actions hero-anime" data-anime="gsap">${sumup(c, 'data-action-principale')}<button type="button" class="bouton bouton--contour" data-cadeau-retourner aria-pressed="false">${c.t('offrir.tete.retourner')}</button></p>
       <p class="hero-info hero-anime" data-anime="gsap" data-info-cle>${c.t('offrir.tete.info')}</p>
-      <div class="hero-anime offrir-choix" data-anime="gsap">${choixCadeau(c)}</div>
+      <div class="hero-anime offrir-choix" data-anime="gsap">${choixCadeau(c)}<div class="champ champ-prenom"><label for="cadeau-prenom">${c.t('offrir.tete.prenom')}</label><input id="cadeau-prenom" name="prenom" data-cadeau-prenom maxlength="18" autocomplete="off" aria-describedby="cadeau-prenom-aide"><p class="champ-aide" id="cadeau-prenom-aide">${c.t('offrir.tete.prenomAide')}</p></div></div>
     </div>
     <div class="offrir-tete-visuel">
       ${c.media({ nom: 'grok/offrir-ouverture', alt: c.s('offrir.forfaits.alt'), classe: 'offrir-tete-media', priorite: true, sizes: '(max-width: 760px) 80vw, 36vw', attrs: 'data-fx="parallaxe" data-fx-force="6"' })}

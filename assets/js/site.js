@@ -1,6 +1,6 @@
 /* Effets propres à Manawa Massage Pro (le reste vient du socle). Chaque effet propre porte data-effet="nom-du-plan" :
    parentheses, chaleur, envies, rangee, carte-cadeau, parentheses-fin, bol. */
-import { demarrer, boucle, versObjet, quand, aller } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, quand, aller } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -66,7 +66,7 @@ function statuts() {
 function chaleurs() {
   $$('[data-chaleur]').forEach((el) => {
     const zone = el.parentElement;
-    const cible = { x: 62, y: 32 }, pos = { x: 62, y: 32 };
+    const cible = { x: 62, y: 32 }, pos = { x: 8, y: 78 };
     let dedans = false, rect = null, prog = 0;
     if (ST) ST.create({ trigger: zone, start: 'top bottom', end: 'bottom top', onUpdate: (s) => { prog = s.progress; } });
     if (souris) {
@@ -284,6 +284,59 @@ function bols() {
   });
 }
 
+
+/* ——— « Prendre une respiration » : trois souffles guidés, les parenthèses et la lumière respirent avec vous ——— */
+function respiration() {
+  const b = $('[data-respirer]');
+  if (!b || !gsap) return;
+  const texte = $('[data-respirer-texte]', b), statut = $('[data-respirer-statut]');
+  const pars = $$('.hero-par'), photo = $('.hero-media'), lumiere = $('.hero-visuel .chaleur');
+  const rond = $('.respirer-rond', b);
+  let tl = null;
+  const dire = (t) => { texte.textContent = t; if (statut) statut.textContent = t; };
+  const repos = () => {
+    if (tl) { tl.kill(); tl = null; }
+    gsap.to(pars, { scaleX: 1, scaleY: 1, duration: 0.8, ease: 'power2.out' });
+    gsap.to(photo, { scale: 1, duration: 0.8, ease: 'power2.out' });
+    gsap.to(lumiere, { opacity: 0.8, duration: 0.8 });
+    gsap.to(rond, { '--souffle': 1, duration: 0.8 });
+    b.setAttribute('aria-pressed', 'false');
+  };
+  b.addEventListener('click', () => {
+    if (tl) { repos(); dire(b.dataset.repos); return; }
+    b.setAttribute('aria-pressed', 'true');
+    tl = gsap.timeline({ onComplete: () => { tl = null; repos(); dire(b.dataset.merci); setTimeout(() => { if (!tl) dire(b.dataset.repos); }, 4000); } });
+    for (let i = 0; i < 3; i++) {
+      tl.call(() => dire(b.dataset.inspirez))
+        .to(pars, { scaleX: 1.35, scaleY: 1.07, duration: 4, ease: 'sine.inOut' }, '<')
+        .to(photo, { scale: 1.035, duration: 4, ease: 'sine.inOut' }, '<')
+        .to(lumiere, { opacity: 1, duration: 4, ease: 'sine.inOut' }, '<')
+        .to(rond, { '--souffle': 2.1, duration: 4, ease: 'sine.inOut' }, '<')
+        .call(() => dire(b.dataset.expirez))
+        .to(pars, { scaleX: 1, scaleY: 1, duration: 5, ease: 'sine.inOut' }, '<')
+        .to(photo, { scale: 1, duration: 5, ease: 'sine.inOut' }, '<')
+        .to(lumiere, { opacity: 0.8, duration: 5, ease: 'sine.inOut' }, '<')
+        .to(rond, { '--souffle': 1, duration: 5, ease: 'sine.inOut' }, '<');
+    }
+    tl.call(() => {}, null, '+=0.1');
+    dire(b.dataset.inspirez);
+  });
+}
+
+/* ——— Le prénom de la personne s'inscrit sur la carte cadeau ——— */
+function prenomCadeau() {
+  const champ = $('[data-cadeau-prenom]');
+  if (!champ) return;
+  const section = champ.closest('section');
+  const pour = $('[data-cadeau-pour]', section);
+  if (!pour) return;
+  champ.addEventListener('input', () => {
+    const p = champ.value.replace(/\s+/g, ' ').trim().slice(0, 18);
+    pour.textContent = p ? `Pour ${p}` : pour.dataset.defaut;
+    if (gsap) gsap.fromTo(pour, { opacity: 0.4 }, { opacity: 1, duration: 0.35, ease: 'power1.out' });
+  });
+}
+
 /* ——— Entrée du premier écran (intro, voile, état final) ——— */
 function entree(tl, t) {
   if ($('.hero-ligne')) tl.fromTo('.hero-ligne', { yPercent: 135, y: 0 }, { yPercent: 0, y: 0, duration: 0.85, stagger: 0.1, ease: 'power3.out' }, t);
@@ -302,6 +355,8 @@ demarrer({
     rangee();
     cadeaux();
     bols();
+    respiration();
+    prenomCadeau();
   },
   /* Intro : deux parenthèses d'or se dessinent, le M apparaît entre elles, elles s'écartent,
      le M glisse jusqu'à l'objet d'ouverture de la page et le panneau s'ouvre en cercle depuis lui. */

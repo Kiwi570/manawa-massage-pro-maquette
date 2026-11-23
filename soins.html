@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-page="soins">
+<html lang="fr" data-v="2" data-page="soins">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4EEE5">
 <link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
 <link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
@@ -129,6 +129,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="famille " id="monde" data-famille>
   <div class="conteneur">
+    <nav class="familles-nav" aria-label="Aller à"><span>Aller à</span><a href="#monde" data-sans-transition>Massages du monde</a><a href="#visage" data-sans-transition>Soins du visage</a><a href="#silhouette" data-sans-transition>Silhouette</a><a href="#cures" data-sans-transition>Cures et forfaits</a><a href="#pratique" data-sans-transition>Bon à savoir</a></nav>
     <div class="famille-tete">
       <h2 data-anime="lignes">Massages du monde</h2>
       <p data-anime>Des gestes venus de Suède, d&#39;Hawaï, d&#39;Inde, d&#39;Afrique, du Cambodge, de Thaïlande ou du Tibet, réunis dans un même cabinet.</p>
@@ -150,7 +151,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </article>
 </div><div class="soin-ancre" id="sur-mesure" data-envies="detente energie">
-  <article class="soin soin--texte">
+  <article class="soin">
+    <div class="soin-motif" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2"><span class="soin-motif-mot">Sur mesure</span></div>
     <div class="soin-corps">
       <p class="soin-origine">Composé avec vous</p>
       <h3>Massage sur mesure</h3>
@@ -207,7 +209,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </article>
 </div><div class="soin-ancre" id="africain" data-envies="energie">
-  <article class="soin soin--texte">
+  <article class="soin">
+    <div class="soin-motif" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2"><span class="soin-motif-mot">Afrique</span></div>
     <div class="soin-corps">
       <p class="soin-origine">Afrique</p>
       <h3>Africain</h3>
@@ -265,7 +268,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </article>
 </div><div class="soin-ancre" id="shiroshampi" data-envies="detente energie">
-  <article class="soin soin--texte">
+  <article class="soin">
+    <div class="soin-motif" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2"><span class="soin-motif-mot">Inde</span></div>
     <div class="soin-corps">
       <p class="soin-origine">Inde</p>
       <h3>Shiroshampi</h3>
@@ -308,7 +312,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </article>
 </div><div class="soin-ancre" id="enfant" data-envies="enfant">
-  <article class="soin soin--texte">
+  <article class="soin">
+    <div class="soin-motif" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2"><span class="soin-motif-mot">Enfance</span></div>
     <div class="soin-corps">
       <p class="soin-origine">Pour les plus jeunes</p>
       <h3>Massage enfant</h3>
@@ -345,7 +350,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </article>
 </div><div class="soin-ancre" id="kobido-perfect-age" data-envies="visage">
-  <article class="soin soin--texte">
+  <article class="soin">
+    <div class="soin-motif" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2"><span class="soin-motif-mot">Japon</span></div>
     <div class="soin-corps">
       <p class="soin-origine">Japon</p>
       <h3>Kobido « Perfect Age »</h3>
@@ -355,7 +361,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </article>
 </div><div class="soin-ancre" id="soin-jeunesse" data-envies="visage">
-  <article class="soin soin--texte">
+  <article class="soin">
+    <div class="soin-motif" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2"><span class="soin-motif-mot">Japon</span></div>
     <div class="soin-corps">
       <p class="soin-origine">Japon</p>
       <h3>Soin jeunesse</h3>

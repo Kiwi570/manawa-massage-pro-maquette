@@ -1,0 +1,74 @@
+{
+  "dossier": "/home/claude/manawa-massage-pro-maquette/_suivi/recu/retouches",
+  "date": "2026-11-23T13:26:43.629Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "mains-epaule-chaud.png",
+      "nom": "mains-epaule-chaud",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1440,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3598770,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        50
+      ],
+      "cadrage_css": "42% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 13.4,
+        "bruit": 1.31,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6c687067e4e4fce0",
+      "drapeaux": []
+    }
+  ]
+}
